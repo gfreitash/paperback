@@ -1112,6 +1112,14 @@ return {
   },
   misc = {
     dictionary = {
+      -- Badge under cards
+      k_paperback_minor_arcana = "Arcanos Menores",
+      -- Name of consumable type in collection
+      b_paperback_minor_arcana_cards = "Arcanos Menores",
+      -- Text shown at the bottom while opening booster
+      paperback_minor_arcana_pack = "Pacote de Arcanos Menores",
+
+      paperback_confessed_ex = "Confessado!",
       paperback_polychrome_ex = "Policromo!",
       paperback_destroyed_ex = "Destruído!",
       paperback_doubled_ex = "Dublado!",
@@ -1121,11 +1129,110 @@ return {
       paperback_downgrade_ex = "Rebaixado!",
       paperback_copy_ex = "Cópia!",
       paperback_consumed_ex = "Consumido!",
+      paperback_too_hot_ex = "Muito Quente!",
+      paperback_inactive = "Inativo",
+      paperback_supplies_ex = "Suprimentos!",
+      paperback_melted_ex = "Derretido!",
+      paperback_investment_ex = "Investimento!",
+      paperback_plus_minor_arcana = "+1 A. Menor",
+      paperback_plus_consumable = "+1 Consumível",
+      paperback_plus_tag = "+1 Marca",
+      paperback_edition_ex = "Edição!",
+      paperback_rare_ex = "Raro!",
+      paperback_saved_unholy_alliance = "Salvo por Aliança Profana",
+      paperback_saved_determination = "Salvo por Determinação",
+      paperback_reduced_ex = "Reduzido!",
+      paperback_determination_ex = "NGAAAHH!",
+      paperback_forlorn_destruction = "Desculpe...",
+      paperback_freezer_ex = "Hora do Jantar!",
+      paperback_jestosterone_ex = "Masc!",
+      paperback_jestrogen_ex = "Fem!",
+      paperback_punch_card_active = "Conte aos seus amigos!",
+      paperback_punch_card_ex = "Teletransporte Errado!",
+
+      paperback_ui_requires_restart = "Requer Reinicialização",
+      paperback_ui_no_requires_restart = "Não Requer Reinicialização",
+      paperback_ui_enable_blinds = "Ativar Blinds",
+      paperback_ui_enable_minor_arcana = "Ativar Arcanos Menores",
+      paperback_ui_enable_enhancements = "Ativar Melhorias",
+      paperback_ui_enable_editions = "Ativar Edições",
+      paperback_ui_enable_paperclips = "Ativar Clipes de Papel",
+      paperback_ui_custom_suits_enabled = "Ativar Naipes Personalizados",
+      paperback_ui_enable_vouchers = "Ativar Cupons",
+      paperback_ui_enable_tags = "Ativar Marcas",
+      paperback_ui_enable_ranks = "Ativar Classes",
+      paperback_ui_developers = "Desenvolvedores",
+      paperback_ui_artists = "Artistas",
+      paperback_ui_localization = "Localização",
+      paperback_ui_paperclips = "Clipes de Papel",
+      paperback_ui_enable_spectrals = "Ativar Cartas Espectrais",
+      paperback_ui_plague_doctor_quotes = "Citações do Doutor da Peste",
+      paperback_ui_select = "Selecionar",
+
+      -- Plague Doctor's quotes
+      paperback_plague_quote_1_1 = 'Sobre esta pedra edificarei a minha igreja, e as',
+      paperback_plague_quote_1_2 = 'portas do inferno não prevalecerão contra ela...',
+
+      paperback_plague_quote_2_1 = 'Dize-nos quando será isto e que sinal haverá',
+      paperback_plague_quote_2_2 = 'da tua vinda e do fim dos tempos?',
+
+      paperback_plague_quote_3_1 = 'Queres que mandemos descer fogo',
+      paperback_plague_quote_3_2 = 'do céu para os consumir?',
+
+      paperback_plague_quote_4_1 = 'Aos apóstolos deu o nome de Boanerges,',
+      paperback_plague_quote_4_2 = 'que significa "Filhos do Trovão".',
+
+      paperback_plague_quote_5_1 = 'Senhor, mostra-nos o Pai, e isso',
+      paperback_plague_quote_5_2 = 'nos basta.',
+
+      paperback_plague_quote_6_1 = 'Viu um homem. "Segue-me", disse-lhe,',
+      paperback_plague_quote_6_2 = 'e o Apóstolo levantou-se e o seguiu.',
+
+      paperback_plague_quote_7_1 = 'Havia já algum tempo que o Apóstolo',
+      paperback_plague_quote_7_2 = 'praticava feitiçaria e assombrava todo o povo.',
+
+      paperback_plague_quote_8_1 = 'Então o Apóstolo disse aos outros discípulos:',
+      paperback_plague_quote_8_2 = '"Vamos nós também, para morrermos com ele."',
+
+      paperback_plague_quote_9_1 = 'Então o Apóstolo declarou: "Tu és',
+      paperback_plague_quote_9_2 = 'o filho dele, tu és o rei."',
+
+      paperback_plague_quote_10_1 = 'Então o Apóstolo disse: "Mas por que tencionas',
+      paperback_plague_quote_10_2 = 'manifestar-te a nós e não ao mundo?"',
+
+      paperback_plague_quote_11_1 = 'Desde agora, ninguém me inquiete,',
+      paperback_plague_quote_11_2 = 'porque trago no meu corpo as marcas dele.',
+
+      paperback_plague_quote_12_1 = 'Não vos escolhi eu a vós, os Doze?',
+      paperback_plague_quote_12_2 = 'Contudo, um de vós é diabo.',
+
+      -- Clippy messages
+      paperback_clippy_msg_1 = "Salvar arquivo?",
+      paperback_clippy_msg_2 = "sou o Clippy!",
+      paperback_clippy_msg_3 = "Oi!",
+      paperback_clippy_msg_4 = "Teclado ligado!",
+      paperback_clippy_msg_5 = "Vou ajudar!",
+      paperback_clippy_msg_6 = "Me pergunte!",
+      paperback_clippy_msg_7 = "Devo sair?",
+      paperback_clippy_msg_8 = "Mouse ligado!",
+      paperback_clippy_msg_full = "Armazenamento cheio!",
+
+      -- Da Capo messages
+      paperback_da_capo_Clubs = "Movimento 1",
+      paperback_da_capo_Spades = "Movimento 2",
+      paperback_da_capo_Diamonds = "Movimento 3",
+      paperback_da_capo_Hearts = "Movimento 4",
+      paperback_da_capo_None = "Final!",
     },
     v_dictionary = {
       paperback_a_discards = "+#1# Descartes",
       paperback_a_discards_minus = "-#1# Descartes",
-      paperback_prince_of_darkness = "+#1# Multi, +#2# Fichas"
+      paperback_a_hands_minus = "-#1# Mãos",
+      paperback_prince_of_darkness = "+#1# Multi, +#2# Fichas",
+      paperback_a_completion = "#1#/#2#",
+      paperback_a_round_minus = "-#1# Rodada",
+      paperback_a_plus_cards = "+#1# #2#s",
+      paperback_a_plus_tags = "+#1# Marcas",
     },
     suits_singular = {
       paperback_Crowns = "Coroa",
@@ -1134,6 +1241,47 @@ return {
     suits_plural = {
       paperback_Crowns = "Coroas",
       paperback_Stars = "Estrelas"
+    },
+    ranks = {
+      paperback_Apostle = 'Apóstolo',
+    },
+    poker_hands = {
+      ['paperback_Spectrum'] = "Espectro",
+      ['paperback_Straight Spectrum'] = "Straight Espectro",
+      ['paperback_Straight Spectrum (Royal)'] = "Royal Espectro",
+      ['paperback_Spectrum House'] = "Espectro House",
+      ['paperback_Spectrum Five'] = "Quina Espectro",
+      ['paperback_Straight Flush (Rapture)'] = "Arrebatamento",
+    },
+    poker_hand_descriptions = {
+      ['paperback_Spectrum'] = {
+        "5 cartas com naipes diferentes"
+      },
+      ['paperback_Straight Spectrum'] = {
+        "5 cartas em sequência (classes consecutivas),",
+        "cada uma com um naipe diferente"
+      },
+      ['paperback_Spectrum House'] = {
+        "Uma Trinca e um Par com",
+        "cada carta tendo um naipe diferente"
+      },
+      ['paperback_Spectrum Five'] = {
+        "5 cartas com a mesma classe,",
+        "cada uma com um naipe diferente"
+      },
+    },
+    labels = {
+      paperback_blue_clip = "Clipe Azul",
+      paperback_red_clip = "Clipe Vermelho",
+      paperback_orange_clip = "Clipe Laranja",
+      paperback_pink_clip = "Clipe Rosa",
+      paperback_black_clip = "Clipe Preto",
+      paperback_yellow_clip = "Clipe Amarelo",
+      paperback_gold_clip = "Clipe Dourado",
+      paperback_white_clip = "Clipe Branco",
+      paperback_dichrome = "Dicrômático",
+      paperback_energized = "Energizado",
+      paperback_temporary = "Temporário",
     }
   }
 }
