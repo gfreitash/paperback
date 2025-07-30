@@ -703,6 +703,347 @@ return {
         }
       }
     },
+    paperback_minor_arcana = {
+      c_paperback_ace_of_cups = {
+        name = "Ás de Copas",
+        text = {
+          "Adiciona um {C:chips}Clipe Azul{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_two_of_cups = {
+        name = "Dois de Copas",
+        text = {
+          "Dá uma {C:attention}Marca{} {C:dark_edition}Policromática{},",
+          "{C:dark_edition}Holográfica{}, {C:dark_edition}Laminada{},",
+          "{C:mult}Rara{} ou {C:green}Incomum"
+        }
+      },
+      c_paperback_three_of_cups = {
+        name = "Três de Copas",
+        text = {
+          "Adiciona um {C:paperback_black}Clipe Preto{} a",
+          "{C:attention}#1#{} carta selecionada"
+        }
+      },
+      c_paperback_four_of_cups = {
+        name = "Quatro de Copas",
+        text = {
+          "Remove {C:attention}melhorias{}, {C:attention}selos{} e {C:attention}edições{}",
+          "de até {C:attention}#1#{} cartas selecionadas.",
+          "Ganha {C:money}$#2#{} para cada um removido"
+        }
+      },
+      c_paperback_five_of_cups = {
+        name = "Cinco de Copas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_six_of_cups = {
+        name = "Seis de Copas",
+        text = {
+          "Ganha {C:attention}metade{} do {C:chips}valor",
+          "{C:chips}de Fichas{} de {C:attention}#1#{} carta",
+          "selecionada como {C:money}dinheiro",
+          "{C:inactive}(Máximo de {C:money}$#2#{C:inactive})"
+        }
+      },
+      c_paperback_seven_of_cups = {
+        name = "Sete de Copas",
+        text = {
+          "Dá uma {C:attention}melhoria{} aleatória",
+          "a até {C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_eight_of_cups = {
+        name = "Oito de Copas",
+        text = {
+          "Converte até {C:attention}#1#{} cartas",
+          "selecionadas para um naipe que",
+          "não está {C:attention}atualmente selecionado"
+        }
+      },
+      c_paperback_nine_of_cups = {
+        name = "Nove de Copas",
+        text = {
+          "Destrói {C:attention}Curinga{} selecionado e",
+          "cria um novo {C:attention}Curinga{} de",
+          "{C:attention}raridade{} igual ou maior se possível",
+          "{C:inactive}(Não pode criar um {C:legendary}Lendário{C:inactive})"
+        }
+      },
+      c_paperback_ten_of_cups = {
+        name = "Dez de Copas",
+        text = {
+          "{C:green}#1# em #2#{} chance de adicionar",
+          "edição {C:dark_edition}Policromática{} a",
+          "{C:attention}1{} carta selecionada"
+        }
+      },
+      c_paperback_page_of_cups = {
+        name = "Valete de Copas",
+        text = {
+          "Adiciona um {C:inactive}Clipe Branco{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_knight_of_cups = {
+        name = "Cavaleiro de Copas",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, a carta da {C:attention}esquerda",
+          "copia {C:attention}tudo{} da carta da {C:attention}direita",
+          "exceto {C:attention}classe{} e {C:attention}naipe",
+          "Destrói a carta da {C:attention}direita",
+          "{C:inactive}(Arraste para reorganizar)"
+        }
+      },
+      c_paperback_queen_of_cups = {
+        name = "Rainha de Copas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_king_of_cups = {
+        name = "Rei de Copas",
+        text = {
+          "Ganha {C:money}$#1#{} para cada naipe com todas",
+          "as 13 {C:attention}classes básicas{} que você tem",
+          "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
+        }
+      },
+      c_paperback_ace_of_wands = {
+        name = "Ás de Paus",
+        text = {
+          "Adiciona um {C:mult}Clipe Vermelho{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_two_of_wands = {
+        name = "Dois de Paus",
+        text = {
+          "Cria a carta de {C:planet}Planeta{}",
+          "da sua mão de pôquer {C:attention}mais{} e",
+          "{C:attention}menos jogada",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      c_paperback_three_of_wands = {
+        name = "Três de Paus",
+        text = {
+          "Cria uma cópia de {C:attention}#1#",
+          "carta selecionada",
+          "na sua mão"
+        }
+      },
+      c_paperback_four_of_wands = {
+        name = "Quatro de Paus",
+        text = {
+          "Adiciona um {C:paperback_pink}Clipe Rosa{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_five_of_wands = {
+        name = "Cinco de Paus",
+        text = {
+          "Destrói todas as cartas",
+          "{C:attention}na mão{}, e",
+          "define o dinheiro para {C:money}$0"
+        }
+      },
+      c_paperback_six_of_wands = {
+        name = "Seis de Paus",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_seven_of_wands = {
+        name = "Sete de Paus",
+        text = {
+          "Dá uma {C:attention}Marca de Quebra"
+        }
+      },
+      c_paperback_eight_of_wands = {
+        name = "Oito de Paus",
+        text = {
+          "Cria uma {C:dark_edition}Marca{} {C:attention}Negativa{} e",
+          "perde {C:money}$#1#{}, mais {C:money}$#2#{} para cada",
+          "Curinga acima de {C:attention}#3#{} possuído",
+          "{C:inactive}(No momento {C:money}$#4#{C:inactive})"
+        }
+      },
+      c_paperback_nine_of_wands = {
+        name = "Nove de Paus",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_ten_of_wands = {
+        name = "Dez de Paus",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, destrói as",
+          "{C:attention}duas da direita{} e dá seu",
+          "{C:chips}valor de Fichas{} à {C:attention}da esquerda",
+          "{C:inactive}(Arraste para reorganizar)"
+        }
+      },
+      c_paperback_page_of_wands = {
+        name = "Valete de Paus",
+        text = {
+          "Adiciona um {C:attention}Clipe Laranja{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_knight_of_wands = {
+        name = "Cavaleiro de Paus",
+        text = {
+          "Dá uma {C:attention}Marca{} de {C:mult}Alto Risco"
+        }
+      },
+      c_paperback_queen_of_wands = {
+        name = "Rainha de Paus",
+        text = {
+          "{C:green}#1# em #2#{} chance de",
+          "adicionar edição {C:dark_edition}Dicromática{}",
+          "a um {C:attention}Curinga{} aleatório"
+        }
+      },
+      c_paperback_king_of_wands = {
+        name = "Rei de Paus",
+        text = {
+          "Cria um {C:attention}Curinga{}",
+          "não-{C:chips}Comum{} aleatório",
+          "{C:inactive}(Exceto {C:legendary}Lendário{C:inactive})"
+        }
+      },
+      c_paperback_ace_of_swords = {
+        name = "Ás de Espadas",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "em {V:1}#2#{}",
+        }
+      },
+      c_paperback_two_of_swords = {
+        name = "Dois de Espadas",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "para o último naipe {C:attention}pontuado",
+          "{C:inactive}(No momento: {V:1}#2#{C:inactive})",
+        }
+      },
+      c_paperback_three_of_swords = {
+        name = "Três de Espadas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_four_of_swords = {
+        name = "Quatro de Espadas",
+        text = {
+          "Converte até {C:attention}#1#",
+          "cartas selecionadas para",
+          "cartas {C:attention}de Realeza{} aleatórias"
+        }
+      },
+      c_paperback_five_of_swords = {
+        name = "Cinco de Espadas",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, destrói as",
+          "duas da direita e dá à",
+          "da esquerda uma {C:attention}edição{},",
+          "{C:attention}selo{} ou {C:attention}melhoria{} aleatória",
+          "{C:inactive}(Arraste para reorganizar)"
+        }
+      },
+      c_paperback_six_of_swords = {
+        name = "Seis de Espadas",
+        text = {
+          "Adiciona um {C:attention}Clipe Amarelo{} a",
+          "{C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_seven_of_swords = {
+        name = "Sete de Espadas",
+        text = {
+          "Adiciona um {C:attention}Clipe Dourado{} a",
+          "{C:attention}#1#{} carta selecionada"
+        }
+      },
+      c_paperback_eight_of_swords = {
+        name = "Oito de Espadas",
+        text = {
+          "Adiciona {C:attention}Clipes{} aleatórios a",
+          "até {C:attention}#1#{} cartas selecionadas"
+        }
+      },
+      c_paperback_nine_of_swords = {
+        name = "Nove de Espadas",
+        text = {
+          "Destrói Curinga selecionado",
+          "Ele {C:red}não pode{} aparecer novamente",
+          "pelo {C:attention}resto da partida{}"
+        }
+      },
+      c_paperback_ten_of_swords = {
+        name = "Dez de Espadas",
+        text = {
+          "{C:attention}Destrói{} cartas no deck",
+          "com a mesma {C:attention}classe",
+          "da carta selecionada"
+        }
+      },
+      c_paperback_page_of_swords = {
+        name = "Valete de Espadas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        }
+      },
+      c_paperback_knight_of_swords = {
+        name = "Cavaleiro de Espadas",
+        text = {
+          "Cria uma carta {C:paperback_minor_arcana}Arcana Menor{} aleatória",
+          "e uma carta {C:tarot}Tarot{} aleatória",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      c_paperback_king_of_swords = {
+        name = "Rei de Espadas",
+        text = {
+          "Remove {C:money}Aluguel{} e {C:paperback_perishable}Perecível",
+          "de um Curinga selecionado"
+        }
+      },
+      c_paperback_queen_of_swords = {
+        name = "Rainha de Espadas",
+        text = {
+          "Converte {C:attention}#1#{} cartas aleatórias no",
+          "deck completo com {C:attention}naipes diferentes",
+          "para o {C:attention}naipe{} da carta selecionada"
+        }
+      },
+      c_paperback_ace_of_pentacles = {
+        name = "Ás de Ouros",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "para {V:1}#2#{}",
+        }
+      }
+    },
   },
   misc = {
     dictionary = {
