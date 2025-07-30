@@ -124,8 +124,8 @@ return {
         name = "Licor Creme",
         text = {
           "{C:attention}Marcas{} geram {C:money}$#1#{} quando ativadas",
-          "{C:green}#2# em #3#{} chance desta carta ser",
-          "consumida no fim da rodada"
+          "Consumida em {C:attention}#2#{} rodadas",
+          "{C:inactive}(Reseta quando uma {C:attention}Marca{C:inactive} é adquirida)"
         }
       },
       j_paperback_coffee = {
@@ -290,10 +290,10 @@ return {
       j_paperback_solemn_lament = {
         name = "Lamento Solene",
         text = {
-          "Reativa a {C:attention}primeira{} carta pontuada",
-          "{C:attention}uma vez{} para cada",
-          "{C:chips}mão restante{} ou {C:mult}descarte}",
-          "{C:inactive}(O menor dos dois valores)",
+          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+          "se a mão pontuada contém tanto {C:paperback_dark_suit}naipes escuros{}",
+          "quanto {C:paperback_light_suit}naipes claros{}",
+          "{C:inactive}(No momento {X:mult,C:white}X#2#{C:inactive} Multi)",
         },
       },
       j_paperback_hole_in_one = {
@@ -309,9 +309,10 @@ return {
       j_paperback_mismatched_sock = {
         name = "Meia Descombinada",
         text = {
-          "Este Curinga ganha {C:mult}+#1#{} Multi",
-          "se a mão jogada não contiver {C:attention}pares{}",
-          "{C:inactive}(No momento, {C:mult}+#2# {C:inactive}Multi)",
+          "Este Curinga ganha {X:mult,C:white}X#1#",
+          "Multi se a mão jogada",
+          "não contém um {C:attention}#2#",
+          "{C:inactive}(No momento {X:mult,C:white}X#3#{C:inactive} Multi)",
         },
       },
       j_paperback_quick_fix = {
@@ -396,8 +397,8 @@ return {
         name = "[[PRÊMIO SELVAGEM!1!]]",
         text = {
           "{C:attention}Cartas Naipe Curinga{} têm {C:green}#1# em #2#{} chance",
-          "de serem {C:attention}reativadas{} e {C:green}#1# em #3#{} chance",
-          "de ganhar {C:money}$#4#{} quando pontuadas",
+          "de serem {C:attention}reativadas{} e {C:green}#3# em #4#{} chance",
+          "de ganhar entre {C:money}#5#{} e {C:money}$#6#{} quando pontuadas",
         },
       },
       j_paperback_wish_you_were_here = {
@@ -515,9 +516,10 @@ return {
       j_paperback_paranoia = {
         name = "Paranoia",
         text = {
-          "Após pontuar uma mão,",
-          "destrua todos os {C:Dark_suit}naipes escuros{} jogados",
-          "e todos os {C:Light_suit}naipes claros{} mantidos na mão",
+          "{C:paperback_light_suit}Naipes claros{} dão {C:mult}+#1#{} Multi",
+          "quando {C:attention}pontuados{} para cada carta de {C:paperback_dark_suit}naipe escuro",
+          "{C:attention}destruída{} nesta tentativa",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
         },
       },
       j_paperback_unholy_alliance = {
@@ -548,10 +550,10 @@ return {
       j_paperback_prince_of_darkness = {
         name = "Príncipe das Trevas",
         text = {
-          "Se a mão pontuada contiver um {C:hearts}#1#{} e três",
-          "naipes únicos, este Curinga ganha {C:mult}+#2#{} Multi,",
-          "{C:chips}+#3#{} Fichas, e {C:money}+#4#{} Valor de Venda",
-          "{C:inactive}(No momento, {C:mult}+#5#{} {C:inactive}Multi, {C:chips}+#6#{} {C:inactive}Fichas)",
+          "Se a mão pontuada contém uma carta de {C:hearts}Copas{} e",
+          "{C:attention}#1#{} outros naipes únicos, este Curinga dá",
+          "{X:mult,C:white}X#2#{} Multi para {C:attention}esta mão{} e {C:attention}as próximas #3#",
+          "{C:inactive}(No momento as próximas {C:attention}#4#{C:inactive} mãos)"
         },
       },
       j_paperback_popsicle_stick = {
@@ -598,18 +600,18 @@ return {
       j_paperback_meeple = {
         name = "Meeple",
         text = {
-          "{C:attention}Cartas de realeza{} pontuadas têm",
-          "{C:green}#1# em #2#{} chance de dar",
-          "{C:mult}+#3#{} Descarte(s)",
+          "Se a mão jogada contém",
+          "uma carta de {C:attention}realeza{} pontuada,",
+          "{C:green}#1# em #2#{} chance de ganhar",
+          "{C:mult}+#3#{} descarte nesta rodada",
         }
       },
       j_paperback_apple = {
         name = "Maçã",
         text = {
-          "{C:hearts}Copas{} pontuadas têm uma",
-          "{C:green}#1# em #2#{} chance de dar",
-          "um {C:dark_edition}Consumível Negativo",
-          "{S:1.1,C:red,E:2}Se autodestrói",
+          "Ao comprar um {C:attention}Consumível{}, tem uma",
+          "{C:green}#1# em #2#{} chance de criar uma",
+          "cópia {C:dark_edition}Negativa{} e {S:1.1,C:red,E:2}se autodestrói"
         }
       },
     },
