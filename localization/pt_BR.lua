@@ -639,6 +639,30 @@ return {
           "Não pode ser copiado por",
           "{C:attention}Energia Básica do Curinga{}"
         }
+      },
+      p_paperback_minor_arcana_normal = {
+        name = "Pacote de Arcanos Menores",
+        text = {
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        }
+      },
+      p_paperback_minor_arcana_jumbo = {
+        name = "Pacote Jumbo de Arcanos Menores",
+        text = {
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        }
+      },
+      p_paperback_minor_arcana_mega = {
+        name = "Pacote Mega de Arcanos Menores",
+        text = {
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        }
       }
     },
     Enhanced = {
@@ -1041,6 +1065,47 @@ return {
           "Converte até",
           "{C:attention}#1#{} cartas selecionadas",
           "para {V:1}#2#{}",
+        }
+      }
+    },
+    Tag = {
+      tag_paperback_angel_investment = {
+        name = "Marca de Investimento Angelical",
+        text = {
+          "Ganhe {C:money}$#1#{} por {C:money}$#2#{} que você tem",
+          "{C:inactive}(Máximo de {C:money}$#3#{C:inactive})",
+          "{C:inactive}(Dará {C:money}$#4#{C:inactive})"
+        }
+      },
+      tag_paperback_divination = {
+        name = "Marca de Adivinhação",
+        text = {
+          "Dá um",
+          "{C:paperback_minor_arcana}Pacote Mega de Arcanos Menores{} grátis"
+        }
+      },
+      tag_paperback_dichrome = {
+        name = "Marca Dicromática",
+        text = {
+          "O próximo Curinga de edição básica",
+          "da loja é grátis e",
+          "torna-se {C:dark_edition}Dicromático"
+        }
+      },
+      tag_paperback_high_risk = {
+        name = "Marca de Alto Risco",
+        text = {
+          "Ao selecionar {C:attention}Blind",
+          "{C:attention}de Chefe{}, {C:attention}dobre{} seu",
+          "requisito de pontuação",
+          "e ganhe {C:money}$#1#"
+        }
+      },
+      tag_paperback_breaking = {
+        name = "Marca de Quebra",
+        text = {
+          "Desativa o",
+          "{C:attention}Blind de Chefe"
         }
       }
     },
