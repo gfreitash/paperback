@@ -1,5 +1,71 @@
 return {
   descriptions = {
+    Blind = {
+      bl_paperback_quarter = {
+        name = "A Semínima",
+        text = {
+          "#1# em #2# cartas",
+          "recebem desvantagem"
+        },
+      },
+      bl_paperback_half = {
+        name = 'A Mínima',
+        text = {
+          'Reduz pela metade todas as',
+          'probabilidades listadas'
+        }
+      },
+      bl_paperback_whole = {
+        name = 'A Semibreve',
+        text = {
+          'Classes pontuadas anteriormente',
+          'nesta Aposta recebem desvantagem'
+        }
+      },
+      bl_paperback_rest = {
+        name = 'A Pausa',
+        text = {
+          '#1# em #2# cartas numeradas',
+          'são compradas viradas para baixo'
+        }
+      },
+      bl_paperback_flat = {
+        name = 'O Bemol',
+        text = {
+          'Diminui a classe das',
+          'cartas jogadas'
+        }
+      },
+      bl_paperback_sharp = {
+        name = 'O Sustenido',
+        text = {
+          'Aumenta a classe das',
+          'cartas jogadas'
+        }
+      },
+      bl_paperback_natural = {
+        name = 'O Bequadro',
+        text = {
+          'Cartas em mãos de poker',
+          'acima do seu nível de mão',
+          'mais baixo recebem desvantagem'
+        }
+      },
+      bl_paperback_coda = {
+        name = 'A Coda',
+        text = {
+          'Cartas e Curingas',
+          'não podem ser movidos',
+        }
+      },
+      bl_paperback_taupe_treble = {
+        name = 'Agudo Taupe',
+        text = {
+          'Deve jogar uma',
+          'carta Melhorada'
+        }
+      },
+    },
     Joker = {
       j_paperback_cream_liqueur = {
         name = "Licor Creme",
