@@ -495,6 +495,78 @@ return {
       },
     },
     Other = {
+      -- Clipes de Papel
+      paperback_blue_clip = {
+        name = "Clipe Azul",
+        text = {
+          "{X:chips,C:white}X#1#{} Fichas quando",
+          "{C:attention}pontuado{} para cada",
+          "{C:attention}Clipe{} que {C:attention}estiver na mão",
+          "{C:inactive}(No momento {X:chips,C:white}X#2#{C:inactive})"
+        }
+      },
+      paperback_red_clip = {
+        name = "Clipe Vermelho",
+        text = {
+          "{C:mult}+#1#{} Multi quando",
+          "{C:attention}pontuado{} para cada",
+          "{C:attention}Clipe{} que {C:attention}estiver na mão",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
+        }
+      },
+      paperback_orange_clip = {
+        name = "Clipe Laranja",
+        text = {
+          "Ganha {C:money}$#1#{} quando",
+          "{C:attention}pontuado{} para cada {C:attention}#2#",
+          "{C:attention}Clipes{} que {C:attention}estiver na mão",
+          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
+        }
+      },
+      paperback_black_clip = {
+        name = "Clipe Preto",
+        text = {
+          "Reativa quando {C:attention}pontuado{} se",
+          "um possui um {C:attention}Clipe{} {C:attention}na mão"
+        }
+      },
+      paperback_yellow_clip = {
+        name = "Clipe Amarelo",
+        text = {
+          "Se {C:attention}pontuado{} enquanto possui um",
+          "{C:attention}Clipe {C:attention}na mão{} tem",
+          "{C:green}#1# de #2#{} chance para {C:red}+#3#{} Multi,",
+          "{C:green}#4# de #5#{} chance para {X:mult,C:white}X#6#{} Multi",
+          "e {C:green}#7# de #8#{} chance para {C:money}$#9#{}"
+        }
+      },
+      paperback_gold_clip = {
+        name = "Clipe Dourado",
+        text = {
+          "Ganha {C:money}$#1#{} para cada {C:attention}Clipe{} pontuado",
+          "se esta carta {C:attention}estiver na mão",
+          "no final da rodada",
+          "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
+        }
+      },
+      paperback_white_clip = {
+        name = "Clipe Branco",
+        text = {
+          "Se {C:attention}mantido na mão{} no {C:attention}final da",
+          "{C:attention}rodada{}, ganha {C:chips}+#1#{} Fichas para",
+          "cada {C:attention}Clipe{} pontuado nesta rodada",
+          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+        }
+      },
+      paperback_pink_clip = {
+        name = "Clipe Rosa",
+        text = {
+          "{X:mult,C:white}X#1#{} Multi quando {C:attention}estiver na",
+          "{C:attention}mão{}, aumenta em {X:mult,C:white}X#2#",
+          "para cada {C:attention}Clipe{} pontuado",
+          "{C:inactive}(Reseta após mão jogada)"
+        }
+      },
       paperback_energized = {
         name = "Energizado",
         text = {
