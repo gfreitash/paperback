@@ -695,6 +695,85 @@ return {
           "{C:inactive}(Deve ter espaço)"
         }
       },
+      j_paperback_golden_egg = {
+        name = "Ovo Dourado",
+        text = {
+          "Quando uma {C:attention}mão secreta{} é jogada,",
+          "ganha o valor de venda",
+          "do {C:attention}Curinga{} à direita"
+        }
+      },
+      j_paperback_burning_pact = {
+        name = "Pacto Ardente",
+        text = {
+          "Se um {C:attention}descarte{} tem apenas {C:attention}#1#{} carta",
+          "compre {C:attention}#2#{} cartas adicionais"
+        }
+      },
+      j_paperback_blade_dance = {
+        name = "Dança das Lâminas",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado,",
+          "cria {C:attention}#1#{} {C:attention}#2#s{} {C:paperback_temporary}",
+          "aleatórias na sua mão"
+        }
+      },
+      j_paperback_claw = {
+        name = "Garra",
+        text = {
+          "Quando um {C:attention}#1#{} é pontuado, {C:attention}#1#s{} pontuados",
+          "dão {C:mult}+#2#{} Multi adicional",
+          "Reseta no {C:attention}fim da rodada",
+          "{C:inactive}(No momento {C:mult}+#3#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_jestrogen = {
+        name = "Bobostrógeno",
+        text = {
+          "{C:attention}#1#s{} e {C:attention}#2#s{} pontuados se tornam {C:attention}#3#s{}"
+        }
+      },
+      j_paperback_jestosterone = {
+        name = "Bobosterona",
+        text = {
+          "{C:attention}#1#s{} pontuadas se tornam {C:attention}#2#s{}"
+        }
+      },
+      j_paperback_der_fluschutze = {
+        name = "Der Fluschütze",
+        text = {
+          "Se a {C:attention}primeira{} mão jogada da rodada",
+          "foi uma única carta de {C:attention}realeza{}, destrua-a",
+          "e dê a este curinga {X:mult,C:white}X#1#{} Multi",
+          "{C:inactive}(No momento {X:mult,C:white}X#2#{} {C:inactive}Multi)"
+        }
+      },
+      j_paperback_the_wonder_of_you = {
+        name = "A Maravilha Que É Você",
+        text = {
+          "Quando o curinga à {C:attention}direita{}",
+          "falha em um teste de {C:green}probabilidade{},",
+          "a carta mais à {C:attention}direita{} na mão",
+          "é {C:attention}destruída{}"
+        }
+      },
+      j_paperback_inner_peace = {
+        name = "Paz Interior",
+        text = {
+          "{C:attention}+3{} tamanho de mão antes",
+          "da {C:attention}primeira{} mão",
+          "da rodada ser jogada"
+        }
+      },
+      j_paperback_punch_card = {
+        name = "Cartão Perfurado",
+        text = {
+          "Após {C:attention}#1#{} rodadas,",
+          "venda esta carta para",
+          "diminuir a Aposta em {C:attention}#3#{}",
+          "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
+        }
+      },
     },
     Other = {
       -- Clipes de Papel
@@ -1210,6 +1289,94 @@ return {
           "para {V:1}#2#{}",
         }
       }
+    },
+      j_paperback_boundary_of_death = {
+        name = "Limiar da Morte",
+        text = {
+          "{C:attention}#1#s{} têm",
+          "{C:green}#2# em #3#{} chance de",
+          "adicionalmente dar {C:red}+#4#{} Multi"
+        }
+      },
+      j_paperback_blue_marble = {
+        name = "Berlinde Azul",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "{C:attention}mão pontuada{} contém um {V:3}#3#{}",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_joker_cd_i = {
+        name = "Curinga CD-i",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "mão jogada tem exatamente {C:attention}#3#{} cartas",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_touch_tone_joker = {
+        name = "Curinga Discado",
+        text = {
+          "Ao abrir um pacote {C:tarot}Arcano{},",
+          "{C:planet}Celestial{} ou {C:spectral}Espectral{},",
+          "{C:attention}compre{} a {C:attention}primeira carta{} dele",
+          "para seus consumíveis",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_the_normal_joker = {
+        name = "O Curinga Normal",
+        text = {
+          "Reaciona todos os",
+          "{C:blue}Curingas {C:attention}Comuns"
+        }
+      },
+      j_paperback_manilla_folder = {
+        name = "Pasta De Arquivos",
+        text = {
+          "Ganhe {C:money}$#1#{} no fim da rodada",
+          "para cada {C:attention}Clipe{} único",
+          "em seu baralho completo",
+          "{C:inactive}(Atualmente {C:money}$#2#{C:inactive})"
+        }
+      },
+      j_paperback_ultra_rare = {
+        name = "Ultra Raro",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado, crie",
+          "{C:blue}Curingas {C:attention}Comuns{}, {C:green}Incomuns",
+          "e {C:red}Raros{} {C:paperback_temporary}Temporários{} {C:dark_edition}Negativos",
+          "aleatórios com valor de venda {C:money}$#1#{}"
+        }
+      },
+      j_paperback_joke_master = {
+        name = "Mestre das Piadas",
+        text = {
+          "Este Curinga ganha {C:mult}+#1#{} Multi se",
+          "mão jogada é {C:attention}#2#{}",
+          "{s:0.8}A mão muda a cada rodada",
+          "{C:inactive}(Atualmente {C:mult}+#3#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_high_speed_rail = {
+        name = "Trem de Alta Velocidade",
+        text = {
+          "Este Curinga {C:blue}ganha{} Multi igual ao",
+          "{C:money}custo{} de {C:blue}Curingas comprados{}",
+          "Este Curinga {C:red}perde{} Multi igual ao",
+          "{C:money}valor de venda{} de {C:red}Curingas vendidos{}",
+          "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_black_star = {
+        name = "Estrela Negra",
+        text = {
+          "{C:paperback_dark_suit}Naipes escuros{} pontuados",
+          "se tornam {V:1}#1#"
+        }
+      },
     },
     Tag = {
       tag_paperback_angel_investment = {
