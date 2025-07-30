@@ -1,5 +1,58 @@
 return {
   descriptions = {
+    Back = {
+      b_paperback_paper = {
+        name = "Baralho de Papel",
+        text = {
+          "Curingas {C:legendary}Paperback{C:attention}{} têm {C:attention}3X",
+          "mais chance de aparecer,",
+          "comece a tentativa com o",
+          "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
+        }
+      },
+      b_paperback_proud = {
+        name = "Baralho do Orgulho",
+        text = {
+          "Comece com um conjunto completo de",
+          "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
+          "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
+        }
+      },
+      b_paperback_silver = {
+        name = "Baralho Prateado",
+        text = {
+          "Comece a tentativa com o",
+          "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
+          "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
+        }
+      },
+      b_paperback_dreamer = {
+        name = "Baralho Sonhador",
+        text = {
+          "Comece a tentativa com um",
+          "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário.",
+          "{C:attention}#2#{} espaço de Curinga"
+        }
+      },
+      b_paperback_antique = {
+        name = "Baralho Antigo",
+        text = {
+          "Pacotes de {C:tarot}Arcanos{} não",
+          "aparecem mais na loja",
+          "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
+          "são {C:attention}3X{} mais comuns"
+        }
+      },
+      b_paperback_passionate = {
+        name = "Baralho Passional",
+        text = {
+          "Após derrotar cada",
+          "{C:attention}Blind de Chefe{}, ganhe uma",
+          "{C:attention,T:tag_paperback_high_risk}#1#",
+          "Sem {C:money}Juros"
+        }
+      },
+    },
     Blind = {
       bl_paperback_quarter = {
         name = "A Semínima",
@@ -1315,5 +1368,101 @@ return {
         "{C:attention}#1#{} Apostas"
       }
     },
+  },
+  Sleeve = {
+    sleeve_paperback_paper = {
+      name = "Capa de Papel",
+      text = {
+        "Curingas {C:legendary}Paperback{C:attention}{} têm {C:attention}3X",
+        "mais chance de aparecer,",
+        "comece a tentativa com o",
+        "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
+      }
+    },
+    sleeve_paperback_paper_buff = {
+      name = "Capa de Papel",
+      text = {
+        "Comece com um",
+        "Curinga {C:dark_edition}Negativo{} {C:attention,T:j_paperback_shopping_center}#1#{}"
+      }
+    },
+    sleeve_paperback_proud = {
+      name = "Capa do Orgulho",
+      text = {
+        "Comece com um conjunto completo de",
+        "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
+        "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
+      }
+    },
+    sleeve_paperback_proud_buff = {
+      name = "Capa do Orgulho",
+      text = {
+        "Todos os {C:attention}Ases{} iniciais",
+        "são {C:dark_edition}Policromo"
+      }
+    },
+    sleeve_paperback_silver = {
+      name = "Capa Prateada",
+      text = {
+        "Comece a tentativa com o",
+        "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
+        "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
+      }
+    },
+    sleeve_paperback_silver_buff = {
+      name = "Capa Prateada",
+      text = {
+        "Comece a tentativa com o",
+        "cupom {C:paperback_minor_arcana,T:v_paperback_soothsay}#1#{}"
+      }
+    },
+    sleeve_paperback_dreamer = {
+      name = "Capa do Sonhador",
+      text = {
+        "Comece a tentativa com um",
+        "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário",
+        "{C:attention}#2#{} espaço de Curinga"
+      }
+    },
+    sleeve_paperback_dreamer_buff = {
+      name = "Capa do Sonhador",
+      text = {
+        "Comece com um {C:attention}#1#",
+        "de cada naipe"
+      }
+    },
+    sleeve_paperback_antique = {
+      name = "Capa Antiga",
+      text = {
+        "Pacotes de {C:tarot}Arcanos{} não",
+        "aparecem mais na loja",
+        "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
+        "são {C:attention}3X{} mais comuns"
+      }
+    },
+    sleeve_paperback_antique_buff = {
+      name = "Capa Antiga",
+      text = {
+        "Pacotes de {C:paperback_minor_arcana}Arcanos Menores{} são {C:money}grátis"
+      }
+    },
+    sleeve_paperback_passionate = {
+      name = "Capa Passional",
+      text = {
+        "Após derrotar cada",
+        "{C:attention}Blind de Chefe{}, ganhe uma",
+        "{C:attention,T:tag_paperback_high_risk}#1#",
+        "Sem {C:money}Juros"
+      }
+    },
+    sleeve_paperback_passionate_buff = {
+      name = "Capa Passional",
+      text = {
+        "A cada dois {C:attention}Blinds de Chefe{} um é",
+        "substituído por um {C:attention}Blind de Confronto",
+        "Derrotar um {C:attention}Blind de Confronto",
+        "dá uma Marca {C:dark_edition,T:tag_negative}Negativa"
+      }
+    }
   },
 }
