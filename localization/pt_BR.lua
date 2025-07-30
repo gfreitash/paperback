@@ -627,6 +627,16 @@ return {
         }
       }
     },
+    Edition = {
+      e_paperback_dichrome = {
+        name = "Dicromático",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado",
+          "ganha {C:attention}+#1#{C:blue} Mão{} ou {C:red}Descarte",
+          "{C:inactive}(O que for menor)"
+        }
+      }
+    },
   },
   misc = {
     dictionary = {
