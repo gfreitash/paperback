@@ -640,6 +640,13 @@ return {
           "{C:attention}Energia Básica do Curinga{}"
         }
       },
+      paperback_temporary = {
+        name = "Temporário",
+        text = {
+          "Será {C:mult}destruído",
+          "quando a rodada terminar"
+        }
+      },
       p_paperback_minor_arcana_normal = {
         name = "Pacote de Arcanos Menores",
         text = {
@@ -1283,5 +1290,30 @@ return {
       paperback_energized = "Energizado",
       paperback_temporary = "Temporário",
     }
-  }
+  },
+  Spectral = {
+    c_paperback_apostle_of_cups = {
+      name = "Apóstolo de Copas",
+      text = {
+        "{C:attention}Carta{} selecionada",
+        "torna-se {C:dark_edition}Negativa",
+        "{C:attention}#1#{} espaço de Curinga",
+      }
+    },
+    c_paperback_apostle_of_wands = {
+      name = "Apóstolo de Paus",
+      text = {
+        "Crie um Curinga não-{C:legendary}Lendário{}",
+        "da {C:attention}sua escolha{}",
+        "{C:inactive}(Sem duplicatas)"
+      }
+    },
+    c_paperback_apostle_of_swords = {
+      name = "Apóstolo de Espadas",
+      text = {
+        "Destrua o {C:attention}Curinga{} selecionado",
+        "{C:attention}#1#{} Apostas"
+      }
+    },
+  },
 }
