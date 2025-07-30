@@ -614,6 +614,87 @@ return {
           "cópia {C:dark_edition}Negativa{} e {S:1.1,C:red,E:2}se autodestrói"
         }
       },
+      j_paperback_bismuth = {
+        name = "Bismuto",
+        text = {
+          "{V:1}#1#{} e {V:2}#2#{} jogadas têm",
+          "{C:green}#3# em #4#{} chance de receber {C:dark_edition}Laminado{},",
+          "{C:dark_edition}Holográfico{} ou {C:dark_edition}Policromático"
+        }
+      },
+      j_paperback_full_moon = {
+        name = "Lua Cheia",
+        text = {
+          "Cartas de {C:planet}Planeta{} têm",
+          "{C:green}#1# em #2#{} chance de",
+          "subir de nível {C:attention}novamente"
+        }
+      },
+      j_paperback_resurrections = {
+        name = "Ressurreições",
+        text = {
+          "{C:green}#1# em #2#{} chance de {C:attention}retornar{}",
+          "{C:attention}Curingas{} vendidos e criar",
+          "uma cópia {C:attention}extra{} {C:dark_edition}Negativa{}",
+          "com {C:money}-$#3#{} de valor de venda",
+          "{s:0.8}A chance aumenta em {s:0.8,C:green}#4#{s:0.8} ao falhar",
+          "{S:1.1,C:red,E:2}se autodestrói"
+        }
+      },
+      j_paperback_angel_investor = {
+        name = "Investidor Anjo",
+        text = {
+          "Pular um {C:attention}Blind{} ou derrotar",
+          "um {C:attention}Blind de Chefe{} concede",
+          "uma {C:money}Marca de Investimento Angelical"
+        }
+      },
+      j_paperback_find_jimbo = {
+        name = "Encontre o Jimbo",
+        text = {
+          "Cada {C:attention}#1#{} de {V:1}#2#{} jogada",
+          "rende {C:money}$#3#{} quando pontuada",
+          "{s:0.8}Carta muda a cada rodada"
+        }
+      },
+      j_paperback_clothespin = {
+        name = "Pregador",
+        text = {
+          "Este Curinga ganha {C:chips}+#1#{} Fichas no",
+          "{C:attention}fim da rodada{} para cada",
+          "{C:attention}Clipe{} {C:attention}na mão",
+          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_surfer = {
+        name = "Surfista",
+        text = {
+          "Este Curinga ganha {C:chips}+#1#{} Fichas",
+          "para cada {C:attention}#3#{} na mão",
+          "no {C:attention}fim da rodada{}, e {C:chips}+#2#",
+          "Fichas para cada {C:attention}#3#{} pontuado",
+          "{C:inactive}(No momento {C:chips}+#4#{C:inactive} fichas)"
+        }
+      },
+      j_paperback_pyrite = {
+        name = "Pirita",
+        text = {
+          "{V:1}#1#{} jogadas têm {C:green}#2# em #3#{}",
+          "chance de criar uma carta de",
+          "{C:tarot}Tarô{} aleatória quando pontuadas",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_sake_cup = {
+        name = "Copo de Sakê",
+        text = {
+          "Após uma mão ser jogada, {C:attention}#1#s",
+          "{C:attention}na mão{} têm {C:green}#2# em #3#{}",
+          "chance de criar a carta de {C:planet}Planeta",
+          "da {C:attention}mão de pôquer{} jogada",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
     },
     Other = {
       -- Clipes de Papel
