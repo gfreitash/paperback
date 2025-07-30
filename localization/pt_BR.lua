@@ -72,10 +72,10 @@ return {
         name = "Furioso",
         text = {
           "Este Curinga ganha {X:mult,C:white}X#1#{} Multi para",
-          "cada {C:attention}rank{} único pontuado.",
+          "cada {C:attention}classe {} única pontuada.",
           "Reseta após derrotar um {C:attention}blind chefe",
           "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)",
-          "{C:inactive}(Ranks jogados:{C:attention}#3#{C:inactive})",
+          "{C:inactive}(Classes jogadas:{C:attention}#3#{C:inactive})",
         },
       },
       j_paperback_soft_taco = {
@@ -519,7 +519,7 @@ return {
         text = {
           "Ganha {C:money}$#1#{} quando",
           "{C:attention}pontuado{} para cada {C:attention}#2#",
-          "{C:attention}Clipes{} que {C:attention}estiver na mão",
+          "{C:attention}Clipes{} que {C:attention}estiverem na mão",
           "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
         }
       },
@@ -572,6 +572,58 @@ return {
         text = {
           "Não pode ser copiado por",
           "{C:attention}Energia Básica do Curinga{}"
+        }
+      }
+    },
+    Enhanced = {
+      m_paperback_ceramic = {
+        name = "Carta Cerâmica",
+        text = {
+          "Ganha entre {C:money}$#1#{}",
+          "e {C:money}$#2#{} quando pontuada,",
+          "{C:red}Quebra{} a carta se",
+          "{C:mult}Multi{} acabou {C:attention}maior{} que {C:chips}Fichas",
+          "enquanto jogada ou mantida na mão"
+        }
+      },
+      m_paperback_soaked = {
+        name = "Carta Encharcada",
+        text = {
+          "Quando pontuada, cartas {C:attention}mantidas na mão{}",
+          "pontuam seu {C:chips}valor de Fichas{}.",
+          "{C:green}#1# em #2#{} chance de",
+          "{C:red}destruir{} carta ao {C:red}descartar",
+        }
+      },
+      m_paperback_wrapped = {
+        name = "Carta Embrulhada",
+        text = {
+          "Ganha {C:money}$#1#{} quando pontuada",
+          "sem classe ou naipe"
+        }
+      },
+      m_paperback_bandaged = {
+        name = "Carta Enfaixada",
+        text = {
+          "Reativa cartas {C:attention}adjacentes",
+          "{C:green}#1# em #2#{} chance de",
+          "{C:red}quebrar{} quando pontuada"
+        }
+      },
+      m_paperback_domino = {
+        name = "Carta Dominó",
+        text = {
+          "Dá {C:mult}+#1#{} Multi para cada classe",
+          "jogada ou descartada nesta rodada",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
+        }
+      },
+      m_paperback_stained = {
+        name = "Carta Manchada",
+        text = {
+          "Se {C:attention}estiver na mão{} após uma",
+          "mão ser jogada, cartas pontuadas",
+          "ganham permanentemente {C:mult}#1#{} Multi"
         }
       }
     },
