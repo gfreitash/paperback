@@ -774,6 +774,176 @@ return {
           "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
         }
       },
+      j_paperback_shooting_star = {
+        name = "Estrela Cadente",
+        text = {
+          "{V:1}#1#{} pontuadas têm",
+          "{C:green}#2# em #3#{} chance de",
+          "criar a carta de {C:planet}Planeta{}",
+          "para a {C:attention}mão de pôquer{} jogada"
+        }
+      },
+      j_paperback_blue_star = {
+        name = "Estrela Azul",
+        text = {
+          "Ganha {X:chips,C:white}X#1#{} Fichas quando uma {V:1}#2#{} pontua",
+          "Perde {X:chips,C:white}X#3#{} Fichas quando um {V:2}#4#{} pontua",
+          "{C:inactive}(No momento {X:chips,C:white}X#5#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_j_and_js = {
+        name = "J&J's",
+        text = {
+          "Se a mão jogada contém",
+          "{C:attention}Espectro{}, cria {C:attention}#1#{} {C:attention}Marcas{} aleatórias",
+          "Consumido em {C:attention}#2#{} rodadas"
+        }
+      },
+      j_paperback_master_spark = {
+        name = "Centelha Mestra",
+        text = {
+          "Se a mão jogada contém um {C:attention}Espectro{},",
+          "destrói todas as cartas {C:attention}na mão{} e",
+          "todas as cartas jogadas ganham {C:dark_edition}Policromo",
+          "{S:1.1,C:red,E:2}se autodestrói"
+        }
+      },
+      j_paperback_prism = {
+        name = "Prisma",
+        text = {
+          "Se a mão jogada contém um {C:attention}#1#{},",
+          "converte todas as {C:attention}cartas pontuadas{} em",
+          "{C:attention}naipes diferentes{} aleatórios"
+        }
+      },
+      j_paperback_solar_eclipse = {
+        name = "Eclipse Solar",
+        text = {
+          "{C:paperback_light_suit}Naipes claros{} pontuados",
+          "se tornam {V:1}#1#"
+        }
+      },
+      j_paperback_gambit = {
+        name = "Gambito",
+        text = {
+          "Se a mão jogada contém uma {V:1}#1#{} pontuando,",
+          "a primeira {V:1}#1#{} pontuada {C:attention}destrói{}",
+          "a primeira não-{V:1}#1#{} na mão",
+          "e ganha seu {C:chips}valor de Fichas{}"
+        }
+      },
+      j_paperback_king_me = {
+        name = "Me Coroe",
+        text = {
+          "{V:1}#1#{} pontuadas aumentam",
+          "sua classe em {C:attention}#2#{}"
+        }
+      },
+      j_paperback_plague_doctor = {
+        name = "Doutor da Peste",
+        text = {
+          "Se a mão jogada é uma Carta Alta,",
+          "converte a carta pontuada em",
+          "um {C:attention}Apóstolo{}. Cada {C:attention}Apóstolo{}",
+          "na mão dá {X:mult,C:white}X#1#{} Multi"
+        }
+      },
+      j_paperback_white_night = {
+        name = "Noite Branca",
+        text = {
+          "Destrói todas as cartas pontuadas não-{C:attention}Apóstolo{}",
+          "no final da mão. {C:attention}Apóstolos{} pontuados",
+          "dão {X:mult,C:white}X#1#{} Multi. Jogar uma mão sem",
+          "{C:attention}Apóstolos destrói{} um Curinga aleatório.",
+          "{C:attention}Apóstolos{} descartados são {C:attention}destruídos{}"
+        }
+      },
+      j_paperback_as_above_so_below = {
+        name = "Como acima, Assim Abaixo",
+        text = {
+          "Jogar uma mão de pôquer de cinco cartas com um",
+          "{C:attention}Apóstolo{} cria uma carta de {C:purple}Tarô{},",
+          "se a mão também contém uma {C:attention}Sequência{}",
+          "cria uma carta {C:spectral}Espectral{} ao invés",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_one_sin_and_hundreds_of_good_deeds = {
+        name = "Um Pecado e Centenas de Boas Ações",
+        text = {
+          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
+          "dão {C:mult}+#1#{} Multi quando pontuados",
+          "{C:inactive}''Se alimenta do mal''"
+        }
+      },
+      j_paperback_one_sin_and_hundreds_of_good_deeds_fed = {
+        name = "{C:red}Um Pecado e Centenas de Boas Ações{}",
+        text = {
+          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
+          "dão {C:mult}+Multi{} para cada",
+          "carta restante no deck quando pontuados",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive})"
+        }
+      },
+      j_paperback_double_dutchman = {
+        name = "Holandês Duplo",
+        text = {
+          "Cartas {C:attention}na mão{} têm {C:green}#1# em #2#",
+          "chance de ganhar {C:attention}melhorias{},",
+          "{C:attention}selos{} ou {C:attention}edições{} aleatórias",
+          "pelas próximas {C:attention}#3#{} mãos"
+        }
+      },
+      j_paperback_langely = {
+        name = "L'angely",
+        text = {
+          "Ganha metade do {C:money}valor de venda{} de todos",
+          "os Curingas ao derrotar um {C:attention}Big Blind.",
+          "Ao derrotar um {C:attention}Boss Blind{}, ganha",
+          "o {C:money}valor de venda{} completo de todos os Curingas"
+        }
+      },
+      j_paperback_oracle = {
+        name = "Oráculo",
+        text = {
+          "Este Curinga ganha {X:chips,C:white}X#1#",
+          "Fichas para cada carta de",
+          "{C:paperback_minor_arcana}Arcanos Menores{} única usada",
+          "{C:inactive}(No momento {X:chips,C:white}X#2#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_mexican_train = {
+        name = "Trem Mexicano",
+        text = {
+          "{C:attention}#1#s{} pontuados dão {C:money}$#2#",
+          "para cada {C:attention}#1#{} pontuando",
+          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
+        }
+      },
+      j_paperback_spotty_joker = {
+        name = "Curinga Com Manchinhas",
+        text = {
+          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+          "se a {C:attention}mão pontuada{} contém uma {C:attention}#2#{},",
+          "senão perde {X:mult,C:white}X#3#{} Multi",
+          "{C:inactive}(No momento {X:mult,C:white}X#4#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_clippy = {
+        name = "Clippy",
+        text = {
+          "Adiciona um {C:attention}Clipe{} aleatório a uma",
+          "carta aleatória no seu deck",
+          "quando o {C:attention}Blind{} é selecionado"
+        }
+      },
+      j_paperback_pinot_noir = {
+        name = "Pinot Noir",
+        text = {
+          "As próximas {C:attention}#1#{} vezes que uma {C:attention}#2#",
+          "ativar, dá {C:mult}#3#{} Multi adicional"
+        }
+      },
     },
     Other = {
       -- Clipes de Papel
@@ -1539,7 +1709,6 @@ return {
         "dá uma Marca {C:dark_edition,T:tag_negative}Negativa"
       }
     }
-  },
   },
   misc = {
     dictionary = {
