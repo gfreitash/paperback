@@ -257,7 +257,7 @@ return {
         text = {
           "Ganha metade do {C:money}valor de venda{} de todos",
           "os Curingas ao derrotar um {C:attention}Big Blind.",
-          "Ao derrotar um {C:attention}Boss Blind{}, ganha",
+          "Ao derrotar um {C:attention}Blind de Chefe{}, ganha",
           "o {C:money}valor de venda{} completo de todos os Curingas"
         },
       },
@@ -290,7 +290,7 @@ return {
         text = {
           "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
           "dão {C:mult}+Multi{} para cada",
-          "carta restante no deck quando pontuados",
+          "carta restante no baralho quando pontuados",
           "{C:inactive}(No momento {C:mult}+#2#{C:inactive})"
         },
       },
@@ -384,7 +384,7 @@ return {
         text = {
           "{V:1}#1#{} pontuados têm",
           "{C:green}#2# em #3#{} chance de criar",
-          "uma {C:dark_edition}Etiqueta {C:attention}Negativa{}"
+          "uma {C:dark_edition}Marca {C:attention}Negativa{}"
         },
       },
       j_paperback_shooting_star = {
@@ -453,7 +453,7 @@ return {
         name = "Clippy",
         text = {
           "Adiciona um {C:attention}Clipe{} aleatório a uma",
-          "carta aleatória no seu deck",
+          "carta aleatória no seu baralho",
           "quando o {C:attention}Blind{} é selecionado"
         },
       },
@@ -1210,7 +1210,7 @@ return {
         name = "Cartão de Visita",
         text = {
           "Este Curinga ganha {X:red,C:white}X#1#{} Multi",
-          "sempre que você derrota um {C:attention}Boss Blind{}",
+          "sempre que você derrota um {C:attention}Blind de Chefe{}",
           "ou ativa sua {C:attention}habilidade{}",
           "{C:inactive}(No momento, {}{X:red,C:white}X#2#{}{C:inactive} Multi){}"
         },
@@ -1262,7 +1262,7 @@ return {
         text = {
           "Este Curinga dá {X:mult,C:white}X#1#{} Multi se",
           "{C:attention}#2#{} {C:attention}melhorias{}, {C:attention}edições{},",
-          "ou {C:attention}selos{} únicos estiverem no seu deck completo",
+          "ou {C:attention}selos{} únicos estiverem no seu baralho completo",
           "{C:inactive}(No momento, {C:attention}#3#{C:inactive})"
         },
       },
@@ -1337,9 +1337,9 @@ return {
       j_paperback_unholy_alliance = {
         name = "Aliança Profana",
         text = {
-          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+          "Este Curinga ganha {C:chips}+#1#{} Fichas",
           "quando uma carta ou Curinga é {C:attention}destruído{}",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
+          "{C:inactive}(No momento, {C:chips}+#2#{C:inactive} Fichas)"
         },
       },
       j_paperback_summoning_circle = {
@@ -1925,7 +1925,7 @@ return {
       c_paperback_ten_of_swords = {
         name = "Dez de Espadas",
         text = {
-          "{C:attention}Destrói{} cartas no deck",
+          "{C:attention}Destrói{} cartas no baralho",
           "com a mesma {C:attention}classe",
           "da carta selecionada"
         },
@@ -1957,7 +1957,7 @@ return {
         name = "Rainha de Espadas",
         text = {
           "Converte {C:attention}#1#{} cartas aleatórias no",
-          "deck completo com {C:attention}naipes diferentes",
+          "baralho completo com {C:attention}naipes diferentes",
           "para o {C:attention}naipe{} da carta selecionada"
         },
       },
