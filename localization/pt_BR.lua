@@ -944,6 +944,93 @@ return {
           "ativar, dá {C:mult}#3#{} Multi adicional"
         }
       },
+      j_paperback_boundary_of_death = {
+        name = "Limiar da Morte",
+        text = {
+          "{C:attention}#1#s{} têm",
+          "{C:green}#2# em #3#{} chance de",
+          "adicionalmente dar {C:red}+#4#{} Multi"
+        }
+      },
+      j_paperback_blue_marble = {
+        name = "Berlinde Azul",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "{C:attention}mão pontuada{} contém um {V:3}#3#{}",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_joker_cd_i = {
+        name = "Curinga CD-i",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "mão jogada tem exatamente {C:attention}#3#{} cartas",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_touch_tone_joker = {
+        name = "Curinga Discado",
+        text = {
+          "Ao abrir um pacote {C:tarot}Arcano{},",
+          "{C:planet}Celestial{} ou {C:spectral}Espectral{},",
+          "{C:attention}compre{} a {C:attention}primeira carta{} dele",
+          "para seus consumíveis",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_the_normal_joker = {
+        name = "O Curinga Normal",
+        text = {
+          "Reaciona todos os",
+          "{C:blue}Curingas {C:attention}Comuns"
+        }
+      },
+      j_paperback_manilla_folder = {
+        name = "Pasta De Arquivos",
+        text = {
+          "Ganhe {C:money}$#1#{} no fim da rodada",
+          "para cada {C:attention}Clipe{} único",
+          "em seu baralho completo",
+          "{C:inactive}(Atualmente {C:money}$#2#{C:inactive})"
+        }
+      },
+      j_paperback_ultra_rare = {
+        name = "Ultra Raro",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado, crie",
+          "{C:blue}Curingas {C:attention}Comuns{}, {C:green}Incomuns",
+          "e {C:red}Raros{} {C:paperback_temporary}Temporários{} {C:dark_edition}Negativos",
+          "aleatórios com valor de venda {C:money}$#1#{}"
+        }
+      },
+      j_paperback_joke_master = {
+        name = "Mestre das Piadas",
+        text = {
+          "Este Curinga ganha {C:mult}+#1#{} Multi se",
+          "mão jogada é {C:attention}#2#{}",
+          "{s:0.8}A mão muda a cada rodada",
+          "{C:inactive}(Atualmente {C:mult}+#3#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_high_speed_rail = {
+        name = "Trem de Alta Velocidade",
+        text = {
+          "Este Curinga {C:blue}ganha{} Multi igual ao",
+          "{C:money}custo{} de {C:blue}Curingas comprados{}",
+          "Este Curinga {C:red}perde{} Multi igual ao",
+          "{C:money}valor de venda{} de {C:red}Curingas vendidos{}",
+          "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_black_star = {
+        name = "Estrela Negra",
+        text = {
+          "{C:paperback_dark_suit}Naipes escuros{} pontuados",
+          "se tornam {V:1}#1#"
+        }
+      },
     },
     Other = {
       -- Clipes de Papel
@@ -1460,94 +1547,6 @@ return {
         }
       }
     },
-      j_paperback_boundary_of_death = {
-        name = "Limiar da Morte",
-        text = {
-          "{C:attention}#1#s{} têm",
-          "{C:green}#2# em #3#{} chance de",
-          "adicionalmente dar {C:red}+#4#{} Multi"
-        }
-      },
-      j_paperback_blue_marble = {
-        name = "Berlinde Azul",
-        text = {
-          "{C:green}#1# em #2#{} chance de criar",
-          "uma carta {C:planet}Planeta{} aleatória se",
-          "{C:attention}mão pontuada{} contém um {V:3}#3#{}",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_joker_cd_i = {
-        name = "Curinga CD-i",
-        text = {
-          "{C:green}#1# em #2#{} chance de criar",
-          "uma carta {C:planet}Planeta{} aleatória se",
-          "mão jogada tem exatamente {C:attention}#3#{} cartas",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_touch_tone_joker = {
-        name = "Curinga Discado",
-        text = {
-          "Ao abrir um pacote {C:tarot}Arcano{},",
-          "{C:planet}Celestial{} ou {C:spectral}Espectral{},",
-          "{C:attention}compre{} a {C:attention}primeira carta{} dele",
-          "para seus consumíveis",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_the_normal_joker = {
-        name = "O Curinga Normal",
-        text = {
-          "Reaciona todos os",
-          "{C:blue}Curingas {C:attention}Comuns"
-        }
-      },
-      j_paperback_manilla_folder = {
-        name = "Pasta De Arquivos",
-        text = {
-          "Ganhe {C:money}$#1#{} no fim da rodada",
-          "para cada {C:attention}Clipe{} único",
-          "em seu baralho completo",
-          "{C:inactive}(Atualmente {C:money}$#2#{C:inactive})"
-        }
-      },
-      j_paperback_ultra_rare = {
-        name = "Ultra Raro",
-        text = {
-          "Quando {C:attention}Blind{} é selecionado, crie",
-          "{C:blue}Curingas {C:attention}Comuns{}, {C:green}Incomuns",
-          "e {C:red}Raros{} {C:paperback_temporary}Temporários{} {C:dark_edition}Negativos",
-          "aleatórios com valor de venda {C:money}$#1#{}"
-        }
-      },
-      j_paperback_joke_master = {
-        name = "Mestre das Piadas",
-        text = {
-          "Este Curinga ganha {C:mult}+#1#{} Multi se",
-          "mão jogada é {C:attention}#2#{}",
-          "{s:0.8}A mão muda a cada rodada",
-          "{C:inactive}(Atualmente {C:mult}+#3#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_high_speed_rail = {
-        name = "Trem de Alta Velocidade",
-        text = {
-          "Este Curinga {C:blue}ganha{} Multi igual ao",
-          "{C:money}custo{} de {C:blue}Curingas comprados{}",
-          "Este Curinga {C:red}perde{} Multi igual ao",
-          "{C:money}valor de venda{} de {C:red}Curingas vendidos{}",
-          "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_black_star = {
-        name = "Estrela Negra",
-        text = {
-          "{C:paperback_dark_suit}Naipes escuros{} pontuados",
-          "se tornam {V:1}#1#"
-        }
-      },
-    },
     Tag = {
       tag_paperback_angel_investment = {
         name = "Marca de Investimento Angelical",
@@ -1589,126 +1588,127 @@ return {
         }
       }
     },
-  Spectral = {
-    c_paperback_apostle_of_cups = {
-      name = "Apóstolo de Copas",
-      text = {
-        "{C:attention}Carta{} selecionada",
-        "torna-se {C:dark_edition}Negativa",
-        "{C:attention}#1#{} espaço de Curinga",
+    Spectral = {
+      c_paperback_apostle_of_cups = {
+        name = "Apóstolo de Copas",
+        text = {
+          "{C:attention}Carta{} selecionada",
+          "torna-se {C:dark_edition}Negativa",
+          "{C:attention}#1#{} espaço de Curinga",
+        }
+      },
+      c_paperback_apostle_of_wands = {
+        name = "Apóstolo de Paus",
+        text = {
+          "Crie um Curinga não-{C:legendary}Lendário{}",
+          "da {C:attention}sua escolha{}",
+          "{C:inactive}(Sem duplicatas)"
+        }
+      },
+      c_paperback_apostle_of_swords = {
+        name = "Apóstolo de Espadas",
+        text = {
+          "Destrua o {C:attention}Curinga{} selecionado",
+          "{C:attention}#1#{} Apostas"
+        }
+      },
+    },
+    Sleeve = {
+      sleeve_paperback_paper = {
+        name = "Capa de Papel",
+        text = {
+          "Curingas {C:legendary}Paperback{C:attention}{} têm {C:attention}3X",
+          "mais chance de aparecer,",
+          "comece a tentativa com o",
+          "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
+        }
+      },
+      sleeve_paperback_paper_buff = {
+        name = "Capa de Papel",
+        text = {
+          "Comece com um",
+          "Curinga {C:dark_edition}Negativo{} {C:attention,T:j_paperback_shopping_center}#1#{}"
+        }
+      },
+      sleeve_paperback_proud = {
+        name = "Capa do Orgulho",
+        text = {
+          "Comece com um conjunto completo de",
+          "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
+          "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
+        }
+      },
+      sleeve_paperback_proud_buff = {
+        name = "Capa do Orgulho",
+        text = {
+          "Todos os {C:attention}Ases{} iniciais",
+          "são {C:dark_edition}Policromo"
+        }
+      },
+      sleeve_paperback_silver = {
+        name = "Capa Prateada",
+        text = {
+          "Comece a tentativa com o",
+          "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
+          "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
+        }
+      },
+      sleeve_paperback_silver_buff = {
+        name = "Capa Prateada",
+        text = {
+          "Comece a tentativa com o",
+          "cupom {C:paperback_minor_arcana,T:v_paperback_soothsay}#1#{}"
+        }
+      },
+      sleeve_paperback_dreamer = {
+        name = "Capa do Sonhador",
+        text = {
+          "Comece a tentativa com um",
+          "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário",
+          "{C:attention}#2#{} espaço de Curinga"
+        }
+      },
+      sleeve_paperback_dreamer_buff = {
+        name = "Capa do Sonhador",
+        text = {
+          "Comece com um {C:attention}#1#",
+          "de cada naipe"
+        }
+      },
+      sleeve_paperback_antique = {
+        name = "Capa Antiga",
+        text = {
+          "Pacotes de {C:tarot}Arcanos{} não",
+          "aparecem mais na loja",
+          "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
+          "são {C:attention}3X{} mais comuns"
+        }
+      },
+      sleeve_paperback_antique_buff = {
+        name = "Capa Antiga",
+        text = {
+          "Pacotes de {C:paperback_minor_arcana}Arcanos Menores{} são {C:money}grátis"
+        }
+      },
+      sleeve_paperback_passionate = {
+        name = "Capa Passional",
+        text = {
+          "Após derrotar cada",
+          "{C:attention}Blind de Chefe{}, ganhe uma",
+          "{C:attention,T:tag_paperback_high_risk}#1#",
+          "Sem {C:money}Juros"
+        }
+      },
+      sleeve_paperback_passionate_buff = {
+        name = "Capa Passional",
+        text = {
+          "A cada dois {C:attention}Blinds de Chefe{} um é",
+          "substituído por um {C:attention}Blind de Confronto",
+          "Derrotar um {C:attention}Blind de Confronto",
+          "dá uma Marca {C:dark_edition,T:tag_negative}Negativa"
+        }
       }
     },
-    c_paperback_apostle_of_wands = {
-      name = "Apóstolo de Paus",
-      text = {
-        "Crie um Curinga não-{C:legendary}Lendário{}",
-        "da {C:attention}sua escolha{}",
-        "{C:inactive}(Sem duplicatas)"
-      }
-    },
-    c_paperback_apostle_of_swords = {
-      name = "Apóstolo de Espadas",
-      text = {
-        "Destrua o {C:attention}Curinga{} selecionado",
-        "{C:attention}#1#{} Apostas"
-      }
-    },
-  },
-  Sleeve = {
-    sleeve_paperback_paper = {
-      name = "Capa de Papel",
-      text = {
-        "Curingas {C:legendary}Paperback{C:attention}{} têm {C:attention}3X",
-        "mais chance de aparecer,",
-        "comece a tentativa com o",
-        "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
-      }
-    },
-    sleeve_paperback_paper_buff = {
-      name = "Capa de Papel",
-      text = {
-        "Comece com um",
-        "Curinga {C:dark_edition}Negativo{} {C:attention,T:j_paperback_shopping_center}#1#{}"
-      }
-    },
-    sleeve_paperback_proud = {
-      name = "Capa do Orgulho",
-      text = {
-        "Comece com um conjunto completo de",
-        "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
-        "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
-      }
-    },
-    sleeve_paperback_proud_buff = {
-      name = "Capa do Orgulho",
-      text = {
-        "Todos os {C:attention}Ases{} iniciais",
-        "são {C:dark_edition}Policromo"
-      }
-    },
-    sleeve_paperback_silver = {
-      name = "Capa Prateada",
-      text = {
-        "Comece a tentativa com o",
-        "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
-        "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
-      }
-    },
-    sleeve_paperback_silver_buff = {
-      name = "Capa Prateada",
-      text = {
-        "Comece a tentativa com o",
-        "cupom {C:paperback_minor_arcana,T:v_paperback_soothsay}#1#{}"
-      }
-    },
-    sleeve_paperback_dreamer = {
-      name = "Capa do Sonhador",
-      text = {
-        "Comece a tentativa com um",
-        "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário",
-        "{C:attention}#2#{} espaço de Curinga"
-      }
-    },
-    sleeve_paperback_dreamer_buff = {
-      name = "Capa do Sonhador",
-      text = {
-        "Comece com um {C:attention}#1#",
-        "de cada naipe"
-      }
-    },
-    sleeve_paperback_antique = {
-      name = "Capa Antiga",
-      text = {
-        "Pacotes de {C:tarot}Arcanos{} não",
-        "aparecem mais na loja",
-        "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
-        "são {C:attention}3X{} mais comuns"
-      }
-    },
-    sleeve_paperback_antique_buff = {
-      name = "Capa Antiga",
-      text = {
-        "Pacotes de {C:paperback_minor_arcana}Arcanos Menores{} são {C:money}grátis"
-      }
-    },
-    sleeve_paperback_passionate = {
-      name = "Capa Passional",
-      text = {
-        "Após derrotar cada",
-        "{C:attention}Blind de Chefe{}, ganhe uma",
-        "{C:attention,T:tag_paperback_high_risk}#1#",
-        "Sem {C:money}Juros"
-      }
-    },
-    sleeve_paperback_passionate_buff = {
-      name = "Capa Passional",
-      text = {
-        "A cada dois {C:attention}Blinds de Chefe{} um é",
-        "substituído por um {C:attention}Blind de Confronto",
-        "Derrotar um {C:attention}Blind de Confronto",
-        "dá uma Marca {C:dark_edition,T:tag_negative}Negativa"
-      }
-    }
   },
   misc = {
     dictionary = {
