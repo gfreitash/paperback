@@ -1357,6 +1357,176 @@ return {
           "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi e {C:chips}+#2#{C:inactive} Fichas)"
         },
       },
+      j_paperback_nichola = {
+        name = "Nichola",
+        text = {
+          "Cartas {C:attention}de Realeza{} {C:attention}na mão",
+          "contam na {C:attention}pontuação"
+        }
+      },
+      j_paperback_pear = {
+        name = "Pera",
+        text = {
+          "Este Curinga ganha {C:chips}+#2#{} Fichas se a mão",
+          "jogada contém um {C:attention}#1#{}. Caso contrário,",
+          "este Curinga perde {C:chips}-#3#{} Fichas.",
+          "Comido se as Fichas ficarem abaixo de 0",
+          "{C:inactive}(Atualmente {C:chips}+#4#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_pedrillo = {
+        name = "Pedrillo",
+        text = {
+          "Se a mão de pontuação contém uma {C:attention}Dama{},",
+          "sobe o nível da {C:attention}mão de pôquer{} jogada"
+        }
+      },
+      j_paperback_pocket_pair = {
+        name = "Par de Bolso",
+        text = {
+          "Ganhe {C:money}$#1#{} por {C:attention}#2#{} comprado",
+          "no início da rodada"
+        }
+      },
+      j_paperback_power_surge = {
+        name = "Surto de Energia",
+        text = {
+          "{C:attention}#1#s{} jogados dão {X:mult,C:white}X#2#{}",
+          "Multi quando pontuados e",
+          "têm {C:green}#3# em #4#{}",
+          "chance de {C:red}destruir{} uma",
+          "carta {C:attention}na mão{}"
+        }
+      },
+      j_paperback_pride_flag_no_spectrums = {
+        name = "Bandeira do Orgulho",
+        text = {
+          "Ganha {C:mult}+#1#{} Multi se a mão pontuada",
+          "contém {C:attention}três{} naipes únicos",
+          "{C:inactive}(Atualmente {C:mult}+#2#{} {C:inactive}Multi)"
+        }
+      },
+      j_paperback_pride_flag_spectrums = {
+        name = "Bandeira do Orgulho",
+        text = {
+          "Ganha {C:chips}+#1#{} Fichas se a mão",
+          "jogada contém um {C:attention}Espectro",
+          "Reseta se a mão jogada",
+          "contém uma {C:attention}Sequência",
+          "{C:inactive}(Atualmente {C:chips}+#2#{} {C:inactive}Fichas)"
+        }
+      },
+      j_paperback_quartz = {
+        name = "Quartzo",
+        text = {
+          "{C:paperback_stars}Estrelas{} pontuadas dão {X:chips,C:white}X1{} Fichas,",
+          "{X:chips,C:white}+X#1#{} para cada outra {C:paperback_stars}Estrela{} jogada"
+        }
+      },
+      j_paperback_ready_to_fly = {
+        name = "Pronto para Voar",
+        text = {
+          "Este Curinga ganha {X:chips,C:white}X#2#{} Fichas",
+          "sempre que um Curinga adjacente é {C:attention}ativado",
+          "{C:inactive}(Atualmente {X:chips,C:white}X#1#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_rock_candy = {
+        name = "Bala de Pedra",
+        text = {
+          "{C:paperback_stars}Estrelas{} pontuadas dão {C:mult}+#1#{} Multi",
+          "{C:green}#2# em #3#{} chance desta carta ser",
+          "comida no final da rodada"
+        }
+      },
+      j_paperback_rockin_stick = {
+        name = "Palito De Pedra",
+        text = {
+          "Dá {X:mult,C:white}X#1#{} Multi para cada",
+          "Curinga {C:attention}\"Palito\"{} que você tem",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#2#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_shadowmantle = {
+        name = "Mantossombra",
+        text = {
+          "{V:1}#1#{} pontuados têm",
+          "{C:green}#2# em #3#{} chance de criar",
+          "uma {C:dark_edition}Etiqueta {C:attention}Negativa{}"
+        }
+      },
+      j_paperback_sommelier = {
+        name = "Sommelier",
+        text = {
+          "Se o {C:attention}primeiro descarte{}",
+          "de uma rodada contém",
+          "um {C:attention}#1#{},",
+          "o primeiro {C:attention}#1#{}",
+          "descartado ganha",
+          "um {C:attention}selo{} aleatório"
+        }
+      },
+      j_paperback_sweet_stick = {
+        name = "Palito Doce",
+        text = {
+          "Dá {X:mult,C:white}X#1#{} Multi para cada",
+          "Curinga {C:attention}\"Palito\"{} que você tem",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#2#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_tanghulu = {
+        name = "Tanghulu",
+        text = {
+          "{C:paperback_crowns}Coroas{} pontuadas dão {C:mult}+#1#{} Multi",
+          "{C:green}#2# em #3#{} chance desta carta ser",
+          "comida no final da rodada"
+        }
+      },
+      j_paperback_telamon = {
+        name = "Telamon",
+        text = {
+          "Se a {C:attention}mão final{} contém",
+          "um {C:attention}#1#{}, cria uma carta",
+          "{C:paperback_minor_arcana}Arcano Menor{} de {C:attention}Espadas{} aleatória",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_the_dynasty = {
+        name = "A Dinastia",
+        text = {
+          "{X:mult,C:white}X#1#{} Multi se a mão jogada",
+          "contém",
+          "um {C:attention}#2#"
+        }
+      },
+      j_paperback_the_one_who_waits = {
+        name = "Aquele que Espera",
+        text = {
+          "Se a mão jogada tem um {C:attention}#1#{} que {C:attention}pontua",
+          "{C:green}#2# em #3#{} chance de ganhar {X:mult,C:white}X#4#{} Multi",
+          "{C:green}#5# em #6#{} chance de gerar um Tarô {C:tarot}#7#{}",
+          "{C:inactive}(Deve ter espaço) (Atualmente {X:mult,C:white}X#8#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_the_quiet = {
+        name = "O Silencioso",
+        text = {
+          "{X:mult,C:white}X#1#{} Multi para cada",
+          "carta abaixo de {C:attention}#2#{}",
+          "no seu baralho completo",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#3#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_the_sun = {
+        name = "O Sol",
+        text = {
+          "Se a mão jogada contém apenas",
+          "{C:paperback_light_suit}Naipes Claros{} este Curinga",
+          "ganha {C:mult}+#1#{}, perde {C:mult}+#1#{}",
+          "quando um {C:paperback_dark_suit}Naipe Escuro{} é pontuado",
+          "{C:inactive}(Atualmente {C:mult}+#2#{C:inactive} Multi)"
+        }
+      },
       j_paperback_pride_flag = {
         name = "Bandeira do Orgulho",
         text = {
