@@ -40,6 +40,7 @@ PB_UTIL.credits = {
     color = G.C.FILTER,
     entries = {
       'pinkmaggit-hub (pt-BR)',
+      'Riosodu (pt-BR)',
       'mathieulievre (FR)',
       'BurAndBY & Tauookie (RU)',
       'Ethylene (zh_CN)'
