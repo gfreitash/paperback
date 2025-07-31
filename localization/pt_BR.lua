@@ -190,6 +190,14 @@ return {
           "um {C:attention}#2#{}"
         },
       },
+      j_paperback_zealous_joker = {
+        name = "Curinga Zeloso",
+        text = {
+          "{C:mult}+#1#{} Multi se a mão jogada",
+          "contém",
+          "um {C:attention}#2#"
+        },
+      },
       j_paperback_deviled_egg = {
         name = "Ovo Cozido",
         text = {
@@ -567,6 +575,16 @@ return {
           "{C:inactive}(Atualmente {C:chips}+#4#{C:inactive} Fichas)"
         },
       },
+      j_paperback_you_are_a_fool = {
+        name = "Você É um Tolo!",
+        text = {
+          "Se a mão pontuada contém {C:attention}#1#",
+          "ou mais cartas de {C:attention}de Realeza{}, converte",
+          "{C:attention}todas{} as cartas {C:attention}na mão{} para",
+          "a carta pontuada mais à {C:attention}esquerda",
+          "{S:1.1,C:red,E:2}se autodestrói"
+        },
+      },
       j_paperback_kintsugi_joker = {
         name = "Curinga Kintsugi",
         text = {
@@ -585,6 +603,18 @@ return {
           "uma {C:attention}virada para baixo{}, cria",
           "um Consumível aleatório",
           "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_weather_radio = {
+        name = "Rádio do Tempo",
+        text = {
+          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi se a",
+          "{C:attention}mão de pôquer{} contém um {C:attention}#2#{}.",
+          "Durante {C:attention}Blind de Chefe{}, se este Curinga tem",
+          "{X:mult,C:white}X#3#{} Multi ou mais, desativa o {C:attention}Blind de Chefe{}",
+          "e este Curinga perde {X:mult,C:white}X#4#{} Multi",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#5#{C:inactive} Multi)",
+          "{s:0.75}mão de pôquer muda no fim da rodada"
         },
       },
       j_paperback_power_surge = {
@@ -777,6 +807,14 @@ return {
           "{C:mult}Multi{} ou {C:chips}Fichas{}, multiplica seus valores",
           "entre {X:attention,C:white}X#1#{} e {X:attention,C:white}X#2#{}",
           "{C:inactive}(Atualmente {C:attention}#3#{C:inactive} em {X:attention,C:white}X#4#{C:inactive})"
+        },
+      },
+      j_paperback_the_world = {
+        name = "O Mundo",
+        text = {
+          "Todas as {C:blue}mãos{} e {C:red}descartes{} são",
+          "considerados a {C:attention}primeira{} e",
+          "{C:attention}última{} da rodada"
         },
       },
       j_paperback_epic_sauce = {
@@ -997,6 +1035,13 @@ return {
           "{C:attention}vaga adicional para cards"
         },
       },
+      j_paperback_tutor = {
+        name = "Tutor",
+        text = {
+          "{C:attention}Cartas numeradas{} têm",
+          "o {C:attention}dobro{} do seu valor total de {C:chips}Fichas"
+        },
+      },
       j_paperback_ghost_cola = {
         name = "Cola Fantasma",
         text = {
@@ -1039,6 +1084,12 @@ return {
           "Multi se a mão jogada",
           "não contém um {C:attention}#2#",
           "{C:inactive}(No momento {X:mult,C:white}X#3#{C:inactive} Multi)"
+        },
+      },
+      j_paperback_wild_plus_four = {
+        name = "+4 Curinga",
+        text = {
+          "{C:attention}+#1#{} tamanho de mão"
         },
       },
       j_paperback_quick_fix = {
@@ -1178,6 +1229,15 @@ return {
           "Se a mão jogada contém uma {C:attention}Trinca{},",
           "{C:green}#1# em #2#{} chance de criar uma carta de {C:planet}Planeta{} aleatória e",
           "{C:green}#3# em #4#{} chance de criar uma carta de {C:purple}Tarot{} aleatória"
+        },
+      },
+      j_paperback_triple_moon_goddess_minor_arcana = {
+        name = "Deusa da Lua Tripla",
+        text = {
+          "Se a mão jogada contém uma {C:attention}Trinca{},",
+          "{C:green}#1# em #2#{} chance de criar uma carta {C:tarot}Tarô{} aleatória e",
+          "{C:green}#3# em #4#{} chance de criar uma carta {C:paperback_minor_arcana}Arcano Menor{} aleatória",
+          "{C:inactive}(Deve ter espaço)"
         },
       },
       j_paperback_derecho = {
@@ -1482,6 +1542,15 @@ return {
           "{C:inactive}(Deve ter espaço)"
         },
       },
+      j_paperback_wheat_field = {
+        name = "Campo de Trigo",
+        text = {
+          "{C:paperback_crowns}#1#{} dão {X:mult,C:white}X#2#{} Multi quando pontuadas.",
+          "Aumenta em {X:mult,C:white}X#3#{} Multi para cada",
+          "{C:paperback_crowns}#4#{} consecutivamente pontuada",
+          "{C:inactive}(Reseta após cada mão jogada)"
+        },
+      },
       j_paperback_clothespin = {
         name = "Pregador",
         text = {
@@ -1489,6 +1558,13 @@ return {
           "{C:attention}fim da rodada{} para cada",
           "{C:attention}Clipe{} {C:attention}na mão",
           "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+        },
+      },
+      j_paperback_watercolor_joker = {
+        name = "Curinga Aquarela",
+        text = {
+          "{C:attention}#1#s{} dão",
+          "{X:chips,C:white}X#2#{} Fichas quando pontuados"
         },
       },
       j_paperback_birches = {
@@ -1526,82 +1602,6 @@ return {
           "carta {C:planet}Lua{} ou {C:planet}Asteroide{} usada",
           "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi e {C:chips}+#2#{C:inactive} Fichas)"
         },
-      },
-      j_paperback_the_world = {
-        name = "O Mundo",
-        text = {
-          "Todas as {C:blue}mãos{} e {C:red}descartes{} são",
-          "considerados a {C:attention}primeira{} e",
-          "{C:attention}última{} da rodada"
-        }
-      },
-      j_paperback_triple_moon_goddess_minor_arcana = {
-        name = "Deusa da Lua Tripla",
-        text = {
-          "Se a mão jogada contém uma {C:attention}Trinca{},",
-          "{C:green}#1# em #2#{} chance de criar uma carta {C:tarot}Tarô{} aleatória e",
-          "{C:green}#3# em #4#{} chance de criar uma carta {C:paperback_minor_arcana}Arcano Menor{} aleatória",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_tutor = {
-        name = "Tutor",
-        text = {
-          "{C:attention}Cartas numeradas{} têm",
-          "o {C:attention}dobro{} do seu valor total de {C:chips}Fichas"
-        }
-      },
-      j_paperback_watercolor_joker = {
-        name = "Curinga Aquarela",
-        text = {
-          "{C:attention}#1#s{} dão",
-          "{X:chips,C:white}X#2#{} Fichas quando pontuados"
-        }
-      },
-      j_paperback_weather_radio = {
-        name = "Rádio do Tempo",
-        text = {
-          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi se a",
-          "{C:attention}mão de pôquer{} contém um {C:attention}#2#{}.",
-          "Durante {C:attention}Blind de Chefe{}, se este Curinga tem",
-          "{X:mult,C:white}X#3#{} Multi ou mais, desativa o {C:attention}Blind de Chefe{}",
-          "e este Curinga perde {X:mult,C:white}X#4#{} Multi",
-          "{C:inactive}(Atualmente {X:mult,C:white}X#5#{C:inactive} Multi)",
-          "{s:0.75}mão de pôquer muda no fim da rodada"
-        }
-      },
-      j_paperback_wheat_field = {
-        name = "Campo de Trigo",
-        text = {
-          "{C:paperback_crowns}#1#{} dão {X:mult,C:white}X#2#{} Multi quando pontuadas.",
-          "Aumenta em {X:mult,C:white}X#3#{} Multi para cada",
-          "{C:paperback_crowns}#4#{} consecutivamente pontuada",
-          "{C:inactive}(Reseta após cada mão jogada)"
-        }
-      },
-      j_paperback_wild_plus_four = {
-        name = "+4 Curinga",
-        text = {
-          "{C:attention}+#1#{} tamanho de mão"
-        }
-      },
-      j_paperback_you_are_a_fool = {
-        name = "Você É um Tolo!",
-        text = {
-          "Se a mão pontuada contém {C:attention}#1#",
-          "ou mais cartas de {C:attention}de Realeza{}, converte",
-          "{C:attention}todas{} as cartas {C:attention}na mão{} para",
-          "a carta pontuada mais à {C:attention}esquerda",
-          "{S:1.1,C:red,E:2}se autodestrói"
-        }
-      },
-      j_paperback_zealous_joker = {
-        name = "Curinga Zeloso",
-        text = {
-          "{C:mult}+#1#{} Multi se a mão jogada",
-          "contém",
-          "um {C:attention}#2#"
-        }
       },
     },
     Spectral = {
@@ -1970,6 +1970,24 @@ return {
         },
       },
     },
+    Voucher = {
+      v_paperback_celtic_cross = {
+        name = "Cruz Celta",
+        text = {
+          "Ao limpar um {C:attention}Blind",
+          "{C:attention}de Chefe{}, a próxima loja terá",
+          "um {C:paperback_minor_arcana}Pacote Mega de Arcanos Menores{}",
+          "{C:attention}grátis{} adicional"
+        },
+      },
+      v_paperback_soothsay = {
+        name = "Adivinhação",
+        text = {
+          "Cartas de {C:paperback_minor_arcana}Arcanos Menores{} podem",
+          "aparecer na {C:money}Loja"
+        },
+      },
+    },
     Tag = {
       tag_paperback_angel_investment = {
         name = "Marca de Investimento Angelical",
@@ -2009,6 +2027,20 @@ return {
           "Desativa o",
           "{C:attention}Blind de Chefe"
         },
+      },
+    },
+    Planet = {
+      c_paperback_quaoar = {
+        name = "Quaoar",
+      },
+      c_paperback_haumea = {
+        name = "Haumea",
+      },
+      c_paperback_sedna = {
+        name = "Sedna",
+      },
+      c_paperback_makemake = {
+        name = "Makemake",
       },
     },
     Enhanced = {
@@ -2074,6 +2106,83 @@ return {
       },
     },
     Other = {
+      undiscovered_paperback_minor_arcana = {
+        name = "Não Descoberto",
+        text = {
+          "Compre ou use esta",
+          "carta em uma partida",
+          "sem semente para",
+          "saber o que ela faz"
+        },
+      },
+      paperback_light_suits = {
+        name = "Naipes Claros",
+        text = {
+          "{C:diamonds}Ouros{}, {C:hearts}Copas{}"
+        },
+      },
+      paperback_dark_suits = {
+        name = "Naipes Escuros",
+        text = {
+          "{C:spades}Espadas{}, {C:clubs}Paus{}"
+        },
+      },
+      paperback_requires_custom_suits = {
+        name = "Requer Naipes Personalizados",
+        text = {
+          "Desbailitado devido aos",
+          "{C:attention}Naipes Personalizados{} estarem",
+          "desabilitados no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_enhancements = {
+        name = "Requer Melhorias",
+        text = {
+          "Desbailitado devido às",
+          "{C:attention}Melhorias{} estarem",
+          "desabilitadas no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_paperclips = {
+        name = "Requer Clipes",
+        text = {
+          "Desbailitado devido aos",
+          "{C:attention}Clipes{} estarem",
+          "desabilitados no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_minor_arcana = {
+        name = "Requer Arcanos Menores",
+        text = {
+          "Desbailitado devido aos",
+          "{C:paperback_minor_arcana}Arcanos Menores{} estarem",
+          "desabilitados no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_tags = {
+        name = "Requer Marcas",
+        text = {
+          "Desabilitado devido às",
+          "{C:attention}Marcas{} estarem",
+          "desabilitadas no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_editions = {
+        name = "Requer Edições",
+        text = {
+          "Desabilitado devido às",
+          "{C:dark_edition}Edições{} estarem",
+          "desabilitadas no {C:legendary}Paperback"
+        },
+      },
+      paperback_requires_ranks = {
+        name = "Requer Classes",
+        text = {
+          "Desabilitado devido às",
+          "{C:dark_edition}Classes{} estarem",
+          "desabilitadas no {C:legendary}Paperback"
+        },
+      },
       paperback_energized = {
         name = "Energizado",
         text = {
@@ -2181,6 +2290,38 @@ return {
           "Escolha {C:attention}#1#{} de até {C:attention}#2#",
           "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
           "para serem usadas imediatamente"
+        },
+      },
+    },
+    Partner = {
+      pnr_paperback_virtual = {
+        name = "Virtual",
+        text = {
+          "Reativa a {C:attention}primeira carta pontuada",
+          "de {C:paperback_light_suit}Naipe Claro{} em cada mão jogada",
+          "se nenhum {C:paperback_dark_suit}Naipe Escuro{} foi jogado"
+        },
+      },
+      pnr_paperback_aftermath = {
+        name = "Consequência",
+        text = {
+          "Cartas {C:attention}de Realeza{} pontuadas",
+          "ganham {C:chips}+#1#{} Fichas",
+          "quando pontuadas"
+        },
+      },
+      pnr_paperback_faker = {
+        name = "Falsário",
+        text = {
+          "{C:attention}Uma vez por rodada{} se",
+          "uma mão jogada foi uma",
+          "{C:attention}carta única{}, destrua-a"
+        },
+      },
+      pnr_paperback_faker_buffed = {
+        text = {
+          "Se uma mão jogada foi",
+          "uma {C:attention}carta única{}, destrua-a"
         },
       },
     },
@@ -2350,8 +2491,10 @@ return {
       paperback_plague_quote_7_2 = "praticava feitiçaria e assombrava todo o povo.",
       paperback_plague_quote_8_1 = "Então o Apóstolo disse aos outros discípulos:",
       paperback_plague_quote_8_2 = "\"Vamos nós também, para morrermos com ele.\"",
-      paperback_plague_quote_9_1 = "Então o Apóstolo declarou: \"Tu és\",\n      paperback_plague_quote_9_2 = ",
-      paperback_plague_quote_10_1 = "Então o Apóstolo disse: \"Mas por que tencionas\",\n      paperback_plague_quote_10_2 = ",
+      paperback_plague_quote_9_1 = "Então o Apóstolo declarou: \"Tu és",
+      paperback_plague_quote_9_2 = "o filho dele, tu és o rei.\"",
+      paperback_plague_quote_10_1 = "Então o Apóstolo disse: \"Mas por que tencionas",
+      paperback_plague_quote_10_2 = "te mostrar a nós e não ao mundo?\"",
       paperback_plague_quote_11_1 = "Desde agora, ninguém me inquiete,",
       paperback_plague_quote_11_2 = "porque trago no meu corpo as marcas dele.",
       paperback_plague_quote_12_1 = "Não vos escolhi eu a vós, os Doze?",
@@ -2370,8 +2513,6 @@ return {
       paperback_da_capo_Diamonds = "Movimento 3",
       paperback_da_capo_Hearts = "Movimento 4",
       paperback_da_capo_None = "Final!",
-"",
-"",
     },
     v_dictionary = {
       paperback_a_discards = "+#1# Descartes",
