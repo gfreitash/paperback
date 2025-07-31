@@ -8,7 +8,7 @@ return {
           "mais chance de aparecer,",
           "comece a tentativa com o",
           "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
-        }
+        },
       },
       b_paperback_proud = {
         name = "Baralho do Orgulho",
@@ -16,7 +16,7 @@ return {
           "Comece com um conjunto completo de",
           "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
           "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
-        }
+        },
       },
       b_paperback_silver = {
         name = "Baralho Prateado",
@@ -24,7 +24,7 @@ return {
           "Comece a tentativa com o",
           "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
           "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
-        }
+        },
       },
       b_paperback_dreamer = {
         name = "Baralho Sonhador",
@@ -32,7 +32,7 @@ return {
           "Comece a tentativa com um",
           "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário.",
           "{C:attention}#2#{} espaço de Curinga"
-        }
+        },
       },
       b_paperback_antique = {
         name = "Baralho Antigo",
@@ -41,7 +41,7 @@ return {
           "aparecem mais na loja",
           "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
           "são {C:attention}3X{} mais comuns"
-        }
+        },
       },
       b_paperback_passionate = {
         name = "Baralho Passional",
@@ -50,7 +50,7 @@ return {
           "{C:attention}Blind de Chefe{}, ganhe uma",
           "{C:attention,T:tag_paperback_high_risk}#1#",
           "Sem {C:money}Juros"
-        }
+        },
       },
     },
     Blind = {
@@ -62,71 +62,585 @@ return {
         },
       },
       bl_paperback_half = {
-        name = 'A Mínima',
+        name = "A Mínima",
         text = {
-          'Reduz pela metade todas as',
-          'probabilidades listadas'
-        }
+          "Reduz pela metade todas as",
+          "probabilidades listadas"
+        },
       },
       bl_paperback_whole = {
-        name = 'A Semibreve',
+        name = "A Semibreve",
         text = {
-          'Classes pontuadas anteriormente',
-          'nesta Aposta recebem desvantagem'
-        }
+          "Classes pontuadas anteriormente",
+          "nesta Aposta recebem desvantagem"
+        },
       },
       bl_paperback_rest = {
-        name = 'A Pausa',
+        name = "A Pausa",
         text = {
-          '#1# em #2# cartas numeradas',
-          'são compradas viradas para baixo'
-        }
+          "#1# em #2# cartas numeradas",
+          "são compradas viradas para baixo"
+        },
       },
       bl_paperback_flat = {
-        name = 'O Bemol',
+        name = "O Bemol",
         text = {
-          'Diminui a classe das',
-          'cartas jogadas'
-        }
+          "Diminui a classe das",
+          "cartas jogadas"
+        },
       },
       bl_paperback_sharp = {
-        name = 'O Sustenido',
+        name = "O Sustenido",
         text = {
-          'Aumenta a classe das',
-          'cartas jogadas'
-        }
+          "Aumenta a classe das",
+          "cartas jogadas"
+        },
       },
       bl_paperback_natural = {
-        name = 'O Bequadro',
+        name = "O Bequadro",
         text = {
-          'Cartas em mãos de poker',
-          'acima do seu nível de mão',
-          'mais baixo recebem desvantagem'
-        }
+          "Cartas em mãos de poker",
+          "acima do seu nível de mão",
+          "mais baixo recebem desvantagem"
+        },
       },
       bl_paperback_coda = {
-        name = 'A Coda',
+        name = "A Coda",
         text = {
-          'Cartas e Curingas',
-          'não podem ser movidos',
-        }
+          "Cartas e Curingas",
+          "não podem ser movidos"
+        },
       },
       bl_paperback_taupe_treble = {
-        name = 'Agudo Taupe',
+        name = "Agudo Taupe",
         text = {
-          'Deve jogar uma',
-          'carta Melhorada'
-        }
+          "Deve jogar uma",
+          "carta Melhorada"
+        },
       },
     },
     Joker = {
+      j_paperback_alert = {
+        name = "Alerta",
+        text = {
+          "Se a {C:attention}mão jogada{} for uma única",
+          "carta {C:attention}de Realeza{}, destrua-a",
+          "{C:inactive}(#1#/#2#)?"
+        }
+      },
+      j_paperback_aurora_borealis = {
+        name = "Aurora Boreal",
+        text = {
+          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+          "para cada carta de {C:attention}Curinga com edição{}",
+          "{s:0.9,C:dark_edition}Negativos{s:0.9,C:inactive} são excluídos{}",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#2#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_b_soda = {
+        name = "B-Soda",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado,",
+          "ganha {C:blue}+#1#{} Mão",
+          "Consumido se {C:attention}Blind{} for",
+          "limpo com {C:blue}0{} mãos",
+          "restantes"
+        }
+      },
+      j_paperback_backpack = {
+        name = "Mochila",
+        text = {
+          "{C:money}Lojas{} têm um",
+          "Pacote Bufão {C:attention}grátis{} adicional"
+        }
+      },
+      j_paperback_better_call_jimbo = {
+        name = "Melhor Chamar o Jimbo",
+        text = {
+          "{X:mult,C:white}X#1#{} Multi para",
+          "cada {C:money}$#2#{} possuído",
+          "Não ganha {C:money}Juros{}",
+          "{C:inactive}(Atualmente {X:mult,C:white}X#3#{C:inactive} Multi)"
+        }
+      },
+      j_paperback_birches = {
+        name = "Bétulas",
+        text = {
+          "{C:paperback_stars}Estrelas{} dão {X:mult,C:white}X#2#{} Multi quando pontuadas.",
+          "Aumenta em {X:mult,C:white}X#3#{} Multi para cada",
+          "{C:paperback_stars}Estrelas{} consecutivamente pontuada",
+          "{C:inactive}(Reseta após cada mão jogada)",
+        }
+      },
+      j_paperback_blood_rain = {
+        name = "Chuva de Sangue",
+        text = {
+          "{C:attention}#1#s{} dão {C:mult}Multi{} igual",
+          "à {C:attention}classe{} das cartas na mão",
+          "em vez do seu {C:chips}valor de fichas{}"
+        }
+      },
+      j_paperback_book_of_vengeance = {
+        name = "Livro da Vingança",
+        text = {
+          "Após derrotar um {C:attention}Blind de Chefe{},",
+          "destrói a si mesmo e o {C:attention}Curinga{} à sua esquerda,",
+          "então faz uma cópia do {C:attention}Curinga{} à sua direita"
+        }
+      },
+      j_paperback_card_sleeve = {
+        name = "Capa de Carta",
+        text = {
+          "Venda esta carta para tornar o {C:attention}Curinga",
+          "à direita {C:attention}Eterno{}",
+        }
+      },
+      j_paperback_champagne = {
+        name = "Champanhe",
+        text = {
+          "Durante um {C:attention}Blind de Chefe{}, cartas pontuadas",
+          "rendem {C:money}$#1#{}, {C:attention}dobrado{} se",
+          "a carta tiver um {C:attention}selo",
+          "{C:attention}Consumido{} em {C:attention}#2#{} rodadas"
+        }
+      },
+      j_paperback_chaplin = {
+        name = "Chaplin",
+        text = {
+          "Ao comprar um {C:attention}Cupom{}, também",
+          "ganha a versão {C:attention}aprimorada{}"
+        }
+      },
+      j_paperback_chocolate_joker = {
+        name = "Curinga de Chocolate",
+        text = {
+          "Este Curinga ganha {X:chips,C:white}X#1#{} Fichas",
+          "para cada carta de {C:attention}Curinga{}",
+          "{C:inactive}(Atualmente {X:chips,C:white}X#2#{C:inactive} Fichas)"
+        }
+      },
+      j_paperback_da_capo = {
+        name = "Da Capo",
+        text = {
+          "Dá {X:mult,C:white}X#1#{} Multi e {C:attention}desvantagens",
+          "a todos, exceto um {C:attention}naipe{} a cada mão",
+          "na seguinte ordem:",
+          "{C:clubs}Paus{}, {C:spades}Espadas{}, {C:diamonds}Ouros{}, {C:hearts}Copas{}, {C:inactive}Nenhum{}",
+          "{C:inactive}(Atualmente: {V:1}#2#{C:inactive}){}",
+        }
+      },
+      j_paperback_ddakji = {
+        name = "Ddakji",
+        text = {
+          "{C:green}#1# em #2#{} cartas são compradas",
+          "viradas para baixo, se a mão pontuada",
+          "contiver uma carta {C:attention}virada para cima{} e",
+          "uma {C:attention}virada para baixo{}, cria",
+          "um Consumível aleatório",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+      j_paperback_deadringer = {
+        name = "Alguém Morreu Em Meu Lugar",
+        text = {
+          "Reativa {C:attention}#1#es{} e {C:attention}#2#s{} pontuados",
+          "uma vez, e {C:attention}#3#s{} pontuados duas vezes"
+        }
+      },
+      j_paperback_determination = {
+        name = "Determinação",
+        text = {
+          "Previne a morte, ao morrer",
+          "{C:attention}#1#{} Aposta, {C:attention}#1#{} tamanho de mão",
+          "e {C:red}se autodestrói"
+        }
+      },
+      j_paperback_deviled_egg = {
+        name = "Ovo Cozido",
+        text = {
+          "A primeira carta pontuada",
+          "a cada rodada torna-se {C:attention}Dourada{}.",
+          "Consumido em {C:attention}#1#{} rodadas"
+        }
+      },
+      j_paperback_epic_sauce = {
+        name = "Molho Épico",
+        text = {
+          "{X:mult,C:white}X#1#{} Multi",
+          "Destrói um {C:attention}Curinga{} aleatório",
+          "se a mão jogada não for",
+          "a {C:attention}primeira mão{} da rodada"
+        }
+      },
+      j_paperback_everything_must_go = {
+        name = "Queima De Estoque!",
+        text = {
+          "Lojas têm {C:attention}#1#{} {C:attention}Cupons{} adicionais",
+          "à venda"
+        }
+      },
+      j_paperback_festive_joker = {
+        name = "Curinga Festivo",
+        text = {
+          "{C:attention}#1#s{} têm {C:green}#2# em #3#",
+          "chance de criar um",
+          "{C:attention}Consumível{} aleatório quando pontuadas",
+          "{C:inactive}(Deve ter espaço)"
+        }
+      },
+
+      j_paperback_golden_egg = {
+        name = "Ovo Dourado",
+        text = {
+          "Quando uma {C:attention}mão secreta{} é jogada,",
+          "ganha o valor de venda",
+          "do {C:attention}Curinga{} à direita"
+        },
+      },
+      j_paperback_burning_pact = {
+        name = "Pacto Ardente",
+        text = {
+          "Se um {C:attention}descarte{} tem apenas {C:attention}#1#{} carta",
+          "compre {C:attention}#2#{} cartas adicionais"
+        },
+      },
+      j_paperback_blade_dance = {
+        name = "Dança das Lâminas",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado,",
+          "cria {C:attention}#1#{} {C:attention}#2#s{} {C:paperback_temporary}",
+          "aleatórias na sua mão"
+        },
+      },
+      j_paperback_claw = {
+        name = "Garra",
+        text = {
+          "Quando um {C:attention}#1#{} é pontuado, {C:attention}#1#s{} pontuados",
+          "dão {C:mult}+#2#{} Multi adicional",
+          "Reseta no {C:attention}fim da rodada",
+          "{C:inactive}(No momento {C:mult}+#3#{C:inactive} Multi)"
+        },
+      },
+      j_paperback_pinot_noir = {
+        name = "Pinot Noir",
+        text = {
+          "As próximas {C:attention}#1#{} vezes que uma {C:attention}#2#",
+          "ativar, dá {C:mult}#3#{} Multi adicional"
+        },
+      },
+      j_paperback_jestosterone = {
+        name = "Bobosterona",
+        text = {
+          "{C:attention}#1#s{} pontuadas se tornam {C:attention}#2#s{}"
+        },
+      },
+      j_paperback_jestrogen = {
+        name = "Bobostrógeno",
+        text = {
+          "{C:attention}#1#s{} e {C:attention}#2#s{} pontuados se tornam {C:attention}#3#s{}"
+        },
+      },
+      j_paperback_langely = {
+        name = "L'angely",
+        text = {
+          "Ganha metade do {C:money}valor de venda{} de todos",
+          "os Curingas ao derrotar um {C:attention}Big Blind.",
+          "Ao derrotar um {C:attention}Boss Blind{}, ganha",
+          "o {C:money}valor de venda{} completo de todos os Curingas"
+        },
+      },
+      j_paperback_double_dutchman = {
+        name = "Holandês Duplo",
+        text = {
+          "Cartas {C:attention}na mão{} têm {C:green}#1# em #2#",
+          "chance de ganhar {C:attention}melhorias{},",
+          "{C:attention}selos{} ou {C:attention}edições{} aleatórias",
+          "pelas próximas {C:attention}#3#{} mãos"
+        },
+      },
+      j_paperback_one_sin_and_hundreds_of_good_deeds = {
+        name = "Um Pecado e Centenas de Boas Ações",
+        text = {
+          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
+          "dão {C:mult}+#1#{} Multi quando pontuados",
+          "{C:inactive}''Se alimenta do mal''"
+        },
+      },
+      j_paperback_one_sin_and_hundreds_of_good_deeds_fed = {
+        name = "{C:red}Um Pecado e Centenas de Boas Ações{}",
+        text = {
+          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
+          "dão {C:mult}+Multi{} para cada",
+          "carta restante no deck quando pontuados",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive})"
+        },
+      },
+      j_paperback_white_night = {
+        name = "Noite Branca",
+        text = {
+          "Destrói todas as cartas pontuadas não-{C:attention}Apóstolo{}",
+          "no final da mão. {C:attention}Apóstolos{} pontuados",
+          "dão {X:mult,C:white}X#1#{} Multi. Jogar uma mão sem",
+          "{C:attention}Apóstolos destrói{} um Curinga aleatório.",
+          "{C:attention}Apóstolos{} descartados são {C:attention}destruídos{}"
+        },
+      },
+      j_paperback_as_above_so_below = {
+        name = "Como acima, Assim Abaixo",
+        text = {
+          "Jogar uma mão de pôquer de cinco cartas com um",
+          "{C:attention}Apóstolo{} cria uma carta de {C:purple}Tarô{},",
+          "se a mão também contém uma {C:attention}Sequência{}",
+          "cria uma carta {C:spectral}Espectral{} ao invés",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_plague_doctor = {
+        name = "Doutor da Peste",
+        text = {
+          "Se a mão jogada é uma Carta Alta,",
+          "converte a carta pontuada em",
+          "um {C:attention}Apóstolo{}. Cada {C:attention}Apóstolo{}",
+          "na mão dá {X:mult,C:white}X#1#{} Multi"
+        },
+      },
+      j_paperback_king_me = {
+        name = "Me Coroe",
+        text = {
+          "{V:1}#1#{} pontuadas aumentam",
+          "sua classe em {C:attention}#2#{}"
+        },
+      },
+      j_paperback_gambit = {
+        name = "Gambito",
+        text = {
+          "Se a mão jogada contém uma {V:1}#1#{} pontuando,",
+          "a primeira {V:1}#1#{} pontuada {C:attention}destrói{}",
+          "a primeira não-{V:1}#1#{} na mão",
+          "e ganha seu {C:chips}valor de Fichas{}"
+        },
+      },
+      j_paperback_solar_eclipse = {
+        name = "Eclipse Solar",
+        text = {
+          "{C:paperback_light_suit}Naipes claros{} pontuados",
+          "se tornam {V:1}#1#"
+        },
+      },
+      j_paperback_prism = {
+        name = "Prisma",
+        text = {
+          "Se a mão jogada contém um {C:attention}#1#{},",
+          "converte todas as {C:attention}cartas pontuadas{} em",
+          "{C:attention}naipes diferentes{} aleatórios"
+        },
+      },
+      j_paperback_master_spark = {
+        name = "Centelha Mestra",
+        text = {
+          "Se a mão jogada contém um {C:attention}Espectro{},",
+          "destrói todas as cartas {C:attention}na mão{} e",
+          "todas as cartas jogadas ganham {C:dark_edition}Policromo",
+          "{S:1.1,C:red,E:2}se autodestrói"
+        },
+      },
+      j_paperback_j_and_js = {
+        name = "J&J's",
+        text = {
+          "Se a mão jogada contém",
+          "{C:attention}Espectro{}, cria {C:attention}#1#{} {C:attention}Marcas{} aleatórias",
+          "Consumido em {C:attention}#2#{} rodadas"
+        },
+      },
+      j_paperback_blue_star = {
+        name = "Estrela Azul",
+        text = {
+          "Ganha {X:chips,C:white}X#1#{} Fichas quando uma {V:1}#2#{} pontua",
+          "Perde {X:chips,C:white}X#3#{} Fichas quando um {V:2}#4#{} pontua",
+          "{C:inactive}(No momento {X:chips,C:white}X#5#{C:inactive} Fichas)"
+        },
+      },
+      j_paperback_shooting_star = {
+        name = "Estrela Cadente",
+        text = {
+          "{V:1}#1#{} pontuadas têm",
+          "{C:green}#2# em #3#{} chance de",
+          "criar a carta de {C:planet}Planeta{}",
+          "para a {C:attention}mão de pôquer{} jogada"
+        },
+      },
+      j_paperback_black_star = {
+        name = "Estrela Negra",
+        text = {
+          "{C:paperback_dark_suit}Naipes escuros{} pontuados",
+          "se tornam {V:1}#1#"
+        },
+      },
+      j_paperback_high_speed_rail = {
+        name = "Trem de Alta Velocidade",
+        text = {
+          "Este Curinga {C:blue}ganha{} Multi igual ao",
+          "{C:money}custo{} de {C:blue}Curingas comprados{}",
+          "Este Curinga {C:red}perde{} Multi igual ao",
+          "{C:money}valor de venda{} de {C:red}Curingas vendidos{}",
+          "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi)"
+        },
+      },
+      j_paperback_joke_master = {
+        name = "Mestre das Piadas",
+        text = {
+          "Este Curinga ganha {C:mult}+#1#{} Multi se",
+          "mão jogada é {C:attention}#2#{}",
+          "{s:0.8}A mão muda a cada rodada",
+          "{C:inactive}(Atualmente {C:mult}+#3#{C:inactive} Multi)"
+        },
+      },
+      j_paperback_ultra_rare = {
+        name = "Ultra Raro",
+        text = {
+          "Quando {C:attention}Blind{} é selecionado, crie",
+          "{C:blue}Curingas {C:attention}Comuns{}, {C:green}Incomuns",
+          "e {C:red}Raros{} {C:paperback_temporary}Temporários{} {C:dark_edition}Negativos",
+          "aleatórios com valor de venda {C:money}$#1#{}"
+        },
+      },
+      j_paperback_manilla_folder = {
+        name = "Pasta De Arquivos",
+        text = {
+          "Ganhe {C:money}$#1#{} no fim da rodada",
+          "para cada {C:attention}Clipe{} único",
+          "em seu baralho completo",
+          "{C:inactive}(Atualmente {C:money}$#2#{C:inactive})"
+        },
+      },
+      j_paperback_clippy = {
+        name = "Clippy",
+        text = {
+          "Adiciona um {C:attention}Clipe{} aleatório a uma",
+          "carta aleatória no seu deck",
+          "quando o {C:attention}Blind{} é selecionado"
+        },
+      },
+      j_paperback_the_normal_joker = {
+        name = "O Curinga Normal",
+        text = {
+          "Reaciona todos os",
+          "{C:blue}Curingas {C:attention}Comuns"
+        },
+      },
+      j_paperback_touch_tone_joker = {
+        name = "Curinga Discado",
+        text = {
+          "Ao abrir um pacote {C:tarot}Arcano{},",
+          "{C:planet}Celestial{} ou {C:spectral}Espectral{},",
+          "{C:attention}compre{} a {C:attention}primeira carta{} dele",
+          "para seus consumíveis",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_joker_cd_i = {
+        name = "Curinga CD-i",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "mão jogada tem exatamente {C:attention}#3#{} cartas",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_blue_marble = {
+        name = "Berlinde Azul",
+        text = {
+          "{C:green}#1# em #2#{} chance de criar",
+          "uma carta {C:planet}Planeta{} aleatória se",
+          "{C:attention}mão pontuada{} contém um {V:3}#3#{}",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_boundary_of_death = {
+        name = "Limiar da Morte",
+        text = {
+          "{C:attention}#1#s{} têm",
+          "{C:green}#2# em #3#{} chance de",
+          "adicionalmente dar {C:red}+#4#{} Multi"
+        },
+      },
+      j_paperback_spotty_joker = {
+        name = "Curinga Com Manchinhas",
+        text = {
+          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+          "se a {C:attention}mão pontuada{} contém uma {C:attention}#2#{},",
+          "senão perde {X:mult,C:white}X#3#{} Multi",
+          "{C:inactive}(No momento {X:mult,C:white}X#4#{C:inactive} Multi)"
+        },
+      },
+      j_paperback_bismuth = {
+        name = "Bismuto",
+        text = {
+          "{V:1}#1#{} e {V:2}#2#{} jogadas têm",
+          "{C:green}#3# em #4#{} chance de receber {C:dark_edition}Laminado{},",
+          "{C:dark_edition}Holográfico{} ou {C:dark_edition}Policromático"
+        },
+      },
+      j_paperback_full_moon = {
+        name = "Lua Cheia",
+        text = {
+          "Cartas de {C:planet}Planeta{} têm",
+          "{C:green}#1# em #2#{} chance de",
+          "subir de nível {C:attention}novamente"
+        },
+      },
+      j_paperback_sake_cup = {
+        name = "Copo de Sakê",
+        text = {
+          "Após uma mão ser jogada, {C:attention}#1#s",
+          "{C:attention}na mão{} têm {C:green}#2# em #3#{}",
+          "chance de criar a carta de {C:planet}Planeta",
+          "da {C:attention}mão de pôquer{} jogada",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      j_paperback_resurrections = {
+        name = "Ressurreições",
+        text = {
+          "{C:green}#1# em #2#{} chance de {C:attention}retornar{}",
+          "{C:attention}Curingas{} vendidos e criar",
+          "uma cópia {C:attention}extra{} {C:dark_edition}Negativa{}",
+          "com {C:money}-$#3#{} de valor de venda",
+          "{s:0.8}A chance aumenta em {s:0.8,C:green}#4#{s:0.8} ao falhar",
+          "{S:1.1,C:red,E:2}se autodestrói"
+        },
+      },
+      j_paperback_angel_investor = {
+        name = "Investidor Anjo",
+        text = {
+          "Pular um {C:attention}Blind{} ou derrotar",
+          "um {C:attention}Blind de Chefe{} concede",
+          "uma {C:money}Marca de Investimento Angelical"
+        },
+      },
+      j_paperback_mexican_train = {
+        name = "Trem Mexicano",
+        text = {
+          "{C:attention}#1#s{} pontuados dão {C:money}$#2#",
+          "para cada {C:attention}#1#{} pontuando",
+          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
+        },
+      },
+      j_paperback_find_jimbo = {
+        name = "Encontre o Jimbo",
+        text = {
+          "Cada {C:attention}#1#{} de {V:1}#2#{} jogada",
+          "rende {C:money}$#3#{} quando pontuada",
+          "{s:0.8}Carta muda a cada rodada"
+        },
+      },
       j_paperback_cream_liqueur = {
         name = "Licor Creme",
         text = {
           "{C:attention}Marcas{} geram {C:money}$#1#{} quando ativadas",
           "Consumida em {C:attention}#2#{} rodadas",
           "{C:inactive}(Reseta quando uma {C:attention}Marca{C:inactive} é adquirida)"
-        }
+        },
       },
       j_paperback_coffee = {
         name = "Café",
@@ -134,8 +648,8 @@ return {
           "{C:attention}+#1#{} tamanho de mão,",
           "aumenta em {C:attention}#2#{} quando {C:attention}Blind{} é pulado.",
           "{C:green}#3# em #4#{} chance desta carta ser consumida quando",
-          "{C:attention}Small Blind{} ou {C:attention}Big Blind{} é selecionado",
-        }
+          "{C:attention}Small Blind{} ou {C:attention}Big Blind{} é selecionado"
+        },
       },
       j_paperback_basic_energy = {
         name = "Energia Básica de Curinga",
@@ -144,7 +658,7 @@ return {
           "{C:green}#1# em #2#{} chance de criar uma cópia",
           "{C:inactive}(Não pode fazer cópias de uma cópia)",
           "{C:inactive}(Deve ter espaço)"
-        }
+        },
       },
       j_paperback_big_misser = {
         name = "Grande Perda",
@@ -152,7 +666,7 @@ return {
           "{X:mult,C:white}X#1#{} Multi para cada espaço",
           "vazio de consumível",
           "{C:inactive}(No momento, {X:mult,C:white}X#2#{}{C:inactive} Multi)"
-        }
+        },
       },
       j_paperback_complete_breakfast = {
         name = "Café da Manhã Completo",
@@ -161,14 +675,14 @@ return {
           "{C:green}#3# em #4#{} chance desta carta ser",
           "consumida após a mão jogada",
           "A chance aumenta em {C:attention}#5#{} após",
-          "cada mão jogada",
+          "cada mão jogada"
         },
       },
       j_paperback_emergency_broadcast = {
         name = "Transmissão de Emergência",
         text = {
           "Pontuar {C:attention}5s{} e {C:attention}8s{} fornece",
-          "{C:mult}+#1#{} Multi e {C:chips}+#2#{} Fichas",
+          "{C:mult}+#1#{} Multi e {C:chips}+#2#{} Fichas"
         },
       },
       j_paperback_moribund = {
@@ -177,14 +691,14 @@ return {
           "Este Curinga ganha {C:mult}+#1#{} Multi quando um {C:attention}blind",
           "é limpo com {C:attention}0{C:chips} mãos{} restantes.",
           "Dobra seu {C:mult}Multi{} se o blind não for limpo",
-          "{C:inactive}(No momento, {C:mult}+#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {C:mult}+#2#{C:inactive} Multi)"
         },
       },
       j_paperback_crispy_taco = {
         name = "Taco Crocante",
         text = {
           "{X:chips,C:white}X#1#{} Fichas. {C:green}#2# em #3#{} chance desta carta",
-          "ser consumida no fim da rodada.",
+          "ser consumida no fim da rodada."
         },
       },
       j_paperback_furioso = {
@@ -194,14 +708,14 @@ return {
           "cada {C:attention}classe {} única pontuada.",
           "Reseta após derrotar um {C:attention}blind chefe",
           "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)",
-          "{C:inactive}(Classes jogadas:{C:attention}#3#{C:inactive})",
+          "{C:inactive}(Classes jogadas:{C:attention}#3#{C:inactive})"
         },
       },
       j_paperback_soft_taco = {
         name = "Taco Macio",
         text = {
           "{X:mult,C:white}X#1#{} Multi. {C:green}#2# em #3#{} chance desta carta",
-          "ser consumida no fim da rodada.",
+          "ser consumida no fim da rodada."
         },
       },
       j_paperback_charred_marshmallow = {
@@ -209,7 +723,7 @@ return {
         text = {
           "Pontuar {C:spades}Espadas{} dá {C:mult}+#1#{} Multi",
           "{C:green}#2# em #3#{} chance desta carta ser",
-          "consumida no fim da rodada",
+          "consumida no fim da rodada"
         },
       },
       j_paperback_joker_cookie = {
@@ -218,7 +732,7 @@ return {
           "Ganha {C:money}$#1#{} no fim da rodada",
           "O pagamento aumenta em {C:money}$#2#{} ao sacar",
           "{C:green}#3# em #4#{} chance desta carta",
-          "ser consumida no fim da rodada",
+          "ser consumida no fim da rodada"
         },
       },
       j_paperback_pop_stick = {
@@ -226,7 +740,7 @@ return {
         text = {
           "Concede {X:mult,C:white}X#1#{} Multi para cada",
           "outro Curinga {C:attention}\"Palito\"{} que você possui...",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_pool_table = {
@@ -236,7 +750,7 @@ return {
           "não pontuar {C:attention}cartas de realeza{},",
           "cria a carta de {C:planet}Planeta{} da",
           "mão de pôquer jogada",
-          "{C:inactive}(Deve ter espaço)",
+          "{C:inactive}(Deve ter espaço)"
         },
       },
       j_paperback_bicycle = {
@@ -244,7 +758,7 @@ return {
         text = {
           "{C:attention}Cartas Naipe Curinga{} fornecem {C:mult}Multi",
           "igual ao seu {C:chips}Bônus de Fichas{},",
-          "então {X:mult,C:white}X#1#{} Multi",
+          "então {X:mult,C:white}X#1#{} Multi"
         },
       },
       j_paperback_stamp = {
@@ -253,7 +767,7 @@ return {
           "{C:green}#1# em #2#{} chance deste",
           "Curinga ganhar {C:chips}+#3#{} Fichas quando",
           "qualquer carta com um {C:attention}selo{} for pontuado",
-          "{C:inactive}(No momento, {C:chips}+#4#{C:inactive} Fichas)",
+          "{C:inactive}(No momento, {C:chips}+#4#{C:inactive} Fichas)"
         },
       },
       j_paperback_sticky_stick = {
@@ -261,21 +775,21 @@ return {
         text = {
           "Concede {X:mult,C:white}X#1#{} Multi para cada",
           "outro Curinga {C:attention}\"Palito\"{} que você possui...",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_shopping_center = {
         name = "Shopping Center",
         text = {
           "{C:money}Lojas{} têm uma",
-          "{C:attention}vaga adicional para cards",
+          "{C:attention}vaga adicional para cards"
         },
       },
       j_paperback_ghost_cola = {
         name = "Cola Fantasma",
         text = {
           "Venda esta carta para criar um {C:attention}#1#{}",
-          "e uma carta aleatória {C:dark_edition}Negativa{} {C:spectral}Espectral{}.",
+          "e uma carta aleatória {C:dark_edition}Negativa{} {C:spectral}Espectral{}."
         },
       },
       j_paperback_river = {
@@ -284,7 +798,7 @@ return {
           "Se a mão jogada contiver {C:attention}5 cartas pontuando",
           "{C:attention}{} ganha o bônus de {C:chips}Fichas{} da carta",
           "de menor pontuação como {C:money}Dinheiro",
-          "{C:inactive}(Máximo de {C:money}$#1#{C:inactive})",
+          "{C:inactive}(Máximo de {C:money}$#1#{C:inactive})"
         },
       },
       j_paperback_solemn_lament = {
@@ -293,7 +807,7 @@ return {
           "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
           "se a mão pontuada contém tanto {C:paperback_dark_suit}naipes escuros{}",
           "quanto {C:paperback_light_suit}naipes claros{}",
-          "{C:inactive}(No momento {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_hole_in_one = {
@@ -312,7 +826,7 @@ return {
           "Este Curinga ganha {X:mult,C:white}X#1#",
           "Multi se a mão jogada",
           "não contém um {C:attention}#2#",
-          "{C:inactive}(No momento {X:mult,C:white}X#3#{C:inactive} Multi)",
+          "{C:inactive}(No momento {X:mult,C:white}X#3#{C:inactive} Multi)"
         },
       },
       j_paperback_quick_fix = {
@@ -321,17 +835,27 @@ return {
           "{C:attention}+#1#{} tamanho de mão",
           "{C:green}#2# em #3#{} chance desta",
           "carta ser destruída",
-          "no final da rodada",
+          "no final da rodada"
         },
       },
       j_paperback_skydiver = {
         name = "Paraquedista",
         text = {
-          "{C:white,X:mult}X#1#{} Multi se todas as {C:attention}cartas pontuadas{}",
+          "{C:white,X:mult}X#1#{} Multi se todas as {C:attention}cartas pontuadas{},",
           "forem menores ou iguais à {C:attention}carta de menor valor",
           "pontuada nesta rodada",
           "{C:inactive}(Atualiza no final da mão jogada{C:inactive})",
-          "{C:inactive}(No momento,: {C:attention}#2#{C:inactive})",
+          "{C:inactive}(No momento,: {C:attention}#2#{C:inactive})"
+        },
+      },
+      j_paperback_surfer = {
+        name = "Surfista",
+        text = {
+          "Este Curinga ganha {C:chips}+#1#{} Fichas",
+          "para cada {C:attention}#3#{} na mão",
+          "no {C:attention}fim da rodada{}, e {C:chips}+#2#",
+          "Fichas para cada {C:attention}#3#{} pontuado",
+          "{C:inactive}(No momento {C:chips}+#4#{C:inactive} fichas)"
         },
       },
       j_paperback_blue_bonnets = {
@@ -340,24 +864,15 @@ return {
           "{C:clubs}Paus{} dão {X:mult,C:white}X#1#{} Multi quando pontuados.",
           "Aumenta em {X:mult,C:white}X#2#{} Multi para cada",
           "{C:clubs}Paus{} consecutivamente pontuado",
-          "{C:inactive}(Reseta após cada mão jogada)",
+          "{C:inactive}(Reseta após cada mão jogada)"
         },
       },
-      -- Needs updating
-      -- j_paperback_great_wave = {
-      --   name = "Grande Onda",
-      --   text = {
-      --     "Reativa a {C:attention}primeira carta jogada{}",
-      --     "usada na pontuação {C:attention}uma vez{}",
-      --     "para cada {C:chips}mão{} restante",
-      --   },
-      -- },
       j_paperback_caramel_apple = {
         name = "Maçã Caramelada",
         text = {
           "{C:clubs}Paus{} pontuados dão {C:mult}+#1#{} Multi",
           "{C:green}#2# em #3#{} chance desta carta ser",
-          "consumida no final da rodada",
+          "consumida no final da rodada"
         },
       },
       j_paperback_nachos = {
@@ -365,15 +880,7 @@ return {
         text = {
           "{X:chips,C:white}X#1#{} Fichas,",
           "perde {X:chips,C:white}X#2#{} Fichas",
-          "por {C:attention}carta{} descartada",
-        },
-      },
-      j_paperback_pride_flag = {
-        name = "Bandeira do Orgulho",
-        text = {
-          "Ganha {C:mult}+#1#{} Multi se a mão pontuada",
-          "contiver {C:attention}três{} naipes únicos",
-          "{C:inactive}(No momento, {C:mult}+#2#{} {C:inactive}Multi)",
+          "por {C:attention}carta{} descartada"
         },
       },
       j_paperback_sacrificial_lamb = {
@@ -381,7 +888,7 @@ return {
         text = {
           "Ganha {C:mult}+#1#{} Multi por",
           "cada carta ou Curinga {C:attention}destruído",
-          "{C:inactive}(No momento, {C:mult}+#2# {C:inactive}Multi)",
+          "{C:inactive}(No momento, {C:mult}+#2# {C:inactive}Multi)"
         },
       },
       j_paperback_autumn_leaves = {
@@ -390,7 +897,7 @@ return {
           "{C:diamonds}Ouros{} dão {X:mult,C:white}X#1#{} Multi quando pontuados.",
           "Aumenta em {X:mult,C:white}X#2#{} Multi para cada",
           "{C:diamonds}Ouros{} consecutivamente pontuado",
-          "{C:inactive}(Reseta após cada mão jogada)",
+          "{C:inactive}(Reseta após cada mão jogada)"
         },
       },
       j_paperback_wild_prize = {
@@ -398,7 +905,7 @@ return {
         text = {
           "{C:attention}Cartas Naipe Curinga{} têm {C:green}#1# em #2#{} chance",
           "de serem {C:attention}reativadas{} e {C:green}#3# em #4#{} chance",
-          "de ganhar entre {C:money}#5#{} e {C:money}$#6#{} quando pontuadas",
+          "de ganhar entre {C:money}#5#{} e {C:money}$#6#{} quando pontuadas"
         },
       },
       j_paperback_wish_you_were_here = {
@@ -408,7 +915,7 @@ return {
           "{C:attention}valor de venda{} desta carta.",
           "Ganha {C:money}$#2#{} do {C:attention}valor de venda{} no",
           "final da rodada",
-          "{C:inactive}(No momento, {C:mult}+#3# {C:inactive}Multi){}",
+          "{C:inactive}(No momento, {C:mult}+#3# {C:inactive}Multi){}"
         },
       },
       j_paperback_calling_card = {
@@ -417,7 +924,7 @@ return {
           "Este Curinga ganha {X:red,C:white}X#1#{} Multi",
           "sempre que você derrota um {C:attention}Boss Blind{}",
           "ou ativa sua {C:attention}habilidade{}",
-          "{C:inactive}(No momento, {}{X:red,C:white}X#2#{}{C:inactive} Multi){}",
+          "{C:inactive}(No momento, {}{X:red,C:white}X#2#{}{C:inactive} Multi){}"
         },
       },
       j_paperback_subterfuge = {
@@ -425,7 +932,7 @@ return {
         text = {
           "Destrua a {C:attention}primeira mão jogada{} de cada rodada",
           "Ganha {X:mult,C:white}X#1#{} Multi para cada carta abaixo de {C:attention}#2#{}",
-          "{C:inactive}(No momento, {X:mult,C:white}X#3#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#3#{C:inactive} Multi)"
         },
       },
       j_paperback_triple_moon_goddess = {
@@ -433,7 +940,7 @@ return {
         text = {
           "Se a mão jogada contém uma {C:attention}Trinca{},",
           "{C:green}#1# em #2#{} chance de criar uma carta de {C:planet}Planeta{} aleatória e",
-          "{C:green}#3# em #4#{} chance de criar uma carta de {C:purple}Tarot{} aleatória",
+          "{C:green}#3# em #4#{} chance de criar uma carta de {C:purple}Tarot{} aleatória"
         },
       },
       j_paperback_derecho = {
@@ -441,7 +948,7 @@ return {
         text = {
           "Ganha {X:mult,C:white}X#1#{} Multi se a {C:attention}mão pontuada",
           "contiver apenas naipes {C:spades}escuros",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_jestrica = {
@@ -459,7 +966,7 @@ return {
           "Este Curinga dá {X:mult,C:white}X#1#{} Multi se",
           "{C:attention}#2#{} {C:attention}melhorias{}, {C:attention}edições{},",
           "ou {C:attention}selos{} únicos estiverem no seu deck completo",
-          "{C:inactive}(No momento, {C:attention}#3#{C:inactive})",
+          "{C:inactive}(No momento, {C:attention}#3#{C:inactive})"
         },
       },
       j_paperback_solar_system = {
@@ -468,7 +975,7 @@ return {
           "Dá {X:mult,C:white}X#1#{} Multi para",
           "cada {C:attention}nível{} que os 9 {C:planet}Planetas{}",
           "básicos compartilham",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)"
         },
       },
       j_paperback_reference_card = {
@@ -476,7 +983,7 @@ return {
         text = {
           "Ganha {X:mult,C:white}X#1#{} Multi para cada vez que {C:attention}todas{} as",
           "{C:attention}mãos de poker básicas{} foram jogadas",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{} {C:inactive}Multi)"
         },
       },
       j_paperback_dreamsicle = {
@@ -484,14 +991,14 @@ return {
         text = {
           "Os {C:diamonds}Ouros{} pontuados dão {C:mult}+#1#{} Multi",
           "{C:green}#2# em #3#{} chance desta carta ser",
-          "consumida no final da rodada",
+          "consumida no final da rodada"
         },
       },
       j_paperback_jimbo_adventure = {
         name = "Aventura do Jimbo",
         text = {
           "Pular um {C:attention}Blind{} cria",
-          "uma {C:attention}Marca{} aleatória",
+          "uma {C:attention}Marca{} aleatória"
         },
       },
       j_paperback_union_card = {
@@ -501,7 +1008,7 @@ return {
           "em {C:money}$0{} até esta carta ser vendida",
           "Dá {X:mult,C:white}X{} Multi igual ao",
           "número de {C:diamonds}Ouros{} ou",
-          "{C:hearts}Copas{} pontuados na mão jogada",
+          "{C:hearts}Copas{} pontuados na mão jogada"
         },
       },
       j_paperback_cherry_blossoms = {
@@ -510,7 +1017,7 @@ return {
           "{C:hearts}Copas{} dão {X:mult,C:white}X#1#{} Multi quando pontuadas.",
           "Aumenta em {X:mult,C:white}X#2#{} Multi para cada ",
           "{C:hearts}Copas{} consecutivamente pontuada",
-          "{C:inactive}(Reseta após cada mão jogada)",
+          "{C:inactive}(Reseta após cada mão jogada)"
         },
       },
       j_paperback_paranoia = {
@@ -527,7 +1034,7 @@ return {
         text = {
           "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
           "quando uma carta ou Curinga é {C:attention}destruído{}",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_summoning_circle = {
@@ -536,7 +1043,7 @@ return {
           "Se a mão jogada contiver uma",
           "{C:attention}Quina{}, crie uma cópia",
           "de um {C:attention}consumível aleatório",
-          "{C:inactive}(Deve ter espaço)",
+          "{C:inactive}(Deve ter espaço)"
         },
       },
       j_paperback_pointy_stick = {
@@ -544,7 +1051,7 @@ return {
         text = {
           "Dá {X:mult,C:white}X#1#{} Multi para cada",
           "outro Curinga {C:attention}\"Palito\"{} que você possui...",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_prince_of_darkness = {
@@ -561,7 +1068,7 @@ return {
         text = {
           "Dá {X:mult,C:white}X#1#{} Multi para cada",
           "outro Curinga {C:attention}\"Palito\"{} que você possui...",
-          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)",
+          "{C:inactive}(No momento, {X:mult,C:white}X#2#{C:inactive} Multi)"
         },
       },
       j_paperback_let_it_happen = {
@@ -569,7 +1076,7 @@ return {
         text = {
           "Se a mão não foi jogada nesta Aposta,",
           "equilibre {C:mult}Multi{} e {C:chips}Fichas{}",
-          "{C:inactive}(Mãos jogadas:{C:attention}#1#{C:inactive})",
+          "{C:inactive}(Mãos jogadas:{C:attention}#1#{C:inactive})"
         },
       },
       j_paperback_evergreens = {
@@ -578,166 +1085,8 @@ return {
           "{C:spades}Espadas{} dão {X:mult,C:white}X#1#{} Multi quando pontuadas.",
           "Aumenta em {X:mult,C:white}X#2#{} Multi para cada ",
           "{C:spades}Espadas{} consecutivamente pontuada",
-          "{C:inactive}(Reseta após cada mão jogada)",
+          "{C:inactive}(Reseta após cada mão jogada)"
         },
-      },
-      j_paperback_cakepop = {
-        name = "Pirulito de Bolo",
-        text = {
-          "{C:hearts}Copas{} pontuadas dão {C:mult}+#1#{} Multi",
-          "{C:green}#2# em #3#{} chance desta carta ser",
-          "consumida no final da rodada",
-        },
-      },
-      j_paperback_black_rainbows = {
-        name = "Arco-íris Negros",
-        text = {
-          "{C:spades}Espadas{} e {C:clubs}Paus{} pontuados",
-          "têm uma {C:green}#1# em #2#{} chance de serem",
-          "transformados em {C:dark_edition}Policromo",
-        }
-      },
-      j_paperback_meeple = {
-        name = "Meeple",
-        text = {
-          "Se a mão jogada contém",
-          "uma carta de {C:attention}realeza{} pontuada,",
-          "{C:green}#1# em #2#{} chance de ganhar",
-          "{C:mult}+#3#{} descarte nesta rodada",
-        }
-      },
-      j_paperback_apple = {
-        name = "Maçã",
-        text = {
-          "Ao comprar um {C:attention}Consumível{}, tem uma",
-          "{C:green}#1# em #2#{} chance de criar uma",
-          "cópia {C:dark_edition}Negativa{} e {S:1.1,C:red,E:2}se autodestrói"
-        }
-      },
-      j_paperback_bismuth = {
-        name = "Bismuto",
-        text = {
-          "{V:1}#1#{} e {V:2}#2#{} jogadas têm",
-          "{C:green}#3# em #4#{} chance de receber {C:dark_edition}Laminado{},",
-          "{C:dark_edition}Holográfico{} ou {C:dark_edition}Policromático"
-        }
-      },
-      j_paperback_full_moon = {
-        name = "Lua Cheia",
-        text = {
-          "Cartas de {C:planet}Planeta{} têm",
-          "{C:green}#1# em #2#{} chance de",
-          "subir de nível {C:attention}novamente"
-        }
-      },
-      j_paperback_resurrections = {
-        name = "Ressurreições",
-        text = {
-          "{C:green}#1# em #2#{} chance de {C:attention}retornar{}",
-          "{C:attention}Curingas{} vendidos e criar",
-          "uma cópia {C:attention}extra{} {C:dark_edition}Negativa{}",
-          "com {C:money}-$#3#{} de valor de venda",
-          "{s:0.8}A chance aumenta em {s:0.8,C:green}#4#{s:0.8} ao falhar",
-          "{S:1.1,C:red,E:2}se autodestrói"
-        }
-      },
-      j_paperback_angel_investor = {
-        name = "Investidor Anjo",
-        text = {
-          "Pular um {C:attention}Blind{} ou derrotar",
-          "um {C:attention}Blind de Chefe{} concede",
-          "uma {C:money}Marca de Investimento Angelical"
-        }
-      },
-      j_paperback_find_jimbo = {
-        name = "Encontre o Jimbo",
-        text = {
-          "Cada {C:attention}#1#{} de {V:1}#2#{} jogada",
-          "rende {C:money}$#3#{} quando pontuada",
-          "{s:0.8}Carta muda a cada rodada"
-        }
-      },
-      j_paperback_clothespin = {
-        name = "Pregador",
-        text = {
-          "Este Curinga ganha {C:chips}+#1#{} Fichas no",
-          "{C:attention}fim da rodada{} para cada",
-          "{C:attention}Clipe{} {C:attention}na mão",
-          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
-        }
-      },
-      j_paperback_surfer = {
-        name = "Surfista",
-        text = {
-          "Este Curinga ganha {C:chips}+#1#{} Fichas",
-          "para cada {C:attention}#3#{} na mão",
-          "no {C:attention}fim da rodada{}, e {C:chips}+#2#",
-          "Fichas para cada {C:attention}#3#{} pontuado",
-          "{C:inactive}(No momento {C:chips}+#4#{C:inactive} fichas)"
-        }
-      },
-      j_paperback_pyrite = {
-        name = "Pirita",
-        text = {
-          "{V:1}#1#{} jogadas têm {C:green}#2# em #3#{}",
-          "chance de criar uma carta de",
-          "{C:tarot}Tarô{} aleatória quando pontuadas",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_sake_cup = {
-        name = "Copo de Sakê",
-        text = {
-          "Após uma mão ser jogada, {C:attention}#1#s",
-          "{C:attention}na mão{} têm {C:green}#2# em #3#{}",
-          "chance de criar a carta de {C:planet}Planeta",
-          "da {C:attention}mão de pôquer{} jogada",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_golden_egg = {
-        name = "Ovo Dourado",
-        text = {
-          "Quando uma {C:attention}mão secreta{} é jogada,",
-          "ganha o valor de venda",
-          "do {C:attention}Curinga{} à direita"
-        }
-      },
-      j_paperback_burning_pact = {
-        name = "Pacto Ardente",
-        text = {
-          "Se um {C:attention}descarte{} tem apenas {C:attention}#1#{} carta",
-          "compre {C:attention}#2#{} cartas adicionais"
-        }
-      },
-      j_paperback_blade_dance = {
-        name = "Dança das Lâminas",
-        text = {
-          "Quando {C:attention}Blind{} é selecionado,",
-          "cria {C:attention}#1#{} {C:attention}#2#s{} {C:paperback_temporary}",
-          "aleatórias na sua mão"
-        }
-      },
-      j_paperback_claw = {
-        name = "Garra",
-        text = {
-          "Quando um {C:attention}#1#{} é pontuado, {C:attention}#1#s{} pontuados",
-          "dão {C:mult}+#2#{} Multi adicional",
-          "Reseta no {C:attention}fim da rodada",
-          "{C:inactive}(No momento {C:mult}+#3#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_jestrogen = {
-        name = "Bobostrógeno",
-        text = {
-          "{C:attention}#1#s{} e {C:attention}#2#s{} pontuados se tornam {C:attention}#3#s{}"
-        }
-      },
-      j_paperback_jestosterone = {
-        name = "Bobosterona",
-        text = {
-          "{C:attention}#1#s{} pontuadas se tornam {C:attention}#2#s{}"
-        }
       },
       j_paperback_der_fluschutze = {
         name = "Der Fluschütze",
@@ -746,7 +1095,7 @@ return {
           "foi uma única carta de {C:attention}realeza{}, destrua-a",
           "e dê a este curinga {X:mult,C:white}X#1#{} Multi",
           "{C:inactive}(No momento {X:mult,C:white}X#2#{} {C:inactive}Multi)"
-        }
+        },
       },
       j_paperback_the_wonder_of_you = {
         name = "A Maravilha Que É Você",
@@ -755,7 +1104,7 @@ return {
           "falha em um teste de {C:green}probabilidade{},",
           "a carta mais à {C:attention}direita{} na mão",
           "é {C:attention}destruída{}"
-        }
+        },
       },
       j_paperback_inner_peace = {
         name = "Paz Interior",
@@ -763,145 +1112,58 @@ return {
           "{C:attention}+3{} tamanho de mão antes",
           "da {C:attention}primeira{} mão",
           "da rodada ser jogada"
-        }
+        },
       },
-      j_paperback_punch_card = {
-        name = "Cartão Perfurado",
+      j_paperback_cakepop = {
+        name = "Pirulito de Bolo",
         text = {
-          "Após {C:attention}#1#{} rodadas,",
-          "venda esta carta para",
-          "diminuir a Aposta em {C:attention}#3#{}",
-          "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
-        }
+          "{C:hearts}Copas{} pontuadas dão {C:mult}+#1#{} Multi",
+          "{C:green}#2# em #3#{} chance desta carta ser",
+          "consumida no final da rodada"
+        },
       },
-      j_paperback_shooting_star = {
-        name = "Estrela Cadente",
+      j_paperback_black_rainbows = {
+        name = "Arco-íris Negros",
         text = {
-          "{V:1}#1#{} pontuadas têm",
-          "{C:green}#2# em #3#{} chance de",
-          "criar a carta de {C:planet}Planeta{}",
-          "para a {C:attention}mão de pôquer{} jogada"
-        }
+          "{C:spades}Espadas{} e {C:clubs}Paus{} pontuados",
+          "têm uma {C:green}#1# em #2#{} chance de serem",
+          "transformados em {C:dark_edition}Policromo"
+        },
       },
-      j_paperback_blue_star = {
-        name = "Estrela Azul",
-        text = {
-          "Ganha {X:chips,C:white}X#1#{} Fichas quando uma {V:1}#2#{} pontua",
-          "Perde {X:chips,C:white}X#3#{} Fichas quando um {V:2}#4#{} pontua",
-          "{C:inactive}(No momento {X:chips,C:white}X#5#{C:inactive} Fichas)"
-        }
-      },
-      j_paperback_j_and_js = {
-        name = "J&J's",
+      j_paperback_meeple = {
+        name = "Meeple",
         text = {
           "Se a mão jogada contém",
-          "{C:attention}Espectro{}, cria {C:attention}#1#{} {C:attention}Marcas{} aleatórias",
-          "Consumido em {C:attention}#2#{} rodadas"
-        }
+          "uma carta de {C:attention}realeza{} pontuada,",
+          "{C:green}#1# em #2#{} chance de ganhar",
+          "{C:mult}+#3#{} descarte nesta rodada"
+        },
       },
-      j_paperback_master_spark = {
-        name = "Centelha Mestra",
+      j_paperback_apple = {
+        name = "Maçã",
         text = {
-          "Se a mão jogada contém um {C:attention}Espectro{},",
-          "destrói todas as cartas {C:attention}na mão{} e",
-          "todas as cartas jogadas ganham {C:dark_edition}Policromo",
-          "{S:1.1,C:red,E:2}se autodestrói"
-        }
+          "Ao comprar um {C:attention}Consumível{}, tem uma",
+          "{C:green}#1# em #2#{} chance de criar uma",
+          "cópia {C:dark_edition}Negativa{} e {S:1.1,C:red,E:2}se autodestrói"
+        },
       },
-      j_paperback_prism = {
-        name = "Prisma",
+      j_paperback_pyrite = {
+        name = "Pirita",
         text = {
-          "Se a mão jogada contém um {C:attention}#1#{},",
-          "converte todas as {C:attention}cartas pontuadas{} em",
-          "{C:attention}naipes diferentes{} aleatórios"
-        }
-      },
-      j_paperback_solar_eclipse = {
-        name = "Eclipse Solar",
-        text = {
-          "{C:paperback_light_suit}Naipes claros{} pontuados",
-          "se tornam {V:1}#1#"
-        }
-      },
-      j_paperback_gambit = {
-        name = "Gambito",
-        text = {
-          "Se a mão jogada contém uma {V:1}#1#{} pontuando,",
-          "a primeira {V:1}#1#{} pontuada {C:attention}destrói{}",
-          "a primeira não-{V:1}#1#{} na mão",
-          "e ganha seu {C:chips}valor de Fichas{}"
-        }
-      },
-      j_paperback_king_me = {
-        name = "Me Coroe",
-        text = {
-          "{V:1}#1#{} pontuadas aumentam",
-          "sua classe em {C:attention}#2#{}"
-        }
-      },
-      j_paperback_plague_doctor = {
-        name = "Doutor da Peste",
-        text = {
-          "Se a mão jogada é uma Carta Alta,",
-          "converte a carta pontuada em",
-          "um {C:attention}Apóstolo{}. Cada {C:attention}Apóstolo{}",
-          "na mão dá {X:mult,C:white}X#1#{} Multi"
-        }
-      },
-      j_paperback_white_night = {
-        name = "Noite Branca",
-        text = {
-          "Destrói todas as cartas pontuadas não-{C:attention}Apóstolo{}",
-          "no final da mão. {C:attention}Apóstolos{} pontuados",
-          "dão {X:mult,C:white}X#1#{} Multi. Jogar uma mão sem",
-          "{C:attention}Apóstolos destrói{} um Curinga aleatório.",
-          "{C:attention}Apóstolos{} descartados são {C:attention}destruídos{}"
-        }
-      },
-      j_paperback_as_above_so_below = {
-        name = "Como acima, Assim Abaixo",
-        text = {
-          "Jogar uma mão de pôquer de cinco cartas com um",
-          "{C:attention}Apóstolo{} cria uma carta de {C:purple}Tarô{},",
-          "se a mão também contém uma {C:attention}Sequência{}",
-          "cria uma carta {C:spectral}Espectral{} ao invés",
+          "{V:1}#1#{} jogadas têm {C:green}#2# em #3#{}",
+          "chance de criar uma carta de",
+          "{C:tarot}Tarô{} aleatória quando pontuadas",
           "{C:inactive}(Deve ter espaço)"
-        }
+        },
       },
-      j_paperback_one_sin_and_hundreds_of_good_deeds = {
-        name = "Um Pecado e Centenas de Boas Ações",
+      j_paperback_clothespin = {
+        name = "Pregador",
         text = {
-          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
-          "dão {C:mult}+#1#{} Multi quando pontuados",
-          "{C:inactive}''Se alimenta do mal''"
-        }
-      },
-      j_paperback_one_sin_and_hundreds_of_good_deeds_fed = {
-        name = "{C:red}Um Pecado e Centenas de Boas Ações{}",
-        text = {
-          "{C:attention}3s{} e {C:attention}Cartas Sem Classe{} pontuados",
-          "dão {C:mult}+Multi{} para cada",
-          "carta restante no deck quando pontuados",
-          "{C:inactive}(No momento {C:mult}+#2#{C:inactive})"
-        }
-      },
-      j_paperback_double_dutchman = {
-        name = "Holandês Duplo",
-        text = {
-          "Cartas {C:attention}na mão{} têm {C:green}#1# em #2#",
-          "chance de ganhar {C:attention}melhorias{},",
-          "{C:attention}selos{} ou {C:attention}edições{} aleatórias",
-          "pelas próximas {C:attention}#3#{} mãos"
-        }
-      },
-      j_paperback_langely = {
-        name = "L'angely",
-        text = {
-          "Ganha metade do {C:money}valor de venda{} de todos",
-          "os Curingas ao derrotar um {C:attention}Big Blind.",
-          "Ao derrotar um {C:attention}Boss Blind{}, ganha",
-          "o {C:money}valor de venda{} completo de todos os Curingas"
-        }
+          "Este Curinga ganha {C:chips}+#1#{} Fichas no",
+          "{C:attention}fim da rodada{} para cada",
+          "{C:attention}Clipe{} {C:attention}na mão",
+          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+        },
       },
       j_paperback_oracle = {
         name = "Oráculo",
@@ -910,239 +1172,432 @@ return {
           "Fichas para cada carta de",
           "{C:paperback_minor_arcana}Arcanos Menores{} única usada",
           "{C:inactive}(No momento {X:chips,C:white}X#2#{C:inactive} Fichas)"
-        }
+        },
       },
-      j_paperback_mexican_train = {
-        name = "Trem Mexicano",
+      j_paperback_punch_card = {
+        name = "Cartão Perfurado",
         text = {
-          "{C:attention}#1#s{} pontuados dão {C:money}$#2#",
-          "para cada {C:attention}#1#{} pontuando",
-          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
-        }
+          "Após {C:attention}#1#{} rodadas,",
+          "venda esta carta para",
+          "diminuir a Aposta em {C:attention}#3#{}",
+          "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
+        },
       },
-      j_paperback_spotty_joker = {
-        name = "Curinga Com Manchinhas",
+      j_paperback_pride_flag = {
+        name = "Bandeira do Orgulho",
         text = {
-          "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
-          "se a {C:attention}mão pontuada{} contém uma {C:attention}#2#{},",
-          "senão perde {X:mult,C:white}X#3#{} Multi",
-          "{C:inactive}(No momento {X:mult,C:white}X#4#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_clippy = {
-        name = "Clippy",
-        text = {
-          "Adiciona um {C:attention}Clipe{} aleatório a uma",
-          "carta aleatória no seu deck",
-          "quando o {C:attention}Blind{} é selecionado"
-        }
-      },
-      j_paperback_pinot_noir = {
-        name = "Pinot Noir",
-        text = {
-          "As próximas {C:attention}#1#{} vezes que uma {C:attention}#2#",
-          "ativar, dá {C:mult}#3#{} Multi adicional"
-        }
-      },
-      j_paperback_boundary_of_death = {
-        name = "Limiar da Morte",
-        text = {
-          "{C:attention}#1#s{} têm",
-          "{C:green}#2# em #3#{} chance de",
-          "adicionalmente dar {C:red}+#4#{} Multi"
-        }
-      },
-      j_paperback_blue_marble = {
-        name = "Berlinde Azul",
-        text = {
-          "{C:green}#1# em #2#{} chance de criar",
-          "uma carta {C:planet}Planeta{} aleatória se",
-          "{C:attention}mão pontuada{} contém um {V:3}#3#{}",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_joker_cd_i = {
-        name = "Curinga CD-i",
-        text = {
-          "{C:green}#1# em #2#{} chance de criar",
-          "uma carta {C:planet}Planeta{} aleatória se",
-          "mão jogada tem exatamente {C:attention}#3#{} cartas",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_touch_tone_joker = {
-        name = "Curinga Discado",
-        text = {
-          "Ao abrir um pacote {C:tarot}Arcano{},",
-          "{C:planet}Celestial{} ou {C:spectral}Espectral{},",
-          "{C:attention}compre{} a {C:attention}primeira carta{} dele",
-          "para seus consumíveis",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      j_paperback_the_normal_joker = {
-        name = "O Curinga Normal",
-        text = {
-          "Reaciona todos os",
-          "{C:blue}Curingas {C:attention}Comuns"
-        }
-      },
-      j_paperback_manilla_folder = {
-        name = "Pasta De Arquivos",
-        text = {
-          "Ganhe {C:money}$#1#{} no fim da rodada",
-          "para cada {C:attention}Clipe{} único",
-          "em seu baralho completo",
-          "{C:inactive}(Atualmente {C:money}$#2#{C:inactive})"
-        }
-      },
-      j_paperback_ultra_rare = {
-        name = "Ultra Raro",
-        text = {
-          "Quando {C:attention}Blind{} é selecionado, crie",
-          "{C:blue}Curingas {C:attention}Comuns{}, {C:green}Incomuns",
-          "e {C:red}Raros{} {C:paperback_temporary}Temporários{} {C:dark_edition}Negativos",
-          "aleatórios com valor de venda {C:money}$#1#{}"
-        }
-      },
-      j_paperback_joke_master = {
-        name = "Mestre das Piadas",
-        text = {
-          "Este Curinga ganha {C:mult}+#1#{} Multi se",
-          "mão jogada é {C:attention}#2#{}",
-          "{s:0.8}A mão muda a cada rodada",
-          "{C:inactive}(Atualmente {C:mult}+#3#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_high_speed_rail = {
-        name = "Trem de Alta Velocidade",
-        text = {
-          "Este Curinga {C:blue}ganha{} Multi igual ao",
-          "{C:money}custo{} de {C:blue}Curingas comprados{}",
-          "Este Curinga {C:red}perde{} Multi igual ao",
-          "{C:money}valor de venda{} de {C:red}Curingas vendidos{}",
-          "{C:inactive}(Atualmente {C:mult}+#1#{C:inactive} Multi)"
-        }
-      },
-      j_paperback_black_star = {
-        name = "Estrela Negra",
-        text = {
-          "{C:paperback_dark_suit}Naipes escuros{} pontuados",
-          "se tornam {V:1}#1#"
+          "Ganha {C:mult}+#1#{} Multi se a mão pontuada",
+          "contiver {C:attention}três{} naipes únicos",
+          "{C:inactive}(No momento, {C:mult}+#2#{} {C:inactive}Multi)"
         }
       },
     },
-    Other = {
-      -- Clipes de Papel
-      paperback_blue_clip = {
-        name = "Clipe Azul",
+    Spectral = {
+      c_paperback_apostle_of_cups = {
+        name = "Apóstolo de Copas",
         text = {
-          "{X:chips,C:white}X#1#{} Fichas quando",
-          "{C:attention}pontuado{} para cada",
-          "{C:attention}Clipe{} que {C:attention}estiver na mão",
-          "{C:inactive}(No momento {X:chips,C:white}X#2#{C:inactive})"
-        }
+          "{C:attention}Carta{} selecionada",
+          "torna-se {C:dark_edition}Negativa",
+          "{C:attention}#1#{} espaço de Curinga"
+        },
       },
-      paperback_red_clip = {
-        name = "Clipe Vermelho",
+      c_paperback_apostle_of_wands = {
+        name = "Apóstolo de Paus",
         text = {
-          "{C:mult}+#1#{} Multi quando",
-          "{C:attention}pontuado{} para cada",
-          "{C:attention}Clipe{} que {C:attention}estiver na mão",
-          "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
-        }
+          "Crie um Curinga não-{C:legendary}Lendário{}",
+          "da {C:attention}sua escolha{}",
+          "{C:inactive}(Sem duplicatas)"
+        },
       },
-      paperback_orange_clip = {
-        name = "Clipe Laranja",
+      c_paperback_apostle_of_swords = {
+        name = "Apóstolo de Espadas",
         text = {
-          "Ganha {C:money}$#1#{} quando",
-          "{C:attention}pontuado{} para cada {C:attention}#2#",
-          "{C:attention}Clipes{} que {C:attention}estiverem na mão",
-          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
-        }
+          "Destrua o {C:attention}Curinga{} selecionado",
+          "{C:attention}#1#{} Apostas"
+        },
       },
-      paperback_black_clip = {
-        name = "Clipe Preto",
+    },
+    paperback_minor_arcana = {
+      c_paperback_ace_of_cups = {
+        name = "Ás de Copas",
         text = {
-          "Reativa quando {C:attention}pontuado{} se",
-          "um possui um {C:attention}Clipe{} {C:attention}na mão"
-        }
+          "Adiciona um {C:chips}Clipe Azul{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
       },
-      paperback_yellow_clip = {
-        name = "Clipe Amarelo",
+      c_paperback_two_of_cups = {
+        name = "Dois de Copas",
         text = {
-          "Se {C:attention}pontuado{} enquanto possui um",
-          "{C:attention}Clipe {C:attention}na mão{} tem",
-          "{C:green}#1# de #2#{} chance para {C:red}+#3#{} Multi,",
-          "{C:green}#4# de #5#{} chance para {X:mult,C:white}X#6#{} Multi",
-          "e {C:green}#7# de #8#{} chance para {C:money}$#9#{}"
-        }
+          "Dá uma {C:attention}Marca{} {C:dark_edition}Policromática{},",
+          "{C:dark_edition}Holográfica{}, {C:dark_edition}Laminada{},",
+          "{C:mult}Rara{} ou {C:green}Incomum"
+        },
       },
-      paperback_gold_clip = {
-        name = "Clipe Dourado",
+      c_paperback_three_of_cups = {
+        name = "Três de Copas",
         text = {
-          "Ganha {C:money}$#1#{} para cada {C:attention}Clipe{} pontuado",
-          "se esta carta {C:attention}estiver na mão",
-          "no final da rodada",
+          "Adiciona um {C:paperback_black}Clipe Preto{} a",
+          "{C:attention}#1#{} carta selecionada"
+        },
+      },
+      c_paperback_four_of_cups = {
+        name = "Quatro de Copas",
+        text = {
+          "Remove {C:attention}melhorias{}, {C:attention}selos{} e {C:attention}edições{}",
+          "de até {C:attention}#1#{} cartas selecionadas.",
+          "Ganha {C:money}$#2#{} para cada um removido"
+        },
+      },
+      c_paperback_five_of_cups = {
+        name = "Cinco de Copas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
+      },
+      c_paperback_six_of_cups = {
+        name = "Seis de Copas",
+        text = {
+          "Ganha {C:attention}metade{} do {C:chips}valor",
+          "{C:chips}de Fichas{} de {C:attention}#1#{} carta",
+          "selecionada como {C:money}dinheiro",
+          "{C:inactive}(Máximo de {C:money}$#2#{C:inactive})"
+        },
+      },
+      c_paperback_seven_of_cups = {
+        name = "Sete de Copas",
+        text = {
+          "Dá uma {C:attention}melhoria{} aleatória",
+          "a até {C:attention}#1#{} cartas selecionadas"
+        },
+      },
+      c_paperback_eight_of_cups = {
+        name = "Oito de Copas",
+        text = {
+          "Converte até {C:attention}#1#{} cartas",
+          "selecionadas para um naipe que",
+          "não está {C:attention}atualmente selecionado"
+        },
+      },
+      c_paperback_nine_of_cups = {
+        name = "Nove de Copas",
+        text = {
+          "Destrói {C:attention}Curinga{} selecionado e",
+          "cria um novo {C:attention}Curinga{} de",
+          "{C:attention}raridade{} igual ou maior se possível",
+          "{C:inactive}(Não pode criar um {C:legendary}Lendário{C:inactive})"
+        },
+      },
+      c_paperback_ten_of_cups = {
+        name = "Dez de Copas",
+        text = {
+          "{C:green}#1# em #2#{} chance de adicionar",
+          "edição {C:dark_edition}Policromática{} a",
+          "{C:attention}1{} carta selecionada"
+        },
+      },
+      c_paperback_page_of_cups = {
+        name = "Valete de Copas",
+        text = {
+          "Adiciona um {C:inactive}Clipe Branco{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
+      },
+      c_paperback_knight_of_cups = {
+        name = "Cavaleiro de Copas",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, a carta da {C:attention}esquerda",
+          "copia {C:attention}tudo{} da carta da {C:attention}direita",
+          "exceto {C:attention}classe{} e {C:attention}naipe",
+          "Destrói a carta da {C:attention}direita",
+          "{C:inactive}(Arraste para reorganizar)"
+        },
+      },
+      c_paperback_queen_of_cups = {
+        name = "Rainha de Copas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
+      },
+      c_paperback_king_of_cups = {
+        name = "Rei de Copas",
+        text = {
+          "Ganha {C:money}$#1#{} para cada naipe com todas",
+          "as 13 {C:attention}classes básicas{} que você tem",
           "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
-        }
+        },
       },
-      paperback_white_clip = {
-        name = "Clipe Branco",
+      c_paperback_ace_of_wands = {
+        name = "Ás de Paus",
         text = {
-          "Se {C:attention}mantido na mão{} no {C:attention}final da",
-          "{C:attention}rodada{}, ganha {C:chips}+#1#{} Fichas para",
-          "cada {C:attention}Clipe{} pontuado nesta rodada",
-          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
-        }
+          "Adiciona um {C:mult}Clipe Vermelho{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
       },
-      paperback_pink_clip = {
-        name = "Clipe Rosa",
+      c_paperback_two_of_wands = {
+        name = "Dois de Paus",
         text = {
-          "{X:mult,C:white}X#1#{} Multi quando {C:attention}estiver na",
-          "{C:attention}mão{}, aumenta em {X:mult,C:white}X#2#",
-          "para cada {C:attention}Clipe{} pontuado",
-          "{C:inactive}(Reseta após mão jogada)"
-        }
+          "Cria a carta de {C:planet}Planeta{}",
+          "da sua mão de pôquer {C:attention}mais{} e",
+          "{C:attention}menos jogada",
+          "{C:inactive}(Deve ter espaço)"
+        },
       },
-      paperback_energized = {
-        name = "Energizado",
+      c_paperback_three_of_wands = {
+        name = "Três de Paus",
         text = {
-          "Não pode ser copiado por",
-          "{C:attention}Energia Básica do Curinga{}"
-        }
+          "Cria uma cópia de {C:attention}#1#",
+          "carta selecionada",
+          "na sua mão"
+        },
       },
-      paperback_temporary = {
-        name = "Temporário",
+      c_paperback_four_of_wands = {
+        name = "Quatro de Paus",
         text = {
-          "Será {C:mult}destruído",
-          "quando a rodada terminar"
-        }
+          "Adiciona um {C:paperback_pink}Clipe Rosa{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
       },
-      p_paperback_minor_arcana_normal = {
-        name = "Pacote de Arcanos Menores",
+      c_paperback_five_of_wands = {
+        name = "Cinco de Paus",
         text = {
-          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
-          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
-          "para serem usadas imediatamente"
-        }
+          "Destrói todas as cartas",
+          "{C:attention}na mão{}, e",
+          "define o dinheiro para {C:money}$0"
+        },
       },
-      p_paperback_minor_arcana_jumbo = {
-        name = "Pacote Jumbo de Arcanos Menores",
+      c_paperback_six_of_wands = {
+        name = "Seis de Paus",
         text = {
-          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
-          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
-          "para serem usadas imediatamente"
-        }
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
       },
-      p_paperback_minor_arcana_mega = {
-        name = "Pacote Mega de Arcanos Menores",
+      c_paperback_seven_of_wands = {
+        name = "Sete de Paus",
         text = {
-          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
-          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
-          "para serem usadas imediatamente"
-        }
-      }
+          "Dá uma {C:attention}Marca de Quebra"
+        },
+      },
+      c_paperback_eight_of_wands = {
+        name = "Oito de Paus",
+        text = {
+          "Cria uma {C:dark_edition}Marca{} {C:attention}Negativa{} e",
+          "perde {C:money}$#1#{}, mais {C:money}$#2#{} para cada",
+          "Curinga acima de {C:attention}#3#{} possuído",
+          "{C:inactive}(No momento {C:money}$#4#{C:inactive})"
+        },
+      },
+      c_paperback_nine_of_wands = {
+        name = "Nove de Paus",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
+      },
+      c_paperback_ten_of_wands = {
+        name = "Dez de Paus",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, destrói as",
+          "{C:attention}duas da direita{} e dá seu",
+          "{C:chips}valor de Fichas{} à {C:attention}da esquerda",
+          "{C:inactive}(Arraste para reorganizar)"
+        },
+      },
+      c_paperback_page_of_wands = {
+        name = "Valete de Paus",
+        text = {
+          "Adiciona um {C:attention}Clipe Laranja{} a até",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
+      },
+      c_paperback_knight_of_wands = {
+        name = "Cavaleiro de Paus",
+        text = {
+          "Dá uma {C:attention}Marca{} de {C:mult}Alto Risco"
+        },
+      },
+      c_paperback_queen_of_wands = {
+        name = "Rainha de Paus",
+        text = {
+          "{C:green}#1# em #2#{} chance de",
+          "adicionar edição {C:dark_edition}Dicromática{}",
+          "a um {C:attention}Curinga{} aleatório"
+        },
+      },
+      c_paperback_king_of_wands = {
+        name = "Rei de Paus",
+        text = {
+          "Cria um {C:attention}Curinga{}",
+          "não-{C:chips}Comum{} aleatório",
+          "{C:inactive}(Exceto {C:legendary}Lendário{C:inactive})"
+        },
+      },
+      c_paperback_ace_of_swords = {
+        name = "Ás de Espadas",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "em {V:1}#2#{}"
+        },
+      },
+      c_paperback_two_of_swords = {
+        name = "Dois de Espadas",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "para o último naipe {C:attention}pontuado",
+          "{C:inactive}(No momento: {V:1}#2#{C:inactive})"
+        },
+      },
+      c_paperback_three_of_swords = {
+        name = "Três de Espadas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
+      },
+      c_paperback_four_of_swords = {
+        name = "Quatro de Espadas",
+        text = {
+          "Converte até {C:attention}#1#",
+          "cartas selecionadas para",
+          "cartas {C:attention}de Realeza{} aleatórias"
+        },
+      },
+      c_paperback_five_of_swords = {
+        name = "Cinco de Espadas",
+        text = {
+          "Selecione {C:attention}#1#{} cartas, destrói as",
+          "duas da direita e dá à",
+          "da esquerda uma {C:attention}edição{},",
+          "{C:attention}selo{} ou {C:attention}melhoria{} aleatória",
+          "{C:inactive}(Arraste para reorganizar)"
+        },
+      },
+      c_paperback_six_of_swords = {
+        name = "Seis de Espadas",
+        text = {
+          "Adiciona um {C:attention}Clipe Amarelo{} a",
+          "{C:attention}#1#{} cartas selecionadas"
+        },
+      },
+      c_paperback_seven_of_swords = {
+        name = "Sete de Espadas",
+        text = {
+          "Adiciona um {C:attention}Clipe Dourado{} a",
+          "{C:attention}#1#{} carta selecionada"
+        },
+      },
+      c_paperback_eight_of_swords = {
+        name = "Oito de Espadas",
+        text = {
+          "Adiciona {C:attention}Clipes{} aleatórios a",
+          "até {C:attention}#1#{} cartas selecionadas"
+        },
+      },
+      c_paperback_nine_of_swords = {
+        name = "Nove de Espadas",
+        text = {
+          "Destrói Curinga selecionado",
+          "Ele {C:red}não pode{} aparecer novamente",
+          "pelo {C:attention}resto da partida{}"
+        },
+      },
+      c_paperback_ten_of_swords = {
+        name = "Dez de Espadas",
+        text = {
+          "{C:attention}Destrói{} cartas no deck",
+          "com a mesma {C:attention}classe",
+          "da carta selecionada"
+        },
+      },
+      c_paperback_page_of_swords = {
+        name = "Valete de Espadas",
+        text = {
+          "Melhora {C:attention}#1#{}",
+          "cartas selecionadas para",
+          "{C:attention}#2#s{}"
+        },
+      },
+      c_paperback_knight_of_swords = {
+        name = "Cavaleiro de Espadas",
+        text = {
+          "Cria uma carta {C:paperback_minor_arcana}Arcana Menor{} aleatória",
+          "e uma carta {C:tarot}Tarot{} aleatória",
+          "{C:inactive}(Deve ter espaço)"
+        },
+      },
+      c_paperback_king_of_swords = {
+        name = "Rei de Espadas",
+        text = {
+          "Remove {C:money}Aluguel{} e {C:paperback_perishable}Perecível",
+          "de um Curinga selecionado"
+        },
+      },
+      c_paperback_queen_of_swords = {
+        name = "Rainha de Espadas",
+        text = {
+          "Converte {C:attention}#1#{} cartas aleatórias no",
+          "deck completo com {C:attention}naipes diferentes",
+          "para o {C:attention}naipe{} da carta selecionada"
+        },
+      },
+      c_paperback_ace_of_pentacles = {
+        name = "Ás de Ouros",
+        text = {
+          "Converte até",
+          "{C:attention}#1#{} cartas selecionadas",
+          "para {V:1}#2#{}"
+        },
+      },
+    },
+    Tag = {
+      tag_paperback_angel_investment = {
+        name = "Marca de Investimento Angelical",
+        text = {
+          "Ganhe {C:money}$#1#{} por {C:money}$#2#{} que você tem",
+          "{C:inactive}(Máximo de {C:money}$#3#{C:inactive})",
+          "{C:inactive}(Dará {C:money}$#4#{C:inactive})"
+        },
+      },
+      tag_paperback_divination = {
+        name = "Marca de Adivinhação",
+        text = {
+          "Dá um",
+          "{C:paperback_minor_arcana}Pacote Mega de Arcanos Menores{} grátis"
+        },
+      },
+      tag_paperback_dichrome = {
+        name = "Marca Dicromática",
+        text = {
+          "O próximo Curinga de edição básica",
+          "da loja é grátis e",
+          "torna-se {C:dark_edition}Dicromático"
+        },
+      },
+      tag_paperback_high_risk = {
+        name = "Marca de Alto Risco",
+        text = {
+          "Ao selecionar {C:attention}Blind",
+          "{C:attention}de Chefe{}, {C:attention}dobre{} seu",
+          "requisito de pontuação",
+          "e ganhe {C:money}$#1#"
+        },
+      },
+      tag_paperback_breaking = {
+        name = "Marca de Quebra",
+        text = {
+          "Desativa o",
+          "{C:attention}Blind de Chefe"
+        },
+      },
     },
     Enhanced = {
       m_paperback_ceramic = {
@@ -1153,7 +1608,7 @@ return {
           "{C:red}Quebra{} a carta se",
           "{C:mult}Multi{} acabou {C:attention}maior{} que {C:chips}Fichas",
           "enquanto jogada ou mantida na mão"
-        }
+        },
       },
       m_paperback_soaked = {
         name = "Carta Encharcada",
@@ -1161,15 +1616,15 @@ return {
           "Quando pontuada, cartas {C:attention}mantidas na mão{}",
           "pontuam seu {C:chips}valor de Fichas{}.",
           "{C:green}#1# em #2#{} chance de",
-          "{C:red}destruir{} carta ao {C:red}descartar",
-        }
+          "{C:red}destruir{} carta ao {C:red}descartar"
+        },
       },
       m_paperback_wrapped = {
         name = "Carta Embrulhada",
         text = {
           "Ganha {C:money}$#1#{} quando pontuada",
           "sem classe ou naipe"
-        }
+        },
       },
       m_paperback_bandaged = {
         name = "Carta Enfaixada",
@@ -1177,7 +1632,7 @@ return {
           "Reativa cartas {C:attention}adjacentes",
           "{C:green}#1# em #2#{} chance de",
           "{C:red}quebrar{} quando pontuada"
-        }
+        },
       },
       m_paperback_domino = {
         name = "Carta Dominó",
@@ -1185,7 +1640,7 @@ return {
           "Dá {C:mult}+#1#{} Multi para cada classe",
           "jogada ou descartada nesta rodada",
           "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
-        }
+        },
       },
       m_paperback_stained = {
         name = "Carta Manchada",
@@ -1193,8 +1648,8 @@ return {
           "Se {C:attention}estiver na mão{} após uma",
           "mão ser jogada, cartas pontuadas",
           "ganham permanentemente {C:mult}#1#{} Multi"
-        }
-      }
+        },
+      },
     },
     Edition = {
       e_paperback_dichrome = {
@@ -1203,414 +1658,118 @@ return {
           "Quando {C:attention}Blind{} é selecionado",
           "ganha {C:attention}+#1#{C:blue} Mão{} ou {C:red}Descarte",
           "{C:inactive}(O que for menor)"
-        }
-      }
+        },
+      },
     },
-    paperback_minor_arcana = {
-      c_paperback_ace_of_cups = {
-        name = "Ás de Copas",
+    Other = {
+      paperback_energized = {
+        name = "Energizado",
         text = {
-          "Adiciona um {C:chips}Clipe Azul{} a até",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
+          "Não pode ser copiado por",
+          "{C:attention}Energia Básica do Curinga{}"
+        },
       },
-      c_paperback_two_of_cups = {
-        name = "Dois de Copas",
+      paperback_temporary = {
+        name = "Temporário",
         text = {
-          "Dá uma {C:attention}Marca{} {C:dark_edition}Policromática{},",
-          "{C:dark_edition}Holográfica{}, {C:dark_edition}Laminada{},",
-          "{C:mult}Rara{} ou {C:green}Incomum"
-        }
+          "Será {C:mult}destruído",
+          "quando a rodada terminar"
+        },
       },
-      c_paperback_three_of_cups = {
-        name = "Três de Copas",
+      paperback_blue_clip = {
+        name = "Clipe Azul",
         text = {
-          "Adiciona um {C:paperback_black}Clipe Preto{} a",
-          "{C:attention}#1#{} carta selecionada"
-        }
+          "{X:chips,C:white}X#1#{} Fichas quando",
+          "{C:attention}pontuado{} para cada",
+          "{C:attention}Clipe{} que {C:attention}estiver na mão",
+          "{C:inactive}(No momento {X:chips,C:white}X#2#{C:inactive})"
+        },
       },
-      c_paperback_four_of_cups = {
-        name = "Quatro de Copas",
+      paperback_red_clip = {
+        name = "Clipe Vermelho",
         text = {
-          "Remove {C:attention}melhorias{}, {C:attention}selos{} e {C:attention}edições{}",
-          "de até {C:attention}#1#{} cartas selecionadas.",
-          "Ganha {C:money}$#2#{} para cada um removido"
-        }
+          "{C:mult}+#1#{} Multi quando",
+          "{C:attention}pontuado{} para cada",
+          "{C:attention}Clipe{} que {C:attention}estiver na mão",
+          "{C:inactive}(No momento {C:mult}+#2#{C:inactive} Multi)"
+        },
       },
-      c_paperback_five_of_cups = {
-        name = "Cinco de Copas",
+      paperback_orange_clip = {
+        name = "Clipe Laranja",
         text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
+          "Ganha {C:money}$#1#{} quando",
+          "{C:attention}pontuado{} para cada {C:attention}#2#",
+          "{C:attention}Clipes{} que {C:attention}estiverem na mão",
+          "{C:inactive}(No momento {C:money}$#3#{C:inactive})"
+        },
       },
-      c_paperback_six_of_cups = {
-        name = "Seis de Copas",
+      paperback_black_clip = {
+        name = "Clipe Preto",
         text = {
-          "Ganha {C:attention}metade{} do {C:chips}valor",
-          "{C:chips}de Fichas{} de {C:attention}#1#{} carta",
-          "selecionada como {C:money}dinheiro",
-          "{C:inactive}(Máximo de {C:money}$#2#{C:inactive})"
-        }
+          "Reativa quando {C:attention}pontuado{} se",
+          "um possui um {C:attention}Clipe{} {C:attention}na mão"
+        },
       },
-      c_paperback_seven_of_cups = {
-        name = "Sete de Copas",
+      paperback_yellow_clip = {
+        name = "Clipe Amarelo",
         text = {
-          "Dá uma {C:attention}melhoria{} aleatória",
-          "a até {C:attention}#1#{} cartas selecionadas"
-        }
+          "Se {C:attention}pontuado{} enquanto possui um",
+          "{C:attention}Clipe {C:attention}na mão{} tem",
+          "{C:green}#1# de #2#{} chance para {C:red}+#3#{} Multi,",
+          "{C:green}#4# de #5#{} chance para {X:mult,C:white}X#6#{} Multi",
+          "e {C:green}#7# de #8#{} chance para {C:money}$#9#{}"
+        },
       },
-      c_paperback_eight_of_cups = {
-        name = "Oito de Copas",
+      paperback_gold_clip = {
+        name = "Clipe Dourado",
         text = {
-          "Converte até {C:attention}#1#{} cartas",
-          "selecionadas para um naipe que",
-          "não está {C:attention}atualmente selecionado"
-        }
-      },
-      c_paperback_nine_of_cups = {
-        name = "Nove de Copas",
-        text = {
-          "Destrói {C:attention}Curinga{} selecionado e",
-          "cria um novo {C:attention}Curinga{} de",
-          "{C:attention}raridade{} igual ou maior se possível",
-          "{C:inactive}(Não pode criar um {C:legendary}Lendário{C:inactive})"
-        }
-      },
-      c_paperback_ten_of_cups = {
-        name = "Dez de Copas",
-        text = {
-          "{C:green}#1# em #2#{} chance de adicionar",
-          "edição {C:dark_edition}Policromática{} a",
-          "{C:attention}1{} carta selecionada"
-        }
-      },
-      c_paperback_page_of_cups = {
-        name = "Valete de Copas",
-        text = {
-          "Adiciona um {C:inactive}Clipe Branco{} a até",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
-      },
-      c_paperback_knight_of_cups = {
-        name = "Cavaleiro de Copas",
-        text = {
-          "Selecione {C:attention}#1#{} cartas, a carta da {C:attention}esquerda",
-          "copia {C:attention}tudo{} da carta da {C:attention}direita",
-          "exceto {C:attention}classe{} e {C:attention}naipe",
-          "Destrói a carta da {C:attention}direita",
-          "{C:inactive}(Arraste para reorganizar)"
-        }
-      },
-      c_paperback_queen_of_cups = {
-        name = "Rainha de Copas",
-        text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
-      },
-      c_paperback_king_of_cups = {
-        name = "Rei de Copas",
-        text = {
-          "Ganha {C:money}$#1#{} para cada naipe com todas",
-          "as 13 {C:attention}classes básicas{} que você tem",
+          "Ganha {C:money}$#1#{} para cada {C:attention}Clipe{} pontuado",
+          "se esta carta {C:attention}estiver na mão",
+          "no final da rodada",
           "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
-        }
+        },
       },
-      c_paperback_ace_of_wands = {
-        name = "Ás de Paus",
+      paperback_white_clip = {
+        name = "Clipe Branco",
         text = {
-          "Adiciona um {C:mult}Clipe Vermelho{} a até",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
+          "Se {C:attention}mantido na mão{} no {C:attention}final da",
+          "{C:attention}rodada{}, ganha {C:chips}+#1#{} Fichas para",
+          "cada {C:attention}Clipe{} pontuado nesta rodada",
+          "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+        },
       },
-      c_paperback_two_of_wands = {
-        name = "Dois de Paus",
+      paperback_pink_clip = {
+        name = "Clipe Rosa",
         text = {
-          "Cria a carta de {C:planet}Planeta{}",
-          "da sua mão de pôquer {C:attention}mais{} e",
-          "{C:attention}menos jogada",
-          "{C:inactive}(Deve ter espaço)"
-        }
+          "{X:mult,C:white}X#1#{} Multi quando {C:attention}estiver na",
+          "{C:attention}mão{}, aumenta em {X:mult,C:white}X#2#",
+          "para cada {C:attention}Clipe{} pontuado",
+          "{C:inactive}(Reseta após mão jogada)"
+        },
       },
-      c_paperback_three_of_wands = {
-        name = "Três de Paus",
+      p_paperback_minor_arcana_normal = {
+        name = "Pacote de Arcanos Menores",
         text = {
-          "Cria uma cópia de {C:attention}#1#",
-          "carta selecionada",
-          "na sua mão"
-        }
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        },
       },
-      c_paperback_four_of_wands = {
-        name = "Quatro de Paus",
+      p_paperback_minor_arcana_jumbo = {
+        name = "Pacote Jumbo de Arcanos Menores",
         text = {
-          "Adiciona um {C:paperback_pink}Clipe Rosa{} a até",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        },
       },
-      c_paperback_five_of_wands = {
-        name = "Cinco de Paus",
+      p_paperback_minor_arcana_mega = {
+        name = "Pacote Mega de Arcanos Menores",
         text = {
-          "Destrói todas as cartas",
-          "{C:attention}na mão{}, e",
-          "define o dinheiro para {C:money}$0"
-        }
-      },
-      c_paperback_six_of_wands = {
-        name = "Seis de Paus",
-        text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
-      },
-      c_paperback_seven_of_wands = {
-        name = "Sete de Paus",
-        text = {
-          "Dá uma {C:attention}Marca de Quebra"
-        }
-      },
-      c_paperback_eight_of_wands = {
-        name = "Oito de Paus",
-        text = {
-          "Cria uma {C:dark_edition}Marca{} {C:attention}Negativa{} e",
-          "perde {C:money}$#1#{}, mais {C:money}$#2#{} para cada",
-          "Curinga acima de {C:attention}#3#{} possuído",
-          "{C:inactive}(No momento {C:money}$#4#{C:inactive})"
-        }
-      },
-      c_paperback_nine_of_wands = {
-        name = "Nove de Paus",
-        text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
-      },
-      c_paperback_ten_of_wands = {
-        name = "Dez de Paus",
-        text = {
-          "Selecione {C:attention}#1#{} cartas, destrói as",
-          "{C:attention}duas da direita{} e dá seu",
-          "{C:chips}valor de Fichas{} à {C:attention}da esquerda",
-          "{C:inactive}(Arraste para reorganizar)"
-        }
-      },
-      c_paperback_page_of_wands = {
-        name = "Valete de Paus",
-        text = {
-          "Adiciona um {C:attention}Clipe Laranja{} a até",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
-      },
-      c_paperback_knight_of_wands = {
-        name = "Cavaleiro de Paus",
-        text = {
-          "Dá uma {C:attention}Marca{} de {C:mult}Alto Risco"
-        }
-      },
-      c_paperback_queen_of_wands = {
-        name = "Rainha de Paus",
-        text = {
-          "{C:green}#1# em #2#{} chance de",
-          "adicionar edição {C:dark_edition}Dicromática{}",
-          "a um {C:attention}Curinga{} aleatório"
-        }
-      },
-      c_paperback_king_of_wands = {
-        name = "Rei de Paus",
-        text = {
-          "Cria um {C:attention}Curinga{}",
-          "não-{C:chips}Comum{} aleatório",
-          "{C:inactive}(Exceto {C:legendary}Lendário{C:inactive})"
-        }
-      },
-      c_paperback_ace_of_swords = {
-        name = "Ás de Espadas",
-        text = {
-          "Converte até",
-          "{C:attention}#1#{} cartas selecionadas",
-          "em {V:1}#2#{}",
-        }
-      },
-      c_paperback_two_of_swords = {
-        name = "Dois de Espadas",
-        text = {
-          "Converte até",
-          "{C:attention}#1#{} cartas selecionadas",
-          "para o último naipe {C:attention}pontuado",
-          "{C:inactive}(No momento: {V:1}#2#{C:inactive})",
-        }
-      },
-      c_paperback_three_of_swords = {
-        name = "Três de Espadas",
-        text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
-      },
-      c_paperback_four_of_swords = {
-        name = "Quatro de Espadas",
-        text = {
-          "Converte até {C:attention}#1#",
-          "cartas selecionadas para",
-          "cartas {C:attention}de Realeza{} aleatórias"
-        }
-      },
-      c_paperback_five_of_swords = {
-        name = "Cinco de Espadas",
-        text = {
-          "Selecione {C:attention}#1#{} cartas, destrói as",
-          "duas da direita e dá à",
-          "da esquerda uma {C:attention}edição{},",
-          "{C:attention}selo{} ou {C:attention}melhoria{} aleatória",
-          "{C:inactive}(Arraste para reorganizar)"
-        }
-      },
-      c_paperback_six_of_swords = {
-        name = "Seis de Espadas",
-        text = {
-          "Adiciona um {C:attention}Clipe Amarelo{} a",
-          "{C:attention}#1#{} cartas selecionadas"
-        }
-      },
-      c_paperback_seven_of_swords = {
-        name = "Sete de Espadas",
-        text = {
-          "Adiciona um {C:attention}Clipe Dourado{} a",
-          "{C:attention}#1#{} carta selecionada"
-        }
-      },
-      c_paperback_eight_of_swords = {
-        name = "Oito de Espadas",
-        text = {
-          "Adiciona {C:attention}Clipes{} aleatórios a",
-          "até {C:attention}#1#{} cartas selecionadas"
-        }
-      },
-      c_paperback_nine_of_swords = {
-        name = "Nove de Espadas",
-        text = {
-          "Destrói Curinga selecionado",
-          "Ele {C:red}não pode{} aparecer novamente",
-          "pelo {C:attention}resto da partida{}"
-        }
-      },
-      c_paperback_ten_of_swords = {
-        name = "Dez de Espadas",
-        text = {
-          "{C:attention}Destrói{} cartas no deck",
-          "com a mesma {C:attention}classe",
-          "da carta selecionada"
-        }
-      },
-      c_paperback_page_of_swords = {
-        name = "Valete de Espadas",
-        text = {
-          "Melhora {C:attention}#1#{}",
-          "cartas selecionadas para",
-          "{C:attention}#2#s{}"
-        }
-      },
-      c_paperback_knight_of_swords = {
-        name = "Cavaleiro de Espadas",
-        text = {
-          "Cria uma carta {C:paperback_minor_arcana}Arcana Menor{} aleatória",
-          "e uma carta {C:tarot}Tarot{} aleatória",
-          "{C:inactive}(Deve ter espaço)"
-        }
-      },
-      c_paperback_king_of_swords = {
-        name = "Rei de Espadas",
-        text = {
-          "Remove {C:money}Aluguel{} e {C:paperback_perishable}Perecível",
-          "de um Curinga selecionado"
-        }
-      },
-      c_paperback_queen_of_swords = {
-        name = "Rainha de Espadas",
-        text = {
-          "Converte {C:attention}#1#{} cartas aleatórias no",
-          "deck completo com {C:attention}naipes diferentes",
-          "para o {C:attention}naipe{} da carta selecionada"
-        }
-      },
-      c_paperback_ace_of_pentacles = {
-        name = "Ás de Ouros",
-        text = {
-          "Converte até",
-          "{C:attention}#1#{} cartas selecionadas",
-          "para {V:1}#2#{}",
-        }
-      }
-    },
-    Tag = {
-      tag_paperback_angel_investment = {
-        name = "Marca de Investimento Angelical",
-        text = {
-          "Ganhe {C:money}$#1#{} por {C:money}$#2#{} que você tem",
-          "{C:inactive}(Máximo de {C:money}$#3#{C:inactive})",
-          "{C:inactive}(Dará {C:money}$#4#{C:inactive})"
-        }
-      },
-      tag_paperback_divination = {
-        name = "Marca de Adivinhação",
-        text = {
-          "Dá um",
-          "{C:paperback_minor_arcana}Pacote Mega de Arcanos Menores{} grátis"
-        }
-      },
-      tag_paperback_dichrome = {
-        name = "Marca Dicromática",
-        text = {
-          "O próximo Curinga de edição básica",
-          "da loja é grátis e",
-          "torna-se {C:dark_edition}Dicromático"
-        }
-      },
-      tag_paperback_high_risk = {
-        name = "Marca de Alto Risco",
-        text = {
-          "Ao selecionar {C:attention}Blind",
-          "{C:attention}de Chefe{}, {C:attention}dobre{} seu",
-          "requisito de pontuação",
-          "e ganhe {C:money}$#1#"
-        }
-      },
-      tag_paperback_breaking = {
-        name = "Marca de Quebra",
-        text = {
-          "Desativa o",
-          "{C:attention}Blind de Chefe"
-        }
-      }
-    },
-    Spectral = {
-      c_paperback_apostle_of_cups = {
-        name = "Apóstolo de Copas",
-        text = {
-          "{C:attention}Carta{} selecionada",
-          "torna-se {C:dark_edition}Negativa",
-          "{C:attention}#1#{} espaço de Curinga",
-        }
-      },
-      c_paperback_apostle_of_wands = {
-        name = "Apóstolo de Paus",
-        text = {
-          "Crie um Curinga não-{C:legendary}Lendário{}",
-          "da {C:attention}sua escolha{}",
-          "{C:inactive}(Sem duplicatas)"
-        }
-      },
-      c_paperback_apostle_of_swords = {
-        name = "Apóstolo de Espadas",
-        text = {
-          "Destrua o {C:attention}Curinga{} selecionado",
-          "{C:attention}#1#{} Apostas"
-        }
+          "Escolha {C:attention}#1#{} de até {C:attention}#2#",
+          "cartas de {C:paperback_minor_arcana}Arcanos Menores{}",
+          "para serem usadas imediatamente"
+        },
       },
     },
     Sleeve = {
@@ -1621,14 +1780,14 @@ return {
           "mais chance de aparecer,",
           "comece a tentativa com o",
           "Curinga {C:attention,T:j_paperback_shopping_center}#1#{}"
-        }
+        },
       },
       sleeve_paperback_paper_buff = {
         name = "Capa de Papel",
         text = {
           "Comece com um",
           "Curinga {C:dark_edition}Negativo{} {C:attention,T:j_paperback_shopping_center}#1#{}"
-        }
+        },
       },
       sleeve_paperback_proud = {
         name = "Capa do Orgulho",
@@ -1636,14 +1795,14 @@ return {
           "Comece com um conjunto completo de",
           "{C:hearts}Copas{}, {C:diamonds}Ouros{}, {C:spades}Espadas",
           "{C:clubs}Paus{}, {C:paperback_crowns}Coroas{} e {C:paperback_stars}Estrelas"
-        }
+        },
       },
       sleeve_paperback_proud_buff = {
         name = "Capa do Orgulho",
         text = {
           "Todos os {C:attention}Ases{} iniciais",
           "são {C:dark_edition}Policromo"
-        }
+        },
       },
       sleeve_paperback_silver = {
         name = "Capa Prateada",
@@ -1651,14 +1810,14 @@ return {
           "Comece a tentativa com o",
           "cupom {C:paperback_minor_arcana,T:v_paperback_celtic_cross}#1#{}",
           "e uma {C:paperback_minor_arcana,T:c_paperback_nine_of_cups}#2#"
-        }
+        },
       },
       sleeve_paperback_silver_buff = {
         name = "Capa Prateada",
         text = {
           "Comece a tentativa com o",
           "cupom {C:paperback_minor_arcana,T:v_paperback_soothsay}#1#{}"
-        }
+        },
       },
       sleeve_paperback_dreamer = {
         name = "Capa do Sonhador",
@@ -1666,14 +1825,14 @@ return {
           "Comece a tentativa com um",
           "{C:paperback_minor_arcana,T:c_paperback_apostle_of_wands}#1# {C:paperback_temporary}temporário",
           "{C:attention}#2#{} espaço de Curinga"
-        }
+        },
       },
       sleeve_paperback_dreamer_buff = {
         name = "Capa do Sonhador",
         text = {
           "Comece com um {C:attention}#1#",
           "de cada naipe"
-        }
+        },
       },
       sleeve_paperback_antique = {
         name = "Capa Antiga",
@@ -1682,13 +1841,13 @@ return {
           "aparecem mais na loja",
           "Pacotes de {C:paperback_minor_arcana}Arcanos Menores",
           "são {C:attention}3X{} mais comuns"
-        }
+        },
       },
       sleeve_paperback_antique_buff = {
         name = "Capa Antiga",
         text = {
           "Pacotes de {C:paperback_minor_arcana}Arcanos Menores{} são {C:money}grátis"
-        }
+        },
       },
       sleeve_paperback_passionate = {
         name = "Capa Passional",
@@ -1697,7 +1856,7 @@ return {
           "{C:attention}Blind de Chefe{}, ganhe uma",
           "{C:attention,T:tag_paperback_high_risk}#1#",
           "Sem {C:money}Juros"
-        }
+        },
       },
       sleeve_paperback_passionate_buff = {
         name = "Capa Passional",
@@ -1706,19 +1865,15 @@ return {
           "substituído por um {C:attention}Blind de Confronto",
           "Derrotar um {C:attention}Blind de Confronto",
           "dá uma Marca {C:dark_edition,T:tag_negative}Negativa"
-        }
-      }
+        },
+      },
     },
   },
   misc = {
     dictionary = {
-      -- Badge under cards
       k_paperback_minor_arcana = "Arcanos Menores",
-      -- Name of consumable type in collection
       b_paperback_minor_arcana_cards = "Arcanos Menores",
-      -- Text shown at the bottom while opening booster
       paperback_minor_arcana_pack = "Pacote de Arcanos Menores",
-
       paperback_confessed_ex = "Confessado!",
       paperback_polychrome_ex = "Policromo!",
       paperback_destroyed_ex = "Destruído!",
@@ -1749,7 +1904,6 @@ return {
       paperback_jestrogen_ex = "Fem!",
       paperback_punch_card_active = "Conte aos seus amigos!",
       paperback_punch_card_ex = "Teletransporte Errado!",
-
       paperback_ui_requires_restart = "Requer Reinicialização",
       paperback_ui_no_requires_restart = "Não Requer Reinicialização",
       paperback_ui_enable_blinds = "Ativar Blinds",
@@ -1768,45 +1922,30 @@ return {
       paperback_ui_enable_spectrals = "Ativar Cartas Espectrais",
       paperback_ui_plague_doctor_quotes = "Citações do Doutor da Peste",
       paperback_ui_select = "Selecionar",
-
-      -- Plague Doctor's quotes
-      paperback_plague_quote_1_1 = 'Sobre esta pedra edificarei a minha igreja, e as',
-      paperback_plague_quote_1_2 = 'portas do inferno não prevalecerão contra ela...',
-
-      paperback_plague_quote_2_1 = 'Dize-nos quando será isto e que sinal haverá',
-      paperback_plague_quote_2_2 = 'da tua vinda e do fim dos tempos?',
-
-      paperback_plague_quote_3_1 = 'Queres que mandemos descer fogo',
-      paperback_plague_quote_3_2 = 'do céu para os consumir?',
-
-      paperback_plague_quote_4_1 = 'Aos apóstolos deu o nome de Boanerges,',
-      paperback_plague_quote_4_2 = 'que significa "Filhos do Trovão".',
-
-      paperback_plague_quote_5_1 = 'Senhor, mostra-nos o Pai, e isso',
-      paperback_plague_quote_5_2 = 'nos basta.',
-
-      paperback_plague_quote_6_1 = 'Viu um homem. "Segue-me", disse-lhe,',
-      paperback_plague_quote_6_2 = 'e o Apóstolo levantou-se e o seguiu.',
-
-      paperback_plague_quote_7_1 = 'Havia já algum tempo que o Apóstolo',
-      paperback_plague_quote_7_2 = 'praticava feitiçaria e assombrava todo o povo.',
-
-      paperback_plague_quote_8_1 = 'Então o Apóstolo disse aos outros discípulos:',
-      paperback_plague_quote_8_2 = '"Vamos nós também, para morrermos com ele."',
-
-      paperback_plague_quote_9_1 = 'Então o Apóstolo declarou: "Tu és',
-      paperback_plague_quote_9_2 = 'o filho dele, tu és o rei."',
-
-      paperback_plague_quote_10_1 = 'Então o Apóstolo disse: "Mas por que tencionas',
-      paperback_plague_quote_10_2 = 'manifestar-te a nós e não ao mundo?"',
-
-      paperback_plague_quote_11_1 = 'Desde agora, ninguém me inquiete,',
-      paperback_plague_quote_11_2 = 'porque trago no meu corpo as marcas dele.',
-
-      paperback_plague_quote_12_1 = 'Não vos escolhi eu a vós, os Doze?',
-      paperback_plague_quote_12_2 = 'Contudo, um de vós é diabo.',
-
-      -- Clippy messages
+      paperback_plague_quote_1_1 = "Sobre esta pedra edificarei a minha igreja, e as",
+      paperback_plague_quote_1_2 = "portas do inferno não prevalecerão contra ela...",
+      paperback_plague_quote_2_1 = "Dize-nos quando será isto e que sinal haverá",
+      paperback_plague_quote_2_2 = "da tua vinda e do fim dos tempos?",
+      paperback_plague_quote_3_1 = "Queres que mandemos descer fogo",
+      paperback_plague_quote_3_2 = "do céu para os consumir?",
+      paperback_plague_quote_4_1 = "Aos apóstolos deu o nome de Boanerges,",
+      paperback_plague_quote_4_2 = "que significa \"Filhos do Trovão\".",
+      paperback_plague_quote_5_1 = "Senhor, mostra-nos o Pai, e isso",
+      paperback_plague_quote_5_2 = "nos basta.",
+      paperback_plague_quote_6_1 = "Viu um homem. \"Segue-me\", disse-lhe,",
+      paperback_plague_quote_6_2 = "e o Apóstolo levantou-se e o seguiu.",
+      paperback_plague_quote_7_1 = "Havia já algum tempo que o Apóstolo",
+      paperback_plague_quote_7_2 = "praticava feitiçaria e assombrava todo o povo.",
+      paperback_plague_quote_8_1 = "Então o Apóstolo disse aos outros discípulos:",
+      paperback_plague_quote_8_2 = "\"Vamos nós também, para morrermos com ele.\"",
+      paperback_plague_quote_9_1 = "Então o Apóstolo declarou: \"Tu és\",
+      paperback_plague_quote_9_2 = "o filho dele, tu és o rei.\"",
+      paperback_plague_quote_10_1 = "Então o Apóstolo disse: \"Mas por que tencionas\",
+      paperback_plague_quote_10_2 = "manifestar-te a nós e não ao mundo?\"",
+      paperback_plague_quote_11_1 = "Desde agora, ninguém me inquiete,",
+      paperback_plague_quote_11_2 = "porque trago no meu corpo as marcas dele.",
+      paperback_plague_quote_12_1 = "Não vos escolhi eu a vós, os Doze?",
+      paperback_plague_quote_12_2 = "Contudo, um de vós é diabo.",
       paperback_clippy_msg_1 = "Salvar arquivo?",
       paperback_clippy_msg_2 = "sou o Clippy!",
       paperback_clippy_msg_3 = "Oi!",
@@ -1816,8 +1955,6 @@ return {
       paperback_clippy_msg_7 = "Devo sair?",
       paperback_clippy_msg_8 = "Mouse ligado!",
       paperback_clippy_msg_full = "Armazenamento cheio!",
-
-      -- Da Capo messages
       paperback_da_capo_Clubs = "Movimento 1",
       paperback_da_capo_Spades = "Movimento 2",
       paperback_da_capo_Diamonds = "Movimento 3",
@@ -1834,38 +1971,38 @@ return {
       paperback_a_plus_cards = "+#1# #2#s",
       paperback_a_plus_tags = "+#1# Marcas",
     },
+    ranks = {
+      paperback_Apostle = "Apóstolo",
+    },
     suits_singular = {
       paperback_Crowns = "Coroa",
-      paperback_Stars = "Estrela"
+      paperback_Stars = "Estrela",
     },
     suits_plural = {
       paperback_Crowns = "Coroas",
-      paperback_Stars = "Estrelas"
-    },
-    ranks = {
-      paperback_Apostle = 'Apóstolo',
+      paperback_Stars = "Estrelas",
     },
     poker_hands = {
-      ['paperback_Spectrum'] = "Espectro",
-      ['paperback_Straight Spectrum'] = "Straight Espectro",
-      ['paperback_Straight Spectrum (Royal)'] = "Royal Espectro",
-      ['paperback_Spectrum House'] = "Espectro House",
-      ['paperback_Spectrum Five'] = "Quina Espectro",
-      ['paperback_Straight Flush (Rapture)'] = "Arrebatamento",
+      paperback_Spectrum = "Espectro",
+      ["paperback_Straight Spectrum"] = "Straight Espectro",
+      ["paperback_Straight Spectrum (Royal)"] = "Royal Espectro",
+      ["paperback_Spectrum House"] = "Espectro House",
+      ["paperback_Spectrum Five"] = "Quina Espectro",
+      ["paperback_Straight Flush (Rapture)"] = "Arrebatamento",
     },
     poker_hand_descriptions = {
-      ['paperback_Spectrum'] = {
+      paperback_Spectrum = {
         "5 cartas com naipes diferentes"
       },
-      ['paperback_Straight Spectrum'] = {
+      ["paperback_Straight Spectrum"] = {
         "5 cartas em sequência (classes consecutivas),",
         "cada uma com um naipe diferente"
       },
-      ['paperback_Spectrum House'] = {
+      ["paperback_Spectrum House"] = {
         "Uma Trinca e um Par com",
         "cada carta tendo um naipe diferente"
       },
-      ['paperback_Spectrum Five'] = {
+      ["paperback_Spectrum Five"] = {
         "5 cartas com a mesma classe,",
         "cada uma com um naipe diferente"
       },
@@ -1882,6 +2019,6 @@ return {
       paperback_dichrome = "Dicrômático",
       paperback_energized = "Energizado",
       paperback_temporary = "Temporário",
-    }
+    },
   },
 }
